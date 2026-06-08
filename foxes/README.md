@@ -62,6 +62,9 @@ for the club's Byonics fox transmitters.
 
 ## Notes
 
+- **Only deploy one fox at a time.** Both devices are currently
+  programmed with the same frequency and callsign; running both
+  simultaneously will cause interference.
 - FCC Part 97 requires a valid amateur callsign to be transmitted.
 - Power levels should be appropriate for hunt type: lower power for
   park walks (easier near-field work), higher for mobile hunts.
