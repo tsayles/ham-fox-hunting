@@ -1,0 +1,30 @@
+# MicroFox 15 — Current Configuration
+# Read from device and recorded here before any changes.
+# Update this file after every programming session.
+#
+# Device:   Byonics MicroFox 15 (MF-15)
+# Manual:   https://www.byonics.com/downloads/MicroFox15_Manual_v1.7.pdf
+# Last read: YYYY-MM-DD
+# Read by:   <callsign>
+
+device:
+  model: MF-15
+  serial: ""           # serial number if labeled
+
+radio:
+  frequency_mhz: null  # e.g. 146.565
+  power: null          # LOW / MED / HIGH (or mW value if shown)
+
+id:
+  callsign: ""         # transmitted CW callsign, e.g. KE4HET
+  id_message: ""       # full CW ID string if different from callsign
+
+timing:
+  tx_seconds: null     # transmit on-time in seconds
+  pause_seconds: null  # transmit off-time in seconds
+  # duty cycle = tx / (tx + pause)
+
+tones:
+  # Fill in any tone/audio settings shown in config tool
+  tone_enabled: null
+  tone_freq_hz: null

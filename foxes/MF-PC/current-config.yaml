@@ -1,0 +1,36 @@
+# MicroFox PicCon — Current Configuration
+# Read from device and recorded here before any changes.
+# Update this file after every programming session.
+#
+# Device:   Byonics MicroFox PicCon (MF-PC)
+# Manual:   https://www.byonics.com/downloads/MicroFox_PicCon_Manual_v0.61.pdf
+# Last read: YYYY-MM-DD
+# Read by:   <callsign>
+#
+# IMPORTANT: MF-PC only accepts serial commands within 2 seconds of
+# power-up. Cycle power immediately before clicking Read/Write.
+
+device:
+  model: MF-PC
+  serial: ""           # serial number if labeled
+
+radio:
+  frequency_mhz: null  # e.g. 146.565
+  power: null          # power level as shown in config tool
+
+id:
+  callsign: ""         # transmitted CW callsign
+  id_message: ""       # full CW ID string if different from callsign
+
+timing:
+  tx_seconds: null
+  pause_seconds: null
+
+tones:
+  tone_enabled: null
+  tone_freq_hz: null
+
+dtmf:
+  # MF-PC supports remote control via DTMF — document control codes here
+  remote_control_enabled: null
+  access_code: ""      # DTMF access code (do not commit real codes to git)

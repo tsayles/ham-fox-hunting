@@ -1,0 +1,34 @@
+# MicroFox PicCon — Target Configuration
+# Desired settings for the next programming session.
+# Get event coordinator sign-off before writing to device.
+#
+# Device:   Byonics MicroFox PicCon (MF-PC)
+# Updated:  YYYY-MM-DD
+# Approved: <callsign>
+
+device:
+  model: MF-PC
+
+radio:
+  frequency_mhz: null  # coordinate with local frequency coordinator
+  power: null          # power level appropriate for hunt type
+
+id:
+  callsign: ""         # club or event callsign — must be FCC-licensed
+  id_message: ""       # CW ID string, e.g. "DE KE4HET/B FOX2"
+
+timing:
+  tx_seconds: null
+  pause_seconds: null
+
+tones:
+  tone_enabled: null
+  tone_freq_hz: null
+
+dtmf:
+  remote_control_enabled: null
+  access_code: ""      # store real codes outside of git (env / vault)
+
+notes: >
+  Add any event-specific notes here — hunt name, date, hide location
+  category (park / trail / vehicle), etc.
