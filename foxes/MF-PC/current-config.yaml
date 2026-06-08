@@ -3,34 +3,52 @@
 # Update this file after every programming session.
 #
 # Device:   Byonics MicroFox PicCon (MF-PC)
+# Firmware: (not reported by device)
 # Manual:   https://www.byonics.com/downloads/MicroFox_PicCon_Manual_v0.61.pdf
-# Last read: YYYY-MM-DD
-# Read by:   <callsign>
+# Last read: 2026-06-07
+# Read by:   KE4HET
 #
 # IMPORTANT: MF-PC only accepts serial commands within 2 seconds of
 # power-up. Cycle power immediately before clicking Read/Write.
 
 device:
   model: MF-PC
-  serial: ""           # serial number if labeled
+  firmware: ""         # not reported by this device
+  serial: ""
 
 radio:
-  frequency_mhz: null  # e.g. 146.565
-  power: null          # power level as shown in config tool
+  tx_frequency_mhz: 147.42
+  rx_frequency_mhz: 146.565
+  calibration_pct: 0.0
+  unlock_code: "1234"
 
-id:
-  callsign: ""         # transmitted CW callsign
-  id_message: ""       # full CW ID string if different from callsign
+morse:
+  text: "K7LED"        # K7LED = Mike & Key ARC club callsign
+  speed_wpm: 20
+  tone: 26
 
 timing:
-  tx_seconds: null
-  pause_seconds: null
+  pre_tones_delay_sec: 0
+  tones_duration_sec: 15
+  loop_time_sec: 30    # 15 sec on, 15 sec off per cycle
+  initial_delay_min: 0
+  total_runtime_min: 0 # 0 = run indefinitely
 
 tones:
-  tone_enabled: null
-  tone_freq_hz: null
+  speed_ms: 50
+  sequence: "1,20,1,20,1,11,11,11,1,20,1,20,1,11,11,11,\
+1,23,1,23,1,16,16,16,1,23,1,23,1,16,16,16,\
+1,26,1,26,1,20,20,20,1,26,1,26,1,20,20,20,\
+1,28,1,28,1,23,23,23,1,28,1,28,1,23,23,23"
+
+flags:
+  enable_led: false
+  random_tones: false
+  random_speed: false
+  random_morse: false
+  auto_start: false
+  disable_rx: false
 
 dtmf:
-  # MF-PC supports remote control via DTMF — document control codes here
-  remote_control_enabled: null
-  access_code: ""      # DTMF access code (do not commit real codes to git)
+  # MF-PC supports remote control via DTMF
+  access_code: ""      # store real codes outside of git
