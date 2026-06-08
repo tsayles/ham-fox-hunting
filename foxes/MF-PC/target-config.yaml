@@ -3,32 +3,52 @@
 # Get event coordinator sign-off before writing to device.
 #
 # Device:   Byonics MicroFox PicCon (MF-PC)
-# Updated:  YYYY-MM-DD
+# Updated:  2026-06-07
 # Approved: <callsign>
 
 device:
   model: MF-PC
 
 radio:
-  frequency_mhz: null  # coordinate with local frequency coordinator
-  power: null          # power level appropriate for hunt type
+  tx_frequency_mhz: 147.42
+  rx_frequency_mhz: 146.565
+  calibration_pct: 0.0000
+  unlock_code: "1234"
 
-id:
-  callsign: ""         # club or event callsign — must be FCC-licensed
-  id_message: ""       # CW ID string, e.g. "DE KE4HET/B FOX2"
+morse:
+  text: "K7LED"
+  speed_wpm: 20
+  tone: 26
 
 timing:
-  tx_seconds: null
-  pause_seconds: null
+  pre_tones_delay_sec: 0
+  tones_duration_sec: 15
+  loop_time_sec: 30    # 15 sec on, 15 sec off per cycle
+  initial_delay_min: 0
+  total_runtime_min: 0 # 0 = run indefinitely
 
 tones:
-  tone_enabled: null
-  tone_freq_hz: null
+  speed_ms: 50
+  # Descending sweep — distinguishable from MF-15 which uses ascending.
+  # Fox 1 (MF-15) sweeps UP in pitch; Fox 2 (MF-PC) sweeps DOWN.
+  sequence: "1,28,1,28,1,23,23,23,1,28,1,28,1,23,23,23,\
+1,26,1,26,1,20,20,20,1,26,1,26,1,20,20,20,\
+1,23,1,23,1,16,16,16,1,23,1,23,1,16,16,16,\
+1,20,1,20,1,11,11,11,1,20,1,20,1,11,11,11"
+
+flags:
+  enable_led: false
+  random_tones: false
+  random_speed: false
+  random_morse: false
+  auto_start: false
+  disable_rx: false
 
 dtmf:
-  remote_control_enabled: null
-  access_code: ""      # store real codes outside of git (env / vault)
+  access_code: ""      # store real codes outside of git
 
 notes: >
-  Add any event-specific notes here — hunt name, date, hide location
-  category (park / trail / vehicle), etc.
+  Tone sequence is the reverse of the MF-15 default (descending vs
+  ascending) so hunters can distinguish the two foxes by ear.
+  Only deploy one fox at a time until they are reprogrammed with
+  different frequencies/callsigns for a multi-fox hunt.
