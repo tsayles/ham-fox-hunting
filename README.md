@@ -47,14 +47,14 @@ Mentored, low-pressure training events:
 - Team formats and equipment checkout options
 - Mentors paired with new participants
 
-### Phase 3 — Competitive Hunts 🏆
+### Phase 3 — Hunt Events 🦊
 
-Structured seasonal events:
+Community events that bring people together around the sport:
 
-- Multiple transmitters, varied terrain
-- Timed formats with friendly scoring
-- Skill and strategy development
-- Open to all licensees and experience levels
+- Multiple transmitters spread across varied terrain
+- Emphasis on fun, camaraderie, and shared experience
+- Social gatherings before and after each hunt
+- Open to all licensees and experience levels — come as a team or solo
 
 ---
 
