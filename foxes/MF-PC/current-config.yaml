@@ -3,23 +3,27 @@
 # Update this file after every programming session.
 #
 # Device:   Byonics MicroFox PicCon (MF-PC)
-# Firmware: (not reported by device)
+# Firmware: MicroFox-PicCon v0.61
 # Manual:   https://www.byonics.com/downloads/MicroFox_PicCon_Manual_v0.61.pdf
 # Last read: 2026-06-07
 # Read by:   KE4HET
 #
 # IMPORTANT: MF-PC only accepts serial commands within 2 seconds of
 # power-up. Cycle power immediately before clicking Read/Write.
+#
+# WARNING: pre_tones_delay_sec is 5127 (approx 85 minutes) — this is
+# almost certainly wrong and should be corrected to 0 before use.
+# With this setting the fox will key carrier for 85 min with no audio.
 
 device:
   model: MF-PC
-  firmware: ""         # not reported by this device
+  firmware: "MicroFox-PicCon v0.61"
   serial: ""
 
 radio:
   tx_frequency_mhz: 147.42
   rx_frequency_mhz: 146.565
-  calibration_pct: 0.0
+  calibration_pct: 0.0000
   unlock_code: "1234"
 
 morse:
@@ -28,11 +32,11 @@ morse:
   tone: 26
 
 timing:
-  pre_tones_delay_sec: 0
+  pre_tones_delay_sec: 5127  # WARNING: ~85 min — likely wrong, fix to 0
   tones_duration_sec: 15
-  loop_time_sec: 30    # 15 sec on, 15 sec off per cycle
+  loop_time_sec: 30
   initial_delay_min: 0
-  total_runtime_min: 0 # 0 = run indefinitely
+  total_runtime_min: 0       # 0 = run indefinitely
 
 tones:
   speed_ms: 50
@@ -50,5 +54,4 @@ flags:
   disable_rx: false
 
 dtmf:
-  # MF-PC supports remote control via DTMF
   access_code: ""      # store real codes outside of git
