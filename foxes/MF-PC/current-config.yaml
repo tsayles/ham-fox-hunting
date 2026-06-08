@@ -5,15 +5,11 @@
 # Device:   Byonics MicroFox PicCon (MF-PC)
 # Firmware: MicroFox-PicCon v0.61
 # Manual:   https://www.byonics.com/downloads/MicroFox_PicCon_Manual_v0.61.pdf
-# Last read: 2026-06-07
-# Read by:   KE4HET
+# Last programmed: 2026-06-07
+# Programmed by:   KE4HET
 #
 # IMPORTANT: MF-PC only accepts serial commands within 2 seconds of
 # power-up. Cycle power immediately before clicking Read/Write.
-#
-# WARNING: pre_tones_delay_sec is 5127 (approx 85 minutes) — this is
-# almost certainly wrong and should be corrected to 0 before use.
-# With this setting the fox will key carrier for 85 min with no audio.
 
 device:
   model: MF-PC
@@ -27,23 +23,23 @@ radio:
   unlock_code: "1234"
 
 morse:
-  text: "K7LED"        # K7LED = Mike & Key ARC club callsign
+  text: "K7LED"
   speed_wpm: 20
   tone: 26
 
 timing:
-  pre_tones_delay_sec: 5127  # WARNING: ~85 min — likely wrong, fix to 0
+  pre_tones_delay_sec: 0
   tones_duration_sec: 15
-  loop_time_sec: 30
+  loop_time_sec: 30    # 15 sec on, 15 sec off per cycle
   initial_delay_min: 0
-  total_runtime_min: 0       # 0 = run indefinitely
+  total_runtime_min: 0 # 0 = run indefinitely
 
 tones:
   speed_ms: 50
-  sequence: "1,20,1,20,1,11,11,11,1,20,1,20,1,11,11,11,\
-1,23,1,23,1,16,16,16,1,23,1,23,1,16,16,16,\
-1,26,1,26,1,20,20,20,1,26,1,26,1,20,20,20,\
-1,28,1,28,1,23,23,23,1,28,1,28,1,23,23,23"
+  # Slow two-tone warble: 10 tones × 50ms = 500ms per note (high/low).
+  # Sounds clearly different from the MF-15 ascending sweep.
+  sequence: "28,28,28,28,28,28,28,28,28,28,11,11,11,11,11,11,11,11,11,11,\
+28,28,28,28,28,28,28,28,28,28,11,11,11,11,11,11,11,11,11,11"
 
 flags:
   enable_led: false
