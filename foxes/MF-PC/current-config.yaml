@@ -1,0 +1,53 @@
+# MicroFox PicCon — Current Configuration
+# Read from device and recorded here before any changes.
+# Update this file after every programming session.
+#
+# Device:   Byonics MicroFox PicCon (MF-PC)
+# Firmware: MicroFox-PicCon v0.61
+# Manual:   https://www.byonics.com/downloads/MicroFox_PicCon_Manual_v0.61.pdf
+# Last programmed: 2026-06-07
+# Programmed by:   KE4HET
+#
+# IMPORTANT: MF-PC only accepts serial commands within 2 seconds of
+# power-up. Cycle power immediately before clicking Read/Write.
+
+device:
+  model: MF-PC
+  firmware: "MicroFox-PicCon v0.61"
+  serial: ""
+
+radio:
+  tx_frequency_mhz: 147.42
+  rx_frequency_mhz: 146.565
+  calibration_pct: 0.0000
+  unlock_code: "1234"
+
+morse:
+  text: "K7LED"
+  speed_wpm: 20
+  tone: 26
+
+timing:
+  pre_tones_delay_sec: 0
+  tones_duration_sec: 15
+  loop_time_sec: 30    # 15 sec on, 15 sec off per cycle
+  initial_delay_min: 0
+  total_runtime_min: 0 # 0 = run indefinitely
+
+tones:
+  speed_ms: 50
+  # Slow two-tone warble: 10 tones × 50ms = 500ms per note (high/low).
+  # Sounds clearly different from the MF-15 ascending sweep.
+  sequence: "28,28,28,28,28,28,28,28,28,28,11,11,11,11,11,11,11,11,11,11,\
+28,28,28,28,28,28,28,28,28,28,11,11,11,11,11,11,11,11,11,11"
+
+flags:
+  enable_led: false
+  random_tones: false
+  random_speed: false
+  random_morse: false
+  auto_start: false
+  disable_rx: false
+
+dtmf:
+  access_code: ""      # store real codes outside of git

@@ -1,0 +1,30 @@
+# MicroFox 15 — Target Configuration
+# Desired settings for the next programming session.
+# Get event coordinator sign-off before writing to device.
+#
+# Device:   Byonics MicroFox 15 (MF-15)
+# Updated:  YYYY-MM-DD
+# Approved: <callsign>
+
+device:
+  model: MF-15
+
+radio:
+  frequency_mhz: null  # coordinate with local frequency coordinator
+  power: null          # LOW for park/walk hunts; MED/HIGH for mobile
+
+id:
+  callsign: ""         # club or event callsign — must be FCC-licensed
+  id_message: ""       # CW ID string, e.g. "DE KE4HET/B FOX1"
+
+timing:
+  tx_seconds: null     # 60 is common for practice hunts
+  pause_seconds: null  # 240 = 1-of-5 rotation; 60 = 50% duty cycle
+
+tones:
+  tone_enabled: null
+  tone_freq_hz: null
+
+notes: >
+  Add any event-specific notes here — hunt name, date, hide location
+  category (park / trail / vehicle), etc.
