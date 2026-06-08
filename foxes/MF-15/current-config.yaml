@@ -3,28 +3,46 @@
 # Update this file after every programming session.
 #
 # Device:   Byonics MicroFox 15 (MF-15)
+# Firmware: MicroFox v1.64
 # Manual:   https://www.byonics.com/downloads/MicroFox15_Manual_v1.7.pdf
-# Last read: YYYY-MM-DD
-# Read by:   <callsign>
+# Last read: 2026-06-07
+# Read by:   KE4HET
 
 device:
   model: MF-15
-  serial: ""           # serial number if labeled
+  firmware: "MicroFox v1.64"
+  serial: ""
 
 radio:
-  frequency_mhz: null  # e.g. 146.565
-  power: null          # LOW / MED / HIGH (or mW value if shown)
+  tx_frequency_mhz: 147.42
+  rx_frequency_mhz: 146.565
+  calibration_pct: 0.0000
+  unlock_code: "1234"
 
-id:
-  callsign: ""         # transmitted CW callsign, e.g. KE4HET
-  id_message: ""       # full CW ID string if different from callsign
+morse:
+  text: "K7LED"        # K7LED = Mike & Key ARC club callsign
+  speed_wpm: 20
+  tone: 26             # tone index for CW sidetone
 
 timing:
-  tx_seconds: null     # transmit on-time in seconds
-  pause_seconds: null  # transmit off-time in seconds
-  # duty cycle = tx / (tx + pause)
+  pre_tones_delay_sec: 0
+  tones_duration_sec: 15
+  loop_time_sec: 30    # 15 sec on, 15 sec off per cycle
+  initial_delay_min: 0
+  total_runtime_min: 0 # 0 = run indefinitely
 
 tones:
-  # Fill in any tone/audio settings shown in config tool
-  tone_enabled: null
-  tone_freq_hz: null
+  speed_ms: 50
+  # Tone sequence: alternating tone-index and duration values
+  sequence: "1,20,1,20,1,11,11,11,1,20,1,20,1,11,11,11,\
+1,23,1,23,1,16,16,16,1,23,1,23,1,16,16,16,\
+1,26,1,26,1,20,20,20,1,26,1,26,1,20,20,20,\
+1,28,1,28,1,23,23,23,1,28,1,28,1,23,23,23"
+
+flags:
+  enable_led: false
+  random_tones: false
+  random_speed: false
+  random_morse: false
+  auto_start: false
+  disable_rx: false
