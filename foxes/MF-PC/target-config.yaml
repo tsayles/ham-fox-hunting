@@ -29,10 +29,10 @@ timing:
 
 tones:
   speed_ms: 50
-  # Two-tone warble — high/low alternating, clearly distinct from the
-  # MF-15 ascending sweep.
-  sequence: "28,28,28,11,11,11,28,28,28,11,11,11,28,28,28,11,11,11,\
-28,28,28,11,11,11"
+  # Two-tone warble — slow high/low alternating (10 tones × 50ms = 500ms
+  # per note), clearly distinct from the MF-15 ascending sweep.
+  sequence: "28,28,28,28,28,28,28,28,28,28,11,11,11,11,11,11,11,11,11,11,\
+28,28,28,28,28,28,28,28,28,28,11,11,11,11,11,11,11,11,11,11"
 
 flags:
   enable_led: false
