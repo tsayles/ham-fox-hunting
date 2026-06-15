@@ -627,14 +627,14 @@ resistors with one shunt resistor to ground in the middle, designed
 for a 50 Ω system. Each section is switched in or out of the signal
 path by a DPDT ON-ON toggle switch.
 
-**T-pad schematic (one section):**
+**Full attenuator schematic (all 3 sections):**
 
-```
-                    R_s1          R_s2
-SIG IN ───────┬───[====]──MID──[====]───┬─── SIG OUT
-              │                         │
-           (SW COM1)                 (SW COM2)
-```
+![3-Section Switched Step Attenuator](attenuator-schematic.png)
+
+*Blue arches = DPDT bypass path (switch in BYPASS position, signal
+passes through). Black path = signal through T-pad (switch in
+ATTENUATE position). Shunt resistors R2 connect mid-node to chassis
+ground.*
 
 When the toggle switch is in **bypass** position:
 - Both switch commons are connected directly to each other via a
