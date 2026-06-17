@@ -112,6 +112,12 @@ Based on current program equipment status (see
 > format (both are currently programmed identically). For a mobile hunt,
 > verify the duty cycle and power suit a longer drive-in search.
 
+**Higher-power beacon:** The MicroFox units are sub-1 W, which limits
+landward range from this bluff/forest finish. A planned **10 W Pi
+Zero-controlled fox beacon** would extend usable range for a regional
+hunt — see issue
+[#4](https://github.com/tsayles/ham-fox-hunting/issues/4).
+
 ---
 
 ## 7. Logistics & contacts
@@ -134,6 +140,8 @@ Based on current program equipment status (see
 - [ ] Confirm dusk time and a finish window with margin (~7 PM late Sep).
 - [ ] Confirm practice frequency (147.42 MHz or alternate).
 - [ ] Verify mobile-hunt fox duty cycle / power for a drive-in search.
+- [ ] Build the 10 W Pi Zero fox beacon for extended range — issue
+      [#4](https://github.com/tsayles/ham-fox-hunting/issues/4).
 - [ ] Check Everett events calendar closer to the date.
 
 ---
