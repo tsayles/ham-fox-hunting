@@ -14,10 +14,11 @@
 2. [Pre-Session Instructor Checklist](#2-pre-session-instructor-checklist)
 3. [Project 1 — 2-Meter Tape Measure Yagi](#3-project-1--2-meter-tape-measure-yagi)
 4. [Project 2 — Switched Step Attenuator](#4-project-2--switched-step-attenuator)
-5. [Testing and Verification](#5-testing-and-verification)
-6. [Tools List](#6-tools-list)
-7. [Timeline Summary](#7-timeline-summary)
-8. [References](#8-references)
+5. [Project 3 — Dual-Band (2m / 70cm) Tape Measure Yagi](#5-project-3--dual-band-2m--70cm-tape-measure-yagi)
+6. [Testing and Verification](#6-testing-and-verification)
+7. [Tools List](#7-tools-list)
+8. [Timeline Summary](#8-timeline-summary)
+9. [References](#9-references)
 
 ---
 
@@ -25,13 +26,19 @@
 
 ### Goals
 
-Participants leave Thursday afternoon with two working pieces of ARDF
-(Amateur Radio Direction Finding) equipment — a 3-element tape measure
-Yagi antenna and a 3-section step attenuator — ready to use at the
-ARDF demonstration on the Parade Grounds on Saturday and Sunday.
+Participants leave Thursday afternoon with two (or three) working
+pieces of ARDF (Amateur Radio Direction Finding) equipment ready
+to use at the demonstration on Saturday and Sunday:
 
-The session is hands-on from the first minute. Instruction happens at
-the bench, not the whiteboard. Every participant builds their own kit.
+- **Project 1:** 3-element 2m tape measure Yagi antenna
+- **Project 2:** 3-section switched step attenuator
+- **Project 3 (optional):** Dual-band 2m/70cm tape measure Yagi
+  for participants with a dual-band HT and ~90 minutes of extra
+  time after completing Projects 1 and 2.
+
+The session is hands-on from the first minute. Instruction happens
+at the bench, not the whiteboard. Every participant builds their
+own kit.
 
 ### Audience
 
@@ -75,7 +82,7 @@ State Park, Saturday June 28 and Sunday June 29, 2026.
 
 **Total session duration: approximately 5 hours**
 
-See [Section 7](#7-timeline-summary) for a step-by-step time budget.
+See [Section 8](#8-timeline-summary) for a step-by-step time budget.
 
 ---
 
@@ -88,6 +95,8 @@ Complete these tasks before arriving on Thursday.
 - [ ] Purchase all Project 1 (Yagi) materials — see BOM in Section 3
 - [ ] Purchase all Project 2 (Attenuator) materials — see BOM in
       Section 4
+- [ ] Purchase all Project 3 (Dual-Band Yagi) materials for
+      participants who choose that option — see BOM in Section 5
 - [ ] Pre-cut RG-58 coax to 6-foot lengths; crimp or solder one
       BNC-male connector on each length; label with masking tape
 - [ ] Buy a backup set of each most-breakable item: extra BNC
@@ -126,6 +135,16 @@ participant. Label each bag with the participant's callsign or just
   wires)
 - 1× small strip of perfboard (~1" × 3"), optional
 
+**Each dual-band Yagi kit bag (Project 3 — optional add-on):**
+- 1× 12" length of ½" Schedule 40 PVC pipe (pre-cut)
+- 2× ½" PVC cross fitting
+- 1× ½" PVC T fitting
+- 6× additional stainless hose clamps (½"–1¼")
+- 1× 3–6 ft RG-58 pigtail with BNC-male (70cm feed, pre-built)
+- 1× 2" piece of 18–20 AWG solid copper wire (pre-cut; for 70cm
+  hairpin match)
+- 4× cable ties (sub-boom attachment)
+
 **Shared supplies (instructor brings, not per-kit):**
 - Solder (60/40 or 63/37 rosin-core, 0.032")
 - Flux pen or rosin flux
@@ -147,7 +166,8 @@ participant. Label each bag with the participant's callsign or just
       tip cleaner, solder, flux, small fan for fume dispersal
 - [ ] Lay out a kit bag and printed instruction sheet at each station
 - [ ] Stage PVC pipe (cut to rough length or full 10 ft) for
-      distribution
+      distribution; also stage pre-cut ½" PVC sub-boom pieces for
+      Project 3 participants
 - [ ] Have the drill and enclosures ready at one central station for
       Project 2
 
@@ -211,7 +231,7 @@ around one-handed for extended periods.
 
 ### Tools Required — Yagi
 
-*(See also Section 6 for full tools list)*
+*(See also Section 7 for full tools list)*
 
 | Tool | Notes |
 |---|---|
@@ -230,359 +250,14 @@ around one-handed for extended periods.
 
 ### Step-by-Step Build Instructions — Yagi
 
-> **Before you start:** Lay out all parts and verify against the BOM.
-> Read through all steps before picking up any tools.
-
----
-
-#### Step 1 — Cut the PVC Boom Pieces
-
-**Time: 15 minutes**
-
-Cut the 10 ft PVC stick into the following pieces using a PVC cutter
-or fine-tooth saw. Label each piece with masking tape as you cut.
-
-| Label | Length | Purpose |
-|---|---|---|
-| **Boom-A** | 11¼" (11.25") | Reflector cross ↔ driven element cross |
-| **Boom-B** | 6⅞" (6.875") | Driven element cross ↔ director T |
-| **Handle** | 14–18" | Operator handle (cut to preference) |
-
-> **Tip:** Deburr the cut ends with sandpaper or a utility knife so
-> the pipe slides fully into the fittings. A rough cut end can prevent
-> the pipe from seating properly.
-
-> **PVC cutter tip:** Score around the pipe once with light pressure,
-> then increase pressure on each revolution. The ratchet-style cutter
-> makes cleaner cuts with less effort than a hacksaw.
-
----
-
-#### Step 2 — Dry-Fit the PVC Frame
-
-**Time: 10 minutes**
-
-Assemble the boom WITHOUT glue (dry fit only). The design works
-correctly without PVC cement — the fit is snug enough for field use.
-
-**Boom layout, front to back:**
-
-```
-[Director T] ←Boom-B→ [Driven Cross] ←Boom-A→ [Reflector Cross] ←Handle→ [Handle T]
-   (front)                (center)                  (rear)
-```
-
-1. Push Boom-B into one socket of the director T fitting (front).
-2. Push the other end of Boom-B into one socket of the driven element
-   cross fitting (center).
-3. Push Boom-A into the opposite socket of the driven element cross.
-4. Push the other end of Boom-A into one socket of the reflector
-   cross fitting (rear).
-5. Push the Handle piece into the fourth socket of the reflector
-   cross (pointing toward the operator).
-6. Push the Handle T fitting onto the far end of the Handle piece for
-   a T-grip.
-
-The boom should look like this from above (elements will be horizontal,
-perpendicular to the boom):
-
-```
-   Director                  Driven Element    Reflector
-      ↕                    ↕    ↕    ↕           ↕
-[T]──────────[Cross]──────────[Cross]──────────[Cross]──[Handle]──[T]
-  ←— 8" C-C —→              ←——— 12½" C-C ———→
-```
-
-> **Verify spacing:** With the boom assembled, measure center-to-center
-> from the director T to the driven element cross. This should be ~8".
-> From the driven element cross to the reflector cross should be
-> ~12½". If your measurements are off, check that the pipe is seated
-> fully into each fitting.
-
-> **Do NOT glue yet.** You may need to disassemble to route the coax
-> through the boom in Step 9.
-
----
-
-#### Step 3 — Cut the Tape Measure Elements
-
-**Time: 20 minutes**
-
-Cut the tape measure blade into the following pieces using tin snips.
-Measure carefully — cut a little long first and trim to final length.
-Mark each cut line with a permanent marker before cutting.
-
-| Element | Length | Quantity |
-|---|---|---|
-| Reflector | **41⅜"** (41.375") | 1 piece |
-| Driven element half (×2) | **17¾"** (17.75") each | 2 pieces |
-| Director | **35⅛"** (35.125") | 1 piece |
-
-**Total tape measure consumed: 41.375 + 17.75 + 17.75 + 35.125 = ~112"
-(9 ft 4 in) — well within the 25 ft tape measure.**
-
-> **Cutting safety:** Tin snips leave sharp edges. Wear gloves or work
-> carefully. Immediately deburr cut ends by running a piece of
-> sandpaper across the edge twice, or fold the cut end over briefly
-> with pliers to dull the corner.
-
-> **Measuring tip:** The tape measure blade IS the ruler. Extend the
-> blade, mark the cut points with a marker while it's still extended,
-> then lay it on a flat surface (cutting mat) to cut. Don't try to
-> cut in mid-air.
-
-> **Common mistake:** Cutting the driven element halves too short. The
-> 1" gap between the two halves is in addition to each half's length.
-> Total driven element length = 17¾" + 1" gap + 17¾" = 36½".
-
----
-
-#### Step 4 — Prepare the Driven Element Tips
-
-**Time: 15 minutes — this is the most important soldering prep step.**
-
-The two driven element halves need to be tinned at their inner ends
-(the ends that will face each other with the 1" gap). This is much
-easier to do before mounting the elements.
-
-1. Sand the **painted/chrome side** of the inner corner of each driven
-   element half. Sand an area about ½" × ½" at the inner tip. The
-   goal is bare, shiny steel — no paint, no chrome, no oxidation.
-   The blade's reverse (dull) side may sand easier; check which side
-   has less coating.
-
-   > **Why the corner?** The hose clamps will grip the blade flat.
-   > The soldering connection goes at the corner of the blade tip so
-   > the coax and hairpin wire attach there while the clamp holds the
-   > element flat and centered.
-
-2. Apply a small drop of rosin flux to each sanded area.
-
-3. Touch the soldering iron to the sanded/fluxed area for 3–5 seconds
-   to heat the metal, then apply a small amount of solder. The solder
-   should flow onto the steel blade and stick (tin the surface).
-
-   > **The steel blade is a heat sink.** You need a hot iron (at
-   > least 700°F / 370°C tip temperature) and patience. Hold the
-   > iron still for several seconds before applying solder. If the
-   > solder beads up and rolls off, the metal isn't hot enough yet.
-
-4. Repeat for the second driven element half.
-
-5. Set both tinned halves aside — they will cool quickly. The tinned
-   area should look silver and smooth, not blobby.
-
----
-
-#### Step 5 — Mount the Reflector and Director Elements
-
-**Time: 10 minutes**
-
-1. Slide the reflector element (41⅜") through the two opposing arms
-   of the **reflector cross** fitting (the rear cross on the boom).
-   Center the element so equal lengths stick out on each side.
-
-2. With the element centered, secure it with two hose clamps — one
-   on each side of the fitting. The clamp goes over the fitting body
-   and the tape measure blade together. Tighten firmly with a
-   screwdriver or nut driver. The blade should not slide or rotate.
-
-3. Slide the director element (35⅛") through the single arm of the
-   **director T** fitting (the front T fitting). Center it. Secure
-   with one hose clamp on each side of the T fitting.
-
-> **Hose clamp fit check:** The hose clamp should encircle both the
-> PVC fitting body and the tape measure blade, clamping them together.
-> If the clamp is too large, it will tighten over the fitting but not
-> grip the blade. If too small, it won't fit around the fitting. The
-> ½"–1¼" range fits ¾" Schedule 40 PVC fittings correctly.
-
-> **Element centering:** Use your ruler. Measure from the fitting
-> center to each blade tip — they should be equal within ⅛".
-
----
-
-#### Step 6 — Mount the Driven Element Halves
-
-**Time: 10 minutes**
-
-1. Slide the first driven element half (17¾") into one arm of the
-   **driven element cross** fitting. The tinned tip should face
-   **inward** (toward the center of the cross).
-
-2. Slide the second driven element half into the **opposite** arm of
-   the same cross fitting. Its tinned tip also faces inward.
-
-3. Position both halves so:
-   - Each blade extends **17¾"** from the fitting center to its tip
-   - The gap between the two inner tips is **1 inch**
-   - Both blades are in the same plane (co-planar — not twisted)
-
-4. Secure each half with a hose clamp as in Step 5 (one clamp per
-   half, gripping the fitting body and blade).
-
-> **The 1" gap is critical.** This gap is part of the driven element
-> impedance match along with the hairpin. Too narrow or too wide will
-> affect the match. Use a ruler or a 1" spacer block to set the gap
-> before tightening the clamps.
-
-> **Common mistake:** Mounting both halves with the tinned corners
-> pointing the same direction (both up or both down). They should be
-> mirror images, with both tinned corners accessible from the same
-> side of the boom for soldering.
-
----
-
-#### Step 7 — Fabricate and Attach the Hairpin Match
-
-**Time: 15 minutes**
-
-The "hairpin" (beta match) is a short U-shaped wire that bridges the
-gap between the two driven element halves. It adjusts the feedpoint
-impedance to better match the 50 Ω coax.
-
-1. Take the 6" piece of 14 AWG solid copper wire. Strip ¼" of
-   insulation from each end (if insulated). If using bare copper, no
-   prep needed.
-
-2. Using needle-nose pliers, bend the wire into a symmetrical U-shape.
-   The two parallel legs of the U should be approximately ¾" apart
-   at the tips.
-
-   ```
-       ┌──────────────┐   ← ~3" of wire across the top
-       │              │
-       │  ←~ ¾" →    │   ← gap between legs
-       ↓              ↓
-   (solders to)  (solders to)
-   left element  right element
-   ```
-
-3. Lay the U-shape across the 1" gap between the driven element
-   halves, with each leg resting on one of the tinned corners.
-
-4. Solder each leg of the hairpin wire to its driven element tip. The
-   wire should sit flat on the tinned area. Heat the junction until
-   the existing tinning on the blade reflowing joins the hairpin wire
-   solder for a solid joint.
-
-> **The hairpin spans the gap:** The hairpin wire's legs solder to the
-> tinned corners of the elements, bridging across the gap. Don't worry
-> if the geometry isn't perfect — a small difference in leg length or
-> gap width has minimal effect on receive performance.
-
-> **Do NOT short the two driven element halves together.** There must
-> still be a gap — the hairpin wire is the only metal bridge between
-> the two halves.
-
----
-
-#### Step 8 — Prepare the Coax Feedline
-
-**Time: 10 minutes**
-
-If the instructor pre-built the coax pigtails, the BNC-male end is
-already assembled. You only need to prepare the bare end for
-soldering.
-
-**Coax prep at the bare (non-BNC) end:**
-
-1. Remove the outer jacket for about 1". Score carefully around the
-   circumference with a utility knife; do not cut deep enough to nick
-   the braid.
-
-2. Fold the braid back to expose ½" of dielectric (inner insulation).
-   Gather the braid into a small bundle on one side.
-
-3. Score and remove the dielectric for about ½", exposing the center
-   conductor.
-
-4. Apply flux and tin the center conductor (twist the strands together
-   first if stranded). Tin the gathered braid bundle.
-
-> **Do not nick the center conductor.** Stranded center conductor in
-> RG-58 is thin — a partial nick will be a weak point. If you nick
-> it, cut back 1" and re-strip.
-
----
-
-#### Step 9 — Solder the Coax to the Driven Element
-
-**Time: 10 minutes**
-
-1. Decide on coax routing now (see tip below).
-
-2. Hold the tinned center conductor against one of the two tinned
-   corners of the driven element (the same corner where the hairpin
-   wire is soldered). Apply heat and flow solder to create a joint
-   that connects the coax center AND the hairpin leg to the element.
-
-3. Hold the tinned braid against the tinned corner of the **other**
-   driven element half. Solder similarly.
-
-   > **Which side gets center vs. braid?** For a receive-only fox
-   > hunting antenna, it does not matter. The antenna works either way.
-
-4. Verify with visual inspection:
-   - Center conductor is soldered to one element half
-   - Braid is soldered to the **other** element half
-   - Center and braid are **not** shorted to each other
-   - The hairpin wire is still present (check it didn't get
-     accidentally soldered over)
-
-> **Routing tip:** Before soldering, decide whether to run the coax
-> **inside** the PVC boom (thread it through the hollow pipe — looks
-> clean, requires disassembling the boom) or **outside** (secure with
-> cable ties along the boom — faster). For a one-day build, outside
-> routing is acceptable. Thread a cable tie through the hose clamp
-> screw slot nearest the driven element and use it to anchor the coax.
-
----
-
-#### Step 10 — Final Assembly and Inspection
-
-**Time: 10 minutes**
-
-1. Route and secure the coax along the boom with 2 cable ties.
-
-2. Reassemble the PVC boom if it was taken apart for coax routing.
-   Verify all pipe-to-fitting connections are fully seated.
-
-3. Wrap the driven element coax connections with two layers of
-   electrical tape to protect from weather and accidental shorts.
-
-4. Fold the antenna elements down flat for transport by gently
-   bending the tape measure blades back toward the boom. They will
-   spring back to shape when deployed.
-
-5. Final dimensional check:
-
-| Check | Nominal | Accept range |
-|---|---|---|
-| Reflector length | 41⅜" | 41"–41¾" |
-| Each driven element half | 17¾" | 17½"–18" |
-| Driven element gap | 1" | ¾"–1¼" |
-| Director length | 35⅛" | 34¾"–35½" |
-| Reflector–Driven spacing (C-C) | ~12½" | 12"–13" |
-| Driven–Director spacing (C-C) | ~8" | 7½"–8½" |
-
-**Congratulations — the Yagi is complete. Set it aside; testing
-is in Section 5.**
-
----
-
-### Common Mistakes and Tips — Yagi
-
-| Mistake | Effect | Prevention |
-|---|---|---|
-| Tape measure is too narrow (½" blade) | Floppy element, wrong tuning | Verify 1" width before buying |
-| Elements not centered on the fitting | Off-axis pattern, mechanical stress | Measure and center before clamping |
-| Hose clamp too large, doesn't grip tape | Elements will slip under the clamps | Use the right clamp size (½"–1¼" range) |
-| Tinning the driven element without flux | Solder beads up, won't stick | Flux first, heat the metal thoroughly |
-| Driven element halves not co-planar | Crooked pattern, awkward handling | Lay both halves flat on the table before clamping |
-| Shorting center to braid at driven element | Antenna won't work at all | Inspect visually before taping; use ohmmeter |
-| Driven element gap wrong | Poor impedance match, reduced sensitivity | Set gap with a 1" block before tightening clamps |
-| PVC cement used before testing | Can't adjust spacing later | Stay dry-fit through the build session |
+> **Full step-by-step instructions, common mistakes, and testing
+> procedures are in the standalone build document:**
+>
+> **[`build-instructions-2m-yagi.md`](build-instructions-2m-yagi.md)**
+>
+> Print one copy per participant. The document is self-contained
+> and includes the BOM, all 10 build steps, a troubleshooting
+> guide, and a quick-reference card.
 
 ---
 
@@ -761,287 +436,81 @@ BNC IN → [Section A: 6 dB] → [Section B: 10 dB] → [Section C: 20 dB] → B
 
 ### Step-by-Step Build Instructions — Attenuator
 
-> **Before you start:** Study the wiring diagram in the Circuit
-> Description above until you can explain it in your own words.
-> Mistakes in the attenuator are easier to prevent than to debug.
+> **Full step-by-step instructions, common mistakes, and testing
+> procedures are in the standalone build document:**
+>
+> **[`build-instructions-attenuator.md`](build-instructions-attenuator.md)**
+>
+> Print one copy per participant. The document is self-contained
+> and includes the schematic, BOM, all 9 build steps, a
+> troubleshooting guide, and a quick-reference card.
 
 ---
 
-#### Step 1 — Plan the Enclosure Layout
 
-**Time: 10 minutes**
+## 5. Project 3 — Dual-Band (2m / 70cm) Tape Measure Yagi
 
-Before drilling, mark all hole positions with a permanent marker on
-masking tape applied to the enclosure. This lets you re-mark without
-leaving permanent marks on the box if you need to adjust.
+> **Optional advanced project.** Build this if you want a single
+> antenna that covers both 2-meter and 70-cm ARDF bands. It adds
+> roughly 60–90 minutes to the build time and requires a dual-band
+> HT and a second coax pigtail.
 
-**Recommended layout:**
+### Overview
 
-```
-Enclosure top view (lid face up):
+This project adds a 3-element 70cm Yagi (on a short ½" PVC
+sub-boom) to the 2m Yagi built in Project 1, creating a dual-band
+directional antenna with two independent coax feeds. Useful for
+events running foxes on both 2m and 70cm simultaneously.
 
-  ┌──────────────────────────────────────────┐
-  │  [SW-A]    [SW-B]    [SW-C]              │  ← Top face: 3 switch holes
-  │  (6 dB)   (10 dB)  (20 dB)              │     Spaced ~1" apart, centered
-  └──────────────────────────────────────────┘
+### Full Build Instructions
 
-  Left end:   BNC IN  hole (center of end wall)
-  Right end:  BNC OUT hole (center of end wall)
-```
+> **Step-by-step instructions, BOM, and testing procedures are in
+> the standalone build document:**
+>
+> **[`build-instructions-dual-band-yagi.md`](build-instructions-dual-band-yagi.md)**
+>
+> Print one copy per participant choosing this project.
 
-**Hole sizes:**
-- BNC female panel-mount: typically ⅜" (9.5 mm) body hole; verify
-  against your specific connector before drilling
-- Miniature toggle switch: typically 15/64" (6 mm); verify against
-  your specific switch
+### Bill of Materials — Project 3 Add-On
 
-> **Verify before drilling:** Each BNC connector and each switch
-> should come with a spec sheet or packaging that lists the panel
-> hole diameter. Check it. Aluminum is easy to enlarge with a file
-> but impossible to shrink.
+> **Target cost:** ~$14–20 per kit in addition to the Project 1
+> Yagi kit (~$46–56 total). This is the incremental cost for the
+> 70cm section only; the 25 ft tape measure and main boom are
+> shared with Project 1.
 
----
+| Qty | Item | Notes | Est. Cost |
+|-----|------|-------|-----------|
+| 1 | 12" length of ½" Schedule 40 PVC pipe | Pre-cut into sub-boom pieces. | $1–2 |
+| 2 | ½" PVC cross (4-way) fittings | Reflector and driven element positions. | $0.75–1.50 each |
+| 1 | ½" PVC T fitting | Director position. | $0.50–1.00 |
+| 6 | Stainless steel hose clamps, ½"–1¼" | Same size as Project 1 clamps. | ~$3–5 (from shared pack) |
+| 1 | RG-58/U coax pigtail, 3–6 ft, BNC-male | 70cm feed. Pre-built by instructor. | $3–6 |
+| 1 | 18–20 AWG solid copper wire, 2" piece | 70cm hairpin match. Pre-cut. | <$0.25 |
+| 4 | Cable ties | Sub-boom attachment and coax bundling. | <$0.25 |
 
-#### Step 2 — Drill and Prepare the Enclosure
+**Incremental add-on cost: ~$14–20 per kit**
 
-**Time: 15 minutes (shared drill — participants queue)**
+### 70cm Element Dimensions (Quick Reference)
 
-Set up the drill station centrally. One person drills for the group
-to keep it safe and efficient.
-
-1. Punch or score a center mark for each hole using a nail or center
-   punch and a rock (no mallet available in the field — improvise).
-2. Drill pilot holes (⅛") at each marked position.
-3. Enlarge to final size: ⅜" for BNCs, drill size per toggle switch
-   spec.
-4. Deburr all holes with a needle file or the back edge of the drill
-   bit. The BNC connector and switch bushings must seat flush with
-   the enclosure face.
-5. Test-fit one BNC and one switch in their holes before proceeding.
-   Adjust with a round file if needed.
-
-> **Aluminum tip:** Die-cast aluminum drills easily but can grab. Use
-> slow drill speed with light pressure. Don't force. A center punch
-> mark prevents the bit from wandering.
-
----
-
-#### Step 3 — Install the BNC Connectors
-
-**Time: 10 minutes**
-
-1. Insert the BNC connector into the IN-side hole (left end).
-2. Thread the lock washer and nut onto the connector from inside the
-   box. Tighten finger-tight, then snug with pliers (do not over-
-   tighten aluminum threads). The connector body must contact the box
-   wall for the shield/ground connection.
-3. Repeat for the BNC OUT connector (right end).
-4. Verify: both connectors are tight, both ground properly to chassis
-   (check continuity from BNC shell to box body with an ohmmeter).
-
----
-
-#### Step 4 — Install the Toggle Switches
-
-**Time: 10 minutes**
-
-1. Insert each DPDT switch through its hole in the top of the box.
-2. Ensure the switch is oriented consistently: all three switches
-   should have throw-A (bypass) in the same physical position (e.g.,
-   all lever-up = bypass, all lever-down = attenuate). This reduces
-   confusion in the field.
-3. Thread lock washer and nut; tighten firmly. The switch should not
-   rotate.
-4. **Label with masking tape now, before wiring makes the labels hard
-   to reach:**
-   - Left switch: "6 dB"
-   - Center switch: "10 dB"
-   - Right switch: "20 dB"
-   - Mark the bypass position (lever direction = bypass) with a dot
-     or "0".
-
----
-
-#### Step 5 — Wire the Bypass Connections
-
-**Time: 15 minutes**
-
-For each of the three switches, wire the bypass (Throw A) pins
-together with a short piece of hookup wire:
-
-- Connect Pin 1 (Throw A, Pole 1) to Pin 4 (Throw A, Pole 2) with
-  a 1"–2" wire inside the enclosure. This wire is the "bypass path"
-  for that section.
-
-Repeat for all three switches. You now have three bypass wires
-soldered, one per switch.
-
-> **Wire length:** Keep these wires as short as physically possible.
-> At 146 MHz, stray inductance from long wires matters. 1"–2" is
-> adequate. Route the wire directly between the two pins.
-
-> **Polarity:** The bypass wire always connects the Throw-A pin of
-> Pole 1 to the Throw-A pin of Pole 2. If you later discover the
-> switch is oriented with throw-B at the top, swap which throw you
-> call "A" consistently — just be consistent across all three
-> switches.
-
----
-
-#### Step 6 — Build and Solder the T-Pad Resistor Networks
-
-**Time: 25 minutes**
-
-For each section, build the T-pad "network" off the switch before
-wiring it in. Pre-build and inspect each section before soldering
-to the switch.
-
-**Section A — 6 dB:**
-
-1. Take two 18 Ω resistors (R_s1, R_s2) and one 68 Ω resistor
-   (R_shunt).
-2. Twist one lead of R_s1 and one lead of R_s2 together — this is
-   the MID node.
-3. Connect the R_shunt: twist one of its leads to the same MID node
-   bundle. The other lead of R_shunt will go to chassis (box body).
-4. You now have a small component "tree":
-   ```
-   free end of R_s1 — [18Ω] — MID — [18Ω] — free end of R_s2
-                                |
-                              [68Ω]
-                                |
-                            (chassis)
-   ```
-5. Solder the MID junction cleanly.
-6. Solder the free end of R_s1 to **Pin 3** (Throw B, Pole 1) of
-   Switch A.
-7. Solder the free end of R_s2 to **Pin 6** (Throw B, Pole 2) of
-   Switch A.
-8. Solder the free end of R_shunt to the **inside wall of the
-   enclosure** (scrape paint/anodizing off a small spot on the inner
-   wall, or solder to the threaded body of one of the BNC connectors,
-   which is grounded to chassis).
-
-Repeat for **Section B (10 dB):** 2× 27 Ω + 1× 36 Ω, on Switch B.
-Repeat for **Section C (20 dB):** 2× 39 Ω + 1× 10 Ω, on Switch C.
-
-> **Resistor lead length:** Clip resistor leads to ¼"–⅜" before
-> soldering. Short leads reduce stray inductance. Bend leads at
-> right angles so resistors sit flat.
-
-> **Chassis ground for R_shunt:** If the enclosure body is
-> anodized (shiny silver/grey), the anodizing is non-conductive.
-> You must scrape a small bare metal area to make a ground
-> connection. Use the tip of a file or scratch with a pocket knife.
-> Alternatively, run the R_shunt free ends to the threaded nut on
-> a BNC connector (which is confirmed ground from Step 3).
-
----
-
-#### Step 7 — Wire the Sections in Series
-
-**Time: 10 minutes**
-
-Connect the three sections in signal chain order: 6 dB → 10 dB →
-20 dB, BNC-IN to BNC-OUT.
-
-1. **BNC IN pin** (center pin of IN-side BNC) → **Pin 2** (COM,
-   Pole 1) of Switch A (6 dB section).
-2. **Pin 5** (COM, Pole 2) of Switch A → **Pin 2** (COM, Pole 1) of
-   Switch B (10 dB section).
-3. **Pin 5** (COM, Pole 2) of Switch B → **Pin 2** (COM, Pole 1) of
-   Switch C (20 dB section).
-4. **Pin 5** (COM, Pole 2) of Switch C → **BNC OUT pin** (center pin
-   of OUT-side BNC).
-
-> **Wire routing:** Route signal path wires as directly as possible.
-> Avoid running them past grounded walls at right angles. Keep wires
-> short and direct. This is a functional attenuator, not a lab
-> instrument — but good habits produce better results.
-
-> **BNC center pin:** The BNC panel-mount connector center pin has a
-> small solder cup or lug. Strip ¼" of hookup wire and solder to
-> this cup. The BNC connector shell is grounded by its contact with
-> the box body (Step 3).
-
----
-
-#### Step 8 — Verify Before Closing
-
-**Time: 10 minutes — do not skip this step.**
-
-Before closing the lid, verify all connections with an ohmmeter.
-
-**Continuity checks (switch in BYPASS position):**
-
-| Test | Expected |
+| Element | Length |
 |---|---|
-| BNC IN center pin → BNC OUT center pin | Continuity (near 0 Ω) |
-| BNC IN center pin → BNC shell | Open (no continuity) |
-| BNC IN shell → BNC OUT shell → box body | Continuity |
+| Reflector | **13¾"** |
+| Driven element (each half) | **5⅞"**, gap = **⅜"** |
+| Director | **11⅝"** |
 
-**With switch in ATTENUATE position:**
-
-| Test | Expected |
-|---|---|
-| BNC IN center → BNC OUT center | Measurable resistance (not 0 Ω) |
-| All three sections attenuating | Highest resistance reading |
-| BNC IN center → box body (ground) | Some resistance path through shunt R |
-
-> **If you find center-to-shell short at a BNC:** The center
-> conductor is touching the shell inside the enclosure. Inspect the
-> wiring inside carefully. This is usually a stray wire strand or a
-> solder bridge.
-
-> **If all-sections-attenuate reads 0 Ω or very low:** One or more
-> bypass wires may have been soldered to throw-B instead of throw-A.
-> Check the bypass wire connections on each switch.
-
----
-
-#### Step 9 — Close and Label the Enclosure
-
-**Time: 5 minutes**
-
-1. Tuck wires neatly; nothing should be able to touch the lid and
-   create an accidental short.
-2. Close the lid. On Hammond 1590A enclosures, the lid has no screws;
-   it is held by friction. On screw-top enclosures, snug all screws.
-3. Apply a strip of masking tape to the top (over the switches) and
-   label with permanent marker:
-   - Your callsign
-   - "ARDF ATTENUATOR"
-   - Directions: "↑ = bypass, ↓ = attenuate" (or whichever direction
-     you chose for bypass in Step 4)
-4. Apply a label strip showing attenuation for each switch position:
-   ```
-   [ 6 dB ]  [ 10 dB ]  [ 20 dB ]
-   ```
-
-**Attenuator build is complete. Testing is in Section 5.**
-
----
-
-### Common Mistakes and Tips — Attenuator
-
-| Mistake | Effect | Prevention |
+| Boom span | C-C distance | PVC tube length |
 |---|---|---|
-| Plastic enclosure used | No RF shielding; poor performance | Use die-cast aluminum or steel |
-| Switches not all oriented the same direction | Confusing in the field | Set all bypass in same lever direction during installation |
-| Throw-A and Throw-B reversed on one switch | That section always attenuates or always bypasses, regardless of switch position | Continuity-test in bypass before proceeding to Step 6 |
-| R_shunt ground not making contact (anodized surface) | Shunt has no ground reference; T-pad values are wrong | Scrape anodizing before soldering to chassis; verify with ohmmeter |
-| Too-long wire leads on resistors | Stray inductance, degraded high-frequency performance | Clip leads to ¼"–⅜" |
-| Bypass wire connects wrong throw pair (1–6 instead of 1–4) | Signal path shorted through bypass on wrong toggle position | Use the pin diagram carefully |
-| R_series soldered to COM pins instead of Throw-B pins | Attenuation always in circuit; bypass does nothing | Identify and mark each pin before soldering |
+| Director T ↔ Driven cross | ~2⅝" | Sub-Boom-B = **1½"** |
+| Driven cross ↔ Reflector cross | ~4⅛" | Sub-Boom-A = **2⅞"** |
 
 ---
 
-## 5. Testing and Verification
+## 6. Testing and Verification
 
 All testing takes place with equipment that can be brought to the
 campsite. No lab instruments are required.
 
-### 5.1 Yagi — Continuity Test (5 minutes per antenna)
+### 6.1 Yagi — Continuity Test (5 minutes per antenna)
 
 Equipment: Ohmmeter or DMM in continuity/resistance mode.
 
@@ -1070,7 +539,7 @@ Equipment: Ohmmeter or DMM in continuity/resistance mode.
    > see some resistance (the hairpin and element loops), but a true
    > short (0 Ω) indicates a coax or solder bridge fault.
 
-### 5.2 Attenuator — Bench Test (10 minutes per unit)
+### 6.2 Attenuator — Bench Test (10 minutes per unit)
 
 Equipment: Ohmmeter or DMM.
 
@@ -1093,7 +562,7 @@ Equipment: Ohmmeter or DMM.
 > exactly. What you're confirming is that the resistors are physically
 > present and connected, not that the attenuation is precisely 6 dB.
 
-### 5.3 Functional RF Test (15 minutes for the group)
+### 6.3 Functional RF Test (15 minutes for the group)
 
 This is the real test. Use a 2-meter HT and a nearby repeater or
 beacon, or another participant's HT transmitting briefly.
@@ -1132,7 +601,7 @@ beacon, or another participant's HT transmitting briefly.
 
 ---
 
-## 6. Tools List
+## 7. Tools List
 
 ### Instructor Must Bring (bring all of these)
 
@@ -1186,7 +655,7 @@ beacon, or another participant's HT transmitting briefly.
 
 ---
 
-## 7. Timeline Summary
+## 8. Timeline Summary
 
 The table below shows the complete session timeline with realistic
 time estimates. "Fast" assumes an experienced group working smoothly;
@@ -1223,7 +692,13 @@ of 1–10, expect times between these bounds.
 | **Project 2 subtotal** | | **~89 min** | **~153 min** |
 | — | **Testing and verification** | 20 min | 35 min |
 | — | **Wrap-up, Q&A, cleanup** | 15 min | 20 min |
-| **Total session** | | **~4 hr 0 min** | **~6 hr 40 min** |
+| **Total session (P1 + P2)** | | **~4 hr 0 min** | **~6 hr 40 min** |
+| — | *Optional: Project 3 add-on (dual-band Yagi)* | | |
+| 11 | *Cut and dry-fit ½" PVC sub-boom* | *10 min* | *20 min* |
+| 12 | *Cut 70cm tape measure elements* | *15 min* | *25 min* |
+| 13–18 | *Prep tips, mount elements, hairpin, coax* | *35 min* | *60 min* |
+| 19–20 | *Attach sub-boom, route coax, label* | *10 min* | *20 min* |
+| **Project 3 subtotal (if pursued)** | | **~70 min** | **~125 min** |
 
 ### Recommended Session Plan
 
@@ -1249,10 +724,14 @@ for 5.5 hours.
   group field walk: take one HT + Yagi + attenuator to the Parade
   Grounds and practice bearing runs on the Byonics fox transmitter.
   This is the best possible preparation for Saturday.
+- If any participants have extra time and a dual-band HT, walk them
+  through Project 3 (dual-band Yagi sub-boom). The 70cm section
+  takes 60–90 minutes and produces an antenna ready for 70cm fox
+  hunts or future dual-band events.
 
 ---
 
-## 8. References
+## 9. References
 
 | Source | Description |
 |---|---|
@@ -1263,6 +742,9 @@ for 5.5 hours.
 | Chemandy Electronics | RF attenuator calculator (T-pad and pi-pad): [https://www.chemandy.com/calculators/](https://www.chemandy.com/calculators/) |
 | ARRL Handbook | Chapter on transmission lines and matching networks; T-pad attenuator design formulas |
 | M&K ARC Field Day 2026 — Overall Plan | `docs/field-day-2026/overall-plan.md` in this repository |
+| Build Instructions — 2m Yagi | `docs/field-day-2026/build-instructions-2m-yagi.md` |
+| Build Instructions — Switched Step Attenuator | `docs/field-day-2026/build-instructions-attenuator.md` |
+| Build Instructions — Dual-Band (2m/70cm) Yagi | `docs/field-day-2026/build-instructions-dual-band-yagi.md` |
 
 ---
 
@@ -1285,6 +767,21 @@ workstation.*
 |---|---|
 | Director T ↔ Driven element cross | **~8"** (Boom-B tube = 6⅞") |
 | Driven element cross ↔ Reflector cross | **~12½"** (Boom-A tube = 11¼") |
+
+### 70cm Element Lengths (Project 3 — dual-band add-on)
+
+| Element | Cut Length |
+|---|---|
+| Reflector | **13¾"** |
+| Driven element (each half) | **5⅞"** (gap = ⅜") |
+| Director | **11⅝"** |
+
+### 70cm Sub-Boom Spacing (center-to-center)
+
+| Span | Distance |
+|---|---|
+| Director T ↔ Driven cross | **~2⅝"** (Sub-Boom-B tube = 1½") |
+| Driven cross ↔ Reflector cross | **~4⅛"** (Sub-Boom-A tube = 2⅞") |
 
 ### Attenuator Resistor Values
 
@@ -1323,6 +820,10 @@ Position: ATTENUATE (lever to throw-B side)
 | **Attenuator:** Signal drops even when all in bypass | R_series wired to COM pins instead of throw-B | Trace each signal path with ohmmeter in bypass mode |
 | **Attenuator:** One section doesn't attenuate | R_shunt not grounded; resistor not soldered | Check ground connection to chassis; re-solder R_shunt |
 | **Attenuator:** Intermittent behavior | Switch not seating fully in throw positions | Verify switch hardware is tight in enclosure; check for wobble |
+| **Dual-band Yagi:** 70cm section omni-directional | Coax center shorted to braid at 70cm driven element | Inspect 70cm solder joints; probe with ohmmeter |
+| **Dual-band Yagi:** No 70cm receive at all | 70cm coax center disconnected | Probe 70cm BNC center → 70cm driven element half |
+| **Dual-band Yagi:** Antenna looks crooked | Sub-boom skewed relative to main boom | Re-position and re-cinch zip ties until parallel |
+| **Dual-band Yagi:** 2m pigtail and 70cm pigtail mixed up | Connected wrong HT to wrong coax | Label both ends of each pigtail before leaving the bench |
 
 ---
 
