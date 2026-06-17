@@ -148,20 +148,8 @@ hunt — see issue
 
 ## 9. Related plans
 
-- `docs/locations/flaming-geyser-state-park.md` — primary July practice
-  hunt (Sun Jul 19, 2026).
-- `docs/locations/marymoor-park.md` — primary August "real" hunt
-  (Sat Aug 22, 2026).
-- This September regional/mobile hunt is the third event in the 2026
-  series and could run independently of the earlier two.
-
-**2026 series at a glance:**
-
-| Event             | Location        | Date (2026)     | Role          |
-| ----------------- | --------------- | --------------- | ------------- |
-| July practice     | Flaming Geyser  | Sun Jul 19      | Primary       |
-| August hunt       | Marymoor Park   | Sat Aug 22      | Primary "real"|
-| September mobile  | Howarth Park    | Sun Sep 20      | Tentative(this)|
+- `docs/locations/flaming-geyser-state-park.md` — July practice hunt.
+- `docs/locations/marymoor-park.md` — August hunt.
 
 ---
 

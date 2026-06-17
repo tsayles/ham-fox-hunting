@@ -26,8 +26,8 @@
   and 3+ miles of river shoreline. Strong, varied RDF terrain.
 - ~4.3 miles of hiking trails (Main, River, Wetland Loop, Whispering
   Firs Loop, Old Railroad Grade, Gorge Overlook, and more).
-- More continuous forest and valley terrain than Marymoor — a better
-  hunting challenge, and far quieter on summer weekends.
+- Continuous forest and valley terrain — a good hunting challenge, and
+  quiet on summer weekends.
 - The river valley can introduce signal reflection (multipath): a
   realistic challenge for intermediate hounds; can frustrate first
   timers — brief accordingly.
@@ -46,9 +46,9 @@ Source: Washington State Parks (parks.wa.gov), 2026.
 - **Discover Pass required to park:** $10/day or $45/year, **per
   vehicle**. Coordinate passes for every carload (some annual free days
   exist, but mid-July is not one).
-- **Special Activity Permit required for groups over 20 people** — this
-  is a LOWER threshold than Marymoor. A modest club turnout can trip it,
-  even with a shelter reservation. Apply via the park office.
+- **Special Activity Permit required for groups over 20 people.** A
+  modest club turnout can trip it, even with a shelter reservation.
+  Apply via the park office.
 - **Shelters:** 4 reservable shelters (up to 50 each) via
   washington.goingtocamp.com or (888) CAMPOUT / (888) 226-7688; 200+
   first-come picnic tables.
@@ -150,37 +150,7 @@ Based on current program equipment status (see
 
 ---
 
-## 9. Program context & comparison
+## 9. Related plans
 
-This is the **first event in the 2026 series** — a low-stakes July
-practice hunt to warm up skills and equipment before the primary
-August "real" hunt at Marymoor and the September regional/mobile hunt
-finishing at Howarth.
-
-**2026 series at a glance:**
-
-| Event             | Location        | Date (2026)     | Role          |
-| ----------------- | --------------- | --------------- | ------------- |
-| July practice     | Flaming Geyser  | Sun Jul 19      | Primary (this)|
-| August hunt       | Marymoor Park   | Sat Aug 22      | Primary "real"|
-| September mobile  | Howarth Park    | Sun Sep 20      | Tentative     |
-
-**Flaming Geyser vs. Marymoor (terrain/logistics):**
-
-| Factor                | Flaming Geyser        | Marymoor              |
-| --------------------- | --------------------- | --------------------- |
-| RF / terrain          | Better (forest+valley)| Mixed                 |
-| Crowds (mid-summer)   | Quieter               | Event-heavy weekends  |
-| Group permit trigger  | Over 20 people        | 35 / 50               |
-| Parking pass          | Discover Pass $10/day | ~$1–3                 |
-| Drive from Seattle    | ~45–60 min            | ~20–30 min            |
-| Transit               | None                  | Light rail (2 Line)   |
-| Cell coverage         | May be spotty         | Good                  |
-
----
-
-## 10. Related plans
-
-- `docs/locations/marymoor-park.md` — primary August "real" hunt.
-- `docs/locations/howarth-park.md` — tentative September regional /
-  separate regional / mobile (car-based) hunt.
+- `docs/locations/marymoor-park.md` — August hunt.
+- `docs/locations/howarth-park.md` — September regional / mobile hunt.

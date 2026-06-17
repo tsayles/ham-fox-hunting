@@ -12,7 +12,7 @@
 | ---------------- | ------------------------------------------- |
 | Event type       | Local hunt — primary "real" event (ARDF)    |
 | Proposed date    | Sat Aug 22, 2026 (PRIMARY — see §9)          |
-| Date notes       | Concert at 6 PM does not conflict (see §9)   |
+| Date notes       | Evening concert that day — see §9            |
 | Proposed time    | 12:00 PM – 2:30 PM (2.5 hours)              |
 | Format           | Single fox (1-fox) on-foot hunt             |
 | Host club        | Mike & Key ARC — Fox Hunting Program        |
@@ -141,62 +141,27 @@ Based on current program equipment status (see
 - [ ] Decide 1-fox vs. multi-fox format.
 - [ ] Recruit a fox hider / mentor for new participants.
 - [ ] Verify summer dusk time and lot opening for early setup.
-- [ ] Confirm tentative date Sat Aug 22, 2026 with the club.
+- [ ] Confirm date Sat Aug 22, 2026 with the club.
 - [ ] Note: concert (gates 4 PM) — arrive early, wrap by 2:30.
 
 ---
 
-## 9. Event conflicts & alternatives
+## 9. Scheduling notes & related plans
 
-### Selected date — Sat Aug 22, 2026 (PRIMARY August hunt)
+### Day-of note — Sat Aug 22, 2026
 
-- **Marymoor Live concert:** Alison Krauss & Union Station feat. Jerry
-  Douglas — **show 6:00–8:00 PM, gates 4:00 PM.**
-- **Does not overlap** the noon–2:30 hunt; ~1.5 hr buffer before gates.
+- **Marymoor Live concert** that evening: Alison Krauss & Union Station
+  feat. Jerry Douglas — **show 6:00–8:00 PM, gates 4:00 PM.** Does not
+  overlap the noon–2:30 hunt (~1.5 hr buffer before gates).
 - **Watch-outs late in the window (≈1:30–2:30):** concert sound checks
   (amplified audio from the amphitheater) and parking lots starting to
   fill as staff/vendors/early fans arrive.
-- **Geography:** amphitheater is west side, opposite the NE beacon and
-  central start — course is clear; mainly a parking/ambient-sound note.
 - **Mitigation:** arrive early, wrap by 2:30, and prefer the east/central
-  lots near the athletic fields over the amphitheater lots.
-
-### Ruled out — Sun July 19, 2026
-
-- **"Meet Me at Marymoor Soccer Final Celebration"** (City of Redmond +
-  King County Parks), **10:00 AM – 3:00 PM** at the Marymoor Live venue
-  — directly overlaps the noon–2:30 window.
-- Free but ticketed; giant screen for the soccer final (FIFA World Cup
-  final day), stage performances, food/beer garden, kids' activities.
-- **Impact:** large crowds and heavy parking demand. The event sits on
-  the opposite (west/amphitheater) side from the NE beacon and central
-  start, so the *course* doesn't collide — but parking and congestion
-  do.
-
-### Backup date — Sat July 18, 2026
-
-- No concert (series is dark until Jul 25) and no listed marquee event.
-- Still a busy summer Saturday (fields, dog area, river); arrive early.
-- Possible spillover setup for the Jul 19 event near the Marymoor Live
-  venue — opposite side from the course; confirm during the site walk.
-
-### 2026 series context
-
-This is the **primary "real" hunt** of the 2026 series — the main event
-after a low-stakes July practice hunt and before a September
-regional/mobile hunt.
-
-| Event             | Location        | Date (2026)     | Role          |
-| ----------------- | --------------- | --------------- | ------------- |
-| July practice     | Flaming Geyser  | Sun Jul 19      | Primary       |
-| August hunt       | Marymoor Park   | Sat Aug 22      | Primary (this)|
-| September mobile  | Howarth Park    | Sun Sep 20      | Tentative     |
+  lots near the athletic fields over the amphitheater lots. The
+  amphitheater is on the west side, opposite the NE beacon and central
+  start — the course itself is clear.
 
 ### Related plans
 
-- **Flaming Geyser State Park** (Auburn) — primary July practice hunt
-  (warm-up before this event). See
-  `docs/locations/flaming-geyser-state-park.md`.
-- **Howarth Park (Everett)** — tentative finish line for the September
-  regional / mobile (car-based) hunt. See
-  `docs/locations/howarth-park.md`.
+- `docs/locations/flaming-geyser-state-park.md` — July practice hunt.
+- `docs/locations/howarth-park.md` — September regional / mobile hunt.
