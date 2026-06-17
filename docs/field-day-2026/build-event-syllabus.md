@@ -136,14 +136,15 @@ participant. Label each bag with the participant's callsign or just
 - 1× small strip of perfboard (~1" × 3"), optional
 
 **Each dual-band Yagi kit bag (Project 3 — optional add-on):**
-- 1× 12" length of ½" Schedule 40 PVC pipe (pre-cut)
-- 2× ½" PVC cross fitting
-- 1× ½" PVC T fitting
+- 2× ¾" PVC cross fitting (70cm reflector and driven element
+  positions — same part as the 2m section, rotated 90° on boom)
+- 1× ¾" PVC T fitting (70cm director — same part as 2m director,
+  rotated 90° on boom)
 - 6× additional stainless hose clamps (½"–1¼")
 - 1× 3–6 ft RG-58 pigtail with BNC-male (70cm feed, pre-built)
 - 1× 2" piece of 18–20 AWG solid copper wire (pre-cut; for 70cm
   hairpin match)
-- 4× cable ties (sub-boom attachment)
+- 2× cable ties (coax routing)
 
 **Shared supplies (instructor brings, not per-kit):**
 - Solder (60/40 or 63/37 rosin-core, 0.032")
@@ -166,8 +167,8 @@ participant. Label each bag with the participant's callsign or just
       tip cleaner, solder, flux, small fan for fume dispersal
 - [ ] Lay out a kit bag and printed instruction sheet at each station
 - [ ] Stage PVC pipe (cut to rough length or full 10 ft) for
-      distribution; also stage pre-cut ½" PVC sub-boom pieces for
-      Project 3 participants
+      distribution; no separate ½" pipe needed for Project 3 —
+      70cm fittings mount directly on the main ¾" boom
 - [ ] Have the drill and enclosures ready at one central station for
       Project 2
 
@@ -457,10 +458,12 @@ BNC IN → [Section A: 6 dB] → [Section B: 10 dB] → [Section C: 20 dB] → B
 
 ### Overview
 
-This project adds a 3-element 70cm Yagi (on a short ½" PVC
-sub-boom) to the 2m Yagi built in Project 1, creating a dual-band
-directional antenna with two independent coax feeds. Useful for
-events running foxes on both 2m and 70cm simultaneously.
+This project adds a 3-element 70cm Yagi to the 2m Yagi built in
+Project 1, creating a dual-band directional antenna with two
+independent coax feeds. The 70cm fittings are ¾" PVC (same size
+as the 2m section) placed on the same boom, rotated 90° so the
+70cm elements are horizontal when the 2m elements are vertical.
+Useful for events running foxes on both 2m and 70cm simultaneously.
 
 ### Full Build Instructions
 
@@ -480,17 +483,16 @@ events running foxes on both 2m and 70cm simultaneously.
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 1 | 12" length of ½" Schedule 40 PVC pipe | Pre-cut into sub-boom pieces. | $1–2 |
-| 2 | ½" PVC cross (4-way) fittings | Reflector and driven element positions. | $0.75–1.50 each |
-| 1 | ½" PVC T fitting | Director position. | $0.50–1.00 |
+| 2 | ¾" PVC cross (4-way) fittings | Reflector and driven element positions. Rotated 90° on main boom. Same part as Project 1. | $1.50–3.00 each |
+| 1 | ¾" PVC T fitting | Director position. Rotated 90° on main boom. Same part as Project 1. | $0.75–1.50 |
 | 6 | Stainless steel hose clamps, ½"–1¼" | Same size as Project 1 clamps. | ~$3–5 (from shared pack) |
 | 1 | RG-58/U coax pigtail, 3–6 ft, BNC-male | 70cm feed. Pre-built by instructor. | $3–6 |
 | 1 | 18–20 AWG solid copper wire, 2" piece | 70cm hairpin match. Pre-cut. | <$0.25 |
-| 4 | Cable ties | Sub-boom attachment and coax bundling. | <$0.25 |
+| 2 | Cable ties | Coax routing. | <$0.25 |
 
-**Incremental add-on cost: ~$14–20 per kit**
+**Incremental add-on cost: ~$12–18 per kit**
 
-### 70cm Element Dimensions (Quick Reference)
+### 70cm Element and Fitting Dimensions (Quick Reference)
 
 | Element | Length |
 |---|---|
@@ -498,10 +500,13 @@ events running foxes on both 2m and 70cm simultaneously.
 | Driven element (each half) | **5⅞"**, gap = **⅜"** |
 | Director | **11⅝"** |
 
-| Boom span | C-C distance | PVC tube length |
+All 70cm fittings are ¾" PVC on the main boom, rotated 90°.
+
+| Fitting position from handle | Fitting | Orientation |
 |---|---|---|
-| Director T ↔ Driven cross | ~2⅝" | Sub-Boom-B = **1½"** |
-| Driven cross ↔ Reflector cross | ~4⅛" | Sub-Boom-A = **2⅞"** |
+| ~23" | 70cm Reflector cross | 90° rotated |
+| ~27⅛" | 70cm Driven cross | 90° rotated |
+| ~29¾" | 70cm Director T | 90° rotated |
 
 ---
 
@@ -694,10 +699,10 @@ of 1–10, expect times between these bounds.
 | — | **Wrap-up, Q&A, cleanup** | 15 min | 20 min |
 | **Total session (P1 + P2)** | | **~4 hr 0 min** | **~6 hr 40 min** |
 | — | *Optional: Project 3 add-on (dual-band Yagi)* | | |
-| 11 | *Cut and dry-fit ½" PVC sub-boom* | *10 min* | *20 min* |
+| 11 | *Mark 70cm positions and dry-fit fittings at 90°* | *10 min* | *20 min* |
 | 12 | *Cut 70cm tape measure elements* | *15 min* | *25 min* |
 | 13–18 | *Prep tips, mount elements, hairpin, coax* | *35 min* | *60 min* |
-| 19–20 | *Attach sub-boom, route coax, label* | *10 min* | *20 min* |
+| 19–20 | *Verify 90° orientation, route coax, label* | *10 min* | *20 min* |
 | **Project 3 subtotal (if pursued)** | | **~70 min** | **~125 min** |
 
 ### Recommended Session Plan
@@ -725,9 +730,9 @@ for 5.5 hours.
   Grounds and practice bearing runs on the Byonics fox transmitter.
   This is the best possible preparation for Saturday.
 - If any participants have extra time and a dual-band HT, walk them
-  through Project 3 (dual-band Yagi sub-boom). The 70cm section
-  takes 60–90 minutes and produces an antenna ready for 70cm fox
-  hunts or future dual-band events.
+  through Project 3 (dual-band Yagi). The 70cm section takes
+  60–90 minutes and produces an antenna ready for 70cm fox hunts
+  or future dual-band events.
 
 ---
 
@@ -776,12 +781,15 @@ workstation.*
 | Driven element (each half) | **5⅞"** (gap = ⅜") |
 | Director | **11⅝"** |
 
-### 70cm Sub-Boom Spacing (center-to-center)
+### 70cm Fitting Positions on Main Boom (Project 3)
 
-| Span | Distance |
+All ¾" PVC fittings — rotated 90° (70cm elements horizontal):
+
+| Fitting | Position from handle |
 |---|---|
-| Director T ↔ Driven cross | **~2⅝"** (Sub-Boom-B tube = 1½") |
-| Driven cross ↔ Reflector cross | **~4⅛"** (Sub-Boom-A tube = 2⅞") |
+| 70cm Reflector cross | ~23" |
+| 70cm Driven cross | ~27⅛" |
+| 70cm Director T | ~29¾" |
 
 ### Attenuator Resistor Values
 

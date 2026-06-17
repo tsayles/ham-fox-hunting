@@ -30,12 +30,14 @@ score. A dual-band yagi lets you use a single handheld (HT) with
 dual-band capability and one antenna for both bands, or switch
 feeds between two HTs.
 
-This design mounts a full-size 3-element 2m tape measure Yagi and
-a full-size 3-element 70cm tape measure Yagi on a shared ¾" PVC
-boom. The 70cm elements are housed on a short ½" PVC sub-boom
-zip-tied alongside the main boom. Both element sets share the same
-25-ft tape measure blade as the source material and use the same
-hose clamp technique. Each band has its own coax pigtail.
+This design mounts both a full-size 3-element 2m tape measure Yagi
+and a full-size 3-element 70cm tape measure Yagi on a single shared
+¾" PVC boom. The 70cm fittings are the same ¾" PVC cross and T
+fittings used for the 2m section, but each is rotated 90° around
+the boom axis so the 70cm elements are horizontal when the 2m
+elements are vertical. Both element sets share the same 25-ft tape
+measure blade and the same hose clamp technique. Each band has its
+own coax pigtail.
 
 The 2m section is identical to the single-band 2m design from
 `build-instructions-2m-yagi.md`. The 70cm dimensions are scaled
@@ -48,29 +50,37 @@ proportionally (frequency ratio: 440/146 ≈ 3.01).
 ### Antenna Layout
 
 ```
-← director end                          reflector / handle end →
+← director/tip end                     handle/reflector end →
 
-    70cm  70cm             70cm
-    Dir    DE    (gap)     Refl
-     ↕     ↕↕↕            ↕
-─────────────────────────────────────────── ½" PVC sub-boom
-     ↑  2.6"  ↑    4.1"   ↑  (sub-boom spans ~8" working length)
-             ↑ 70cm DE coax pigtail exits here
+70cm  70cm         70cm  2m    2m             2m
+Dir    DE          Refl  Dir    DE            Refl
+ •     ••           •    ↕    ↕↕↕              ↕
 
-═══════════════════════════════════════════ ¾" PVC main boom
-     ↑      ↑                  ↑
-    Dir     DE               Refl
-     ↕      ↕↕↕               ↕
-    2m     2m               2m
-    Dir     DE     (gap)    Refl
-           ↑ 2m DE coax pigtail exits here
+═══════════════════════════════════════════════════ ¾" PVC boom
 
-←— 8" C-C —→         ←——— 12½" C-C ———→
+←2⅝"→←— 4⅛" —→←2½"→←—— 8" ——→←————— 12½" ————→
+
+  • = 70cm element tip (horizontal, 90° to 2m elements)
+  ↕ = 2m element (vertical)
 ```
 
-The two booms are parallel, separated by ~1". The sub-boom's
-driven element is aligned with the main boom's driven element
-position so both coax pigtails run together toward the handle.
+End-on view (looking from director/tip end, boom horizontal):
+
+```
+     ←———— 70cm element (horizontal) ————→
+     ─────────────┬────────────────
+                  │
+                  │  ← boom axis (perpendicular to page)
+                  │
+                 ↕↕↕
+           2m element (vertical)
+```
+
+The 70cm section sits at the forward (tip) end of the boom, past
+the 2m director. All 70cm fittings are ¾" PVC (same as the 2m
+section) rotated 90° on the boom so the 70cm element ports are
+perpendicular to the 2m element ports. Both coax pigtails exit
+near their respective driven elements.
 
 ### Band Specifications
 
@@ -83,15 +93,15 @@ position so both coax pigtails run together toward the handle.
 | Director length | 35⅛" (35.125") | 11⅝" (11.625") |
 | Reflector–Driven C-C | ~12½" | ~4⅛" |
 | Driven–Director C-C | ~8" | ~2⅝" |
-| Boom material | ¾" Sched. 40 PVC | ½" Sched. 40 PVC |
+| Boom material | ¾" Sched. 40 PVC (shared) | ¾" Sched. 40 PVC (shared, 90° rotated) |
 | Hairpin wire gauge | 14 AWG, 6" piece | 18–20 AWG, 2" piece |
 | Coax pigtail | RG-58, 6 ft, BNC-M | RG-58, 3–6 ft, BNC-M |
 
-> **Why ½" PVC for the 70cm sub-boom?** The fittings are lighter
-> and shorter than ¾" fittings, keeping the sub-boom compact. The
-> element spacing is only a few inches; the ½" fittings fit the
-> scale. The same ½"–1¼" hose clamps used for the 2m section
-> also fit ½" PVC fittings.
+> **Why 90° rotation?** Orthogonal polarization between bands
+> minimizes mutual coupling. The 70cm elements at 90° are nearly
+> invisible to the 2m feed and vice versa, giving independent
+> front-to-back patterns on each band with minimal cross-band
+> interference.
 
 ---
 
@@ -112,13 +122,12 @@ position so both coax pigtails run together toward the handle.
 | 1 | RG-58/U coax pigtail, 6 ft, BNC-male | 2m feed. Pre-built by instructor. | $4–7 |
 | 1 | 14 AWG solid copper wire, 6" piece | 2m hairpin match. | <$0.50 |
 
-### 70cm Section (sub-boom)
+### 70cm Section (main boom, 90° rotated)
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 1 | 12" length of ½" Schedule 40 PVC pipe | 70cm sub-boom. Yields all three sub-boom tubes from one cut. | $1–2 |
-| 2 | ½" PVC cross (4-way) fittings | Reflector and driven element positions. | $0.75–1.50 each |
-| 1 | ½" PVC T fitting | Director position. | $0.50–1.00 |
+| 2 | ¾" PVC cross (4-way) fittings | Reflector and driven element positions. Rotated 90° on the main boom so 70cm elements are horizontal. Buy with the 2m fittings — same part. | $1.50–3.00 each |
+| 1 | ¾" PVC T fitting | Director position. Rotated 90° on the main boom. Same part as 2m director fitting. | $0.75–1.50 |
 | 1 | RG-58/U coax pigtail, 3–6 ft, BNC-male | 70cm feed. Pre-built by instructor. | $3–6 |
 | 1 | 18–20 AWG solid copper wire, 2" piece | 70cm hairpin match. Pre-cut. | <$0.25 |
 
@@ -126,8 +135,8 @@ position so both coax pigtails run together toward the handle.
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 12 | Stainless steel hose clamps, ½"–1¼" range | 6 for 2m section, 6 for 70cm section. Worm-drive only, not spring-type. | ~$10–14/20-pack |
-| 4 | Cable ties | Coax routing + sub-boom attachment. | <$0.25 |
+| 12 | Stainless steel hose clamps, ½"–1¼" range | 6 for 2m section, 6 for 70cm section. Worm-drive only, not spring-type. All fittings are ¾" PVC. | ~$10–14/20-pack |
+| 4 | Cable ties | Coax routing along the boom. | <$0.25 |
 | — | Rosin-core solder, 60/40 | Shared supply | — |
 | — | Fine sandpaper, 80–120 grit | One piece per kit | <$0.25 |
 | — | Electrical tape | Shared supply | — |
@@ -136,15 +145,13 @@ position so both coax pigtails run together toward the handle.
 
 ### Sourcing Notes
 
-- **½" PVC pipe:** Buy a single 10 ft stick and cut 12" sections.
-  The same hardware store as for the ¾" pipe. ½" Schedule 40 PVC
-  is labeled "½ in" on the shelf; verify you are buying Schedule
-  40, not CPVC (which is beige/yellow and slightly different OD).
-- **½" PVC fittings:** Check the plumbing section carefully —
-  ½" cross fittings may be less common than ¾". Look in the DWV
-  (drain) or irrigation section. Alternatively order online.
+- **¾" PVC fittings (70cm set):** The 70cm section uses three
+  additional ¾" fittings — same part numbers as the 2m section.
+  Buy all five crosses and two T fittings at once when procuring
+  the 2m hardware; no second trip needed.
 - **Hose clamps:** Buy a 20-pack of ½"–1¼" worm-drive clamps and
-  split 12 per kit. This size fits both ¾" and ½" PVC fittings.
+  split 12 per kit. All PVC fittings in this build are ¾", so
+  only one clamp size is needed.
 - **18–20 AWG wire:** A few inches of stranded or solid hookup
   wire stripped of insulation, or stripped telephone wire, works.
   Pre-cut by instructor.
@@ -159,13 +166,11 @@ position so both coax pigtails run together toward the handle.
 *(Same as for the 2m Yagi — see `build-instructions-2m-yagi.md`
 Section 3 for the complete list.)*
 
-Additional items for the 70cm sub-boom:
-- **PVC cutter or fine-tooth saw** (same tool — used for shorter
-  ½" pipe cuts)
-- **Needle-nose pliers** (smaller bend radius needed for 70cm
-  hairpin)
-- Smaller screwdriver or ¼" nut driver for the smaller hose
-  clamp screws if your clamp style differs
+Additional items for the 70cm section:
+- **Needle-nose pliers** (smaller bend radius needed for the 70cm
+  hairpin match)
+- A short straight-edge or square to verify 90° fitting
+  orientation before tightening hose clamps
 
 No additional major tools are needed beyond the 2m build.
 
@@ -174,8 +179,8 @@ No additional major tools are needed beyond the 2m build.
 ## 5. Step-by-Step Build Instructions
 
 Build the two sections in order: **2m section first** (Steps 1–10),
-then the **70cm sub-boom section** (Steps 11–18), then combine
-them (Steps 19–20).
+then **add the 70cm section to the main boom** (Steps 11–18), then
+final assembly (Steps 19–20).
 
 > **Before you start:** Lay out all parts for both bands and
 > verify against the BOM. Read all steps through before picking
@@ -187,8 +192,8 @@ them (Steps 19–20).
 
 Follow steps 1 through 10 of `build-instructions-2m-yagi.md`
 exactly. The 2m section of this dual-band antenna is identical to
-the standalone 2m Yagi. Build it first and set it aside while you
-build the 70cm sub-boom.
+the standalone 2m Yagi. Build it first and set the boom aside
+while you prepare the 70cm section.
 
 Key dimensions to keep handy:
 
@@ -200,58 +205,80 @@ Key dimensions to keep handy:
 | Boom-A tube (reflector cross ↔ driven cross) | 11¼" |
 | Boom-B tube (driven cross ↔ director T) | 6⅞" |
 
-**When the 2m section is complete, do not fully tighten the
-sub-boom attachment point yet — leave the 2m driven element cross
-fitting accessible for Step 20.**
+**When the 2m section is complete, leave the boom tip accessible
+— the 70cm fittings will slide onto the tip end in Phase 2.**
 
 ---
 
-### Phase 2 — Build the 70cm Sub-Boom Section (Steps 11–18)
+### Phase 2 — Add the 70cm Section to the Main Boom (Steps 11–18)
 
 ---
 
-#### Step 11 — Cut the ½" PVC Sub-Boom Pieces
-
-**Time: 10 minutes**
-
-Cut the 12" ½" PVC piece into these three sections:
-
-| Label | Length | Purpose |
-|---|---|---|
-| **Sub-Boom-A** | 2⅞" (2.875") | Reflector cross ↔ driven element cross |
-| **Sub-Boom-B** | 1½" (1.5") | Driven element cross ↔ director T |
-| *(discard remainder)* | | |
-
-> **These are short cuts.** Measure twice before cutting. A
-> ratchet PVC cutter makes cleaner short cuts than a saw. Deburr
-> cut ends.
-
----
-
-#### Step 12 — Dry-Fit the 70cm Sub-Boom Frame
+#### Step 11 — Mark the 70cm Fitting Positions on the Main Boom
 
 **Time: 5 minutes**
 
-Assemble the sub-boom dry (no glue — friction fit only).
+The 70cm fittings go on the **same ¾" PVC boom** as the 2m
+section, positioned forward (toward the tip) of the 2m director
+fitting. Use a permanent marker to mark the boom at the following
+center-to-center positions (measured from the handle/reflector
+end):
 
-**Sub-boom layout, front to back:**
+| Mark | Position from handle | Fitting |
+|---|---|---|
+| 70cm Reflector | ~23" | ¾" cross, rotated 90° |
+| 70cm Driven Element | ~27⅛" | ¾" cross, rotated 90° |
+| 70cm Director | ~29¾" | ¾" T, rotated 90° |
+
+The 70cm director is the foremost element on the antenna — the
+tip of the boom points toward the fox. Total working length of
+the boom is approximately 30", well within the 10 ft stick.
+
+> **Trim or cap the tip:** After assembling, add a ¾" PVC end cap
+> to the boom tip (past the 70cm director fitting) or wrap a hose
+> clamp around the bare pipe just forward of the fitting. Either
+> prevents the 70cm director fitting from sliding off the end.
+
+---
+
+#### Step 12 — Dry-Fit the 70cm Fittings on the Main Boom (90° Rotated)
+
+**Time: 5 minutes**
+
+The 70cm fittings are ¾" PVC — the same part as the 2m section —
+but each is **rotated 90° around the boom axis** so that the
+element ports are perpendicular to the 2m element ports.
 
 ```
-[Director T] ←Sub-B→ [Driven Cross] ←Sub-A→ [Reflector Cross]
-    (front)               (center)               (rear)
+End-on view (looking from director/tip end, boom horizontal):
+
+     ←———— 70cm element (horizontal) ————→
+     ─────────────┬────────────────
+                  │
+                  │  ← boom axis
+                  │
+                 ↕↕↕
+           2m element (vertical)
 ```
 
-1. Push Sub-Boom-B into the director T fitting.
-2. Push the other end of Sub-Boom-B into the driven element cross
-   fitting.
-3. Push Sub-Boom-A into the opposite side of the driven element
-   cross.
-4. Push the other end of Sub-Boom-A into the reflector cross
-   fitting.
+1. Slide the 70cm Reflector cross fitting from the boom tip to
+   the ~23" mark.
+2. Rotate the fitting 90° around the boom so its element ports
+   point **left and right** (horizontal) when the 2m element
+   ports point up and down.
+3. Hold it in place temporarily — no hose clamps yet.
+4. Repeat for the 70cm Driven Element cross fitting at ~27⅛".
+5. Repeat for the 70cm Director T fitting at ~29¾".
 
 Verify spacing:
-- Director T to driven element cross: **~2⅝"** center-to-center
-- Driven element cross to reflector cross: **~4⅛"** center-to-center
+- 70cm Director to 70cm Driven: **~2⅝"** center-to-center
+- 70cm Driven to 70cm Reflector: **~4⅛"** center-to-center
+
+> **Check the 90° rotation now.** Hold the boom level. The 2m
+> elements should point straight up and down; the 70cm fitting
+> ports should point straight left and right. Use a small square
+> held against the fitting flats to confirm alignment before you
+> start threading elements.
 
 ---
 
@@ -307,18 +334,21 @@ instructions), but on a smaller scale.
 **Time: 8 minutes**
 
 Same technique as for the 2m section (Step 5 of the 2m
-instructions).
+instructions), using the 70cm fittings on the main boom.
 
-1. Slide the reflector (13¾") through the **reflector cross**
-   fitting of the sub-boom. Center it. Secure with two hose
+1. Slide the reflector (13¾") through the **70cm reflector cross**
+   fitting at the ~23" position. Center it. Secure with two hose
    clamps, one on each side.
 
-2. Slide the director (11⅝") through the **director T** fitting.
-   Center it. Secure with one hose clamp on each side.
+2. Slide the director (11⅝") through the **70cm director T**
+   fitting at the ~29¾" position. Center it. Secure with one hose
+   clamp on each side.
 
-> **The ½" PVC fittings are smaller.** The hose clamps grip the
-> same way but the fitting body is narrower (~0.84" OD vs ~1.05"
-> OD for ¾"). The same ½"–1¼" hose clamp size still fits.
+> **Confirm 90° before clamping.** The 70cm elements should lie
+> horizontally (left-right) while the 2m elements are vertical
+> (up-down). If a fitting has crept back to 0°, rotate it back
+> to 90° before tightening the hose clamps. Once the elements
+> are clamped in, the fitting is locked in orientation.
 
 ---
 
@@ -406,45 +436,51 @@ Wrap the connection with two layers of electrical tape.
 
 ---
 
-### Phase 3 — Combine Sub-Boom and Main Boom (Steps 19–20)
+### Phase 3 — Final Assembly (Steps 19–20)
 
 ---
 
-#### Step 19 — Attach the Sub-Boom to the Main Boom
+#### Step 19 — Verify 90° Orientation and Tighten 70cm Fittings
 
-**Time: 10 minutes**
+**Time: 5 minutes**
 
-1. Hold the ½" PVC sub-boom alongside the ¾" PVC main boom,
-   **parallel and ~1" to one side**. The sub-boom's elements
-   should be in the same horizontal plane as the main boom's
-   elements (not offset vertically).
+Before completing the build, confirm the 70cm section is oriented
+correctly and all fittings are fully secured.
 
-2. Position the sub-boom so its **driven element cross** aligns
-   with (or is within 1–2" of) the main boom's **driven element
-   cross**. This co-locates both feed points for easy coax
-   management.
+1. Hold the boom horizontally. Verify the 2m elements point
+   **straight up and down** (vertical).
 
-3. Secure the sub-boom to the main boom with 3–4 cable ties
-   spaced along the sub-boom length. Use zip ties rather than
-   tape — they won't slip.
+2. Verify all three 70cm elements (reflector, driven, director)
+   point **straight left and right** (horizontal). If any fitting
+   has rotated back toward 0°, loosen the hose clamps on that
+   element, rotate the fitting to 90°, and re-tighten.
 
-   ```
-   Side view (both booms from above):
+3. Check boom parallelism: the 70cm elements should all be
+   parallel to each other (all in the horizontal plane), and the
+   2m elements should all be parallel to each other (all in the
+   vertical plane).
 
-   ─────────────────────────────── ½" sub-boom
-   ═══════════════════════════════ ¾" main boom
-         ↑↑                 ↑↑
-      zip ties (2 each end and middle)
-   ```
+4. Verify element-to-element spacing on the 70cm section:
 
-4. Verify: sub-boom is parallel to the main boom (not angled),
-   and all elements on both booms remain in the same horizontal
-   plane.
+   | Span | Nominal | Accept range |
+   |---|---|---|
+   | 70cm Director ↔ 70cm Driven | ~2⅝" C-C | 2¼"–3" |
+   | 70cm Driven ↔ 70cm Reflector | ~4⅛" C-C | 3¾"–4½" |
 
-> **Clearance check:** After attaching, fold the antenna elements
-> flat (tape measure blades fold toward the boom). Make sure the
-> 70cm elements do not catch on the 2m fittings or elements when
-> folded and unfolded.
+5. Add a ¾" PVC end cap or hose clamp to the boom tip forward
+   of the 70cm director fitting to prevent it from sliding off.
+
+```
+Side view (both element sets visible, boom horizontal):
+
+← tip/director end                    handle/reflector end →
+
+70cm  70cm         70cm  2m    2m             2m
+Dir    DE          Refl  Dir    DE            Refl
+ •     ••           •    ↕    ↕↕↕              ↕
+
+═══════════════════════════════════════════════════ boom
+```
 
 ---
 
@@ -452,12 +488,14 @@ Wrap the connection with two layers of electrical tape.
 
 **Time: 10 minutes**
 
-1. Both coax pigtails (2m and 70cm) now exit near the driven
-   element position. Bundle them together with a cable tie and
-   route them along the main boom to the handle.
+1. The 2m coax pigtail exits near the 2m driven element (~12½"
+   from handle). The 70cm coax pigtail exits near the 70cm driven
+   element (~27⅛" from handle). Route each pigtail along the
+   boom toward the handle, securing with cable ties.
 
-2. Secure the coax bundle to the boom with 2 additional cable
-   ties along the handle length.
+2. Bundle both coax pigtails together with a cable tie where they
+   meet along the boom, and secure the bundle to the boom with
+   2 additional cable ties along the handle length.
 
 3. Label the BNC ends: "2m" and "70cm" with masking tape and
    permanent marker. **These labels are critical** — in the field
@@ -496,14 +534,15 @@ testing (Section 7).**
 
 | Mistake | Effect | Prevention |
 |---|---|---|
-| Sub-boom not parallel to main boom | Elements point at different angles; messy pattern | Check parallelism by eye before cinching zip ties |
+| 70cm fitting not rotated 90° | 70cm elements in same plane as 2m elements; maximum cross-band coupling | Check end-on view before clamping — 70cm ports must be horizontal when 2m ports are vertical |
+| 70cm fitting rotates during element clamping | Orientation lost mid-build | Hold fitting with free hand while tightening first hose clamp; re-check angle after each clamp |
 | 70cm and 2m coax pigtails not labeled | Connect the wrong HT to the wrong band in the field | Label clearly during Step 20; label both ends of each pigtail |
 | 70cm driven element gap too wide or too narrow | Impedance mismatch; reduced sensitivity | Use a spacer block to set ⅜" gap before clamping |
-| 70cm elements not in same plane as 2m elements | Crooked mixed polarization | Verify both element sets are horizontal with the booms held level |
-| ½" PVC cement used | Can't adjust later | Dry-fit only; the friction fit is sufficient |
-| Sub-boom zip ties placed over ½" fitting body | Fittings can't seat properly | Place zip ties on the bare pipe, not on the fitting body |
+| 70cm elements not all in the same horizontal plane | Crooked mixed polarization | Verify all three 70cm elements are co-planar with the boom held level |
+| PVC cement used on 70cm fittings | Can't adjust orientation later | Dry-fit only; friction fit is sufficient |
 | 70cm hairpin shorted to 2m element or fitting | Cross-band interference, possible receive degradation | Route 70cm coax and hairpin clear of 2m elements |
 | Cutting 70cm elements at 2m element lengths | Antenna tuned to wrong frequency | Keep element sets labeled and physically separated during the build |
+| No end cap or stop on boom tip | 70cm director fitting slides off the end during use | Add a ¾" PVC end cap or a hose clamp just forward of the 70cm director fitting |
 
 ---
 
@@ -541,9 +580,9 @@ front-to-back null.
 1. Connect the **70cm coax pigtail** to a 70cm-capable HT.
 2. Identify a 70cm signal source: a 440 MHz repeater, another
    HT transmitting briefly, or a 70cm beacon.
-3. Point the antenna's director (front T fitting of the sub-boom
-   and main boom) at the signal source. The 70cm S-meter should
-   read higher than the HT's rubber duck.
+3. Point the antenna's director end (tip of the boom) at the
+   signal source. The 70cm S-meter should read higher than the
+   HT's rubber duck.
 4. Rotate 180°. The S-meter should drop — confirming the rear
    null on the 70cm section.
 
@@ -573,8 +612,8 @@ front-to-back null.
 | 2m section: omni-directional | Coax center shorted to braid at 2m driven element | See `build-instructions-2m-yagi.md` troubleshooting |
 | 70cm section: omni-directional | Same issue on 70cm driven element | Inspect 70cm coax solder joints; check with ohmmeter |
 | No 70cm receive at all | 70cm coax center disconnected | Probe 70cm BNC center → 70cm driven element |
-| Antenna looks crooked | Sub-boom skewed relative to main boom | Re-position sub-boom; re-cinch zip ties |
-| 2m performance degrades after adding 70cm section | 70cm elements coupling into 2m elements | Verify sub-boom is parallel (not at an angle); re-route 70cm coax away from 2m driven element |
+| 70cm elements not at 90° to 2m | Fitting rotated during element clamping | Loosen hose clamps on that element, rotate fitting to 90°, re-tighten |
+| 2m performance degrades after adding 70cm section | 70cm elements coupling into 2m elements | Verify all 70cm fittings are fully at 90°; re-route 70cm coax away from 2m driven element |
 
 ---
 
@@ -595,7 +634,7 @@ front-to-back null.
 
 *Print this section and tape it to the workstation.*
 
-**2m Element Lengths (main boom — ¾" PVC)**
+**2m Element Lengths (main boom — ¾" PVC, elements vertical)**
 
 | Element | Length |
 |---|---|
@@ -603,7 +642,7 @@ front-to-back null.
 | Driven element (each half) | **17¾"**, gap = **1"** |
 | Director | **35⅛"** |
 
-**70cm Element Lengths (sub-boom — ½" PVC)**
+**70cm Element Lengths (main boom — ¾" PVC, elements horizontal, 90° rotated)**
 
 | Element | Length |
 |---|---|
@@ -620,10 +659,18 @@ front-to-back null.
 
 **Boom Spacing — 70cm (center-to-center)**
 
-| Span | Distance | PVC tube length |
+| Span | Distance |
+|---|---|
+| Director T ↔ Driven cross | ~2⅝" |
+| Driven cross ↔ Reflector cross | ~4⅛" |
+
+**70cm Fitting Positions on Main Boom (from handle/reflector end)**
+
+| Fitting | Position | Orientation |
 |---|---|---|
-| Director T ↔ Driven cross | ~2⅝" | Sub-Boom-B = **1½"** |
-| Driven cross ↔ Reflector cross | ~4⅛" | Sub-Boom-A = **2⅞"** |
+| 70cm Reflector cross | ~23" | 90° rotated (elements horizontal) |
+| 70cm Driven cross | ~27⅛" | 90° rotated (elements horizontal) |
+| 70cm Director T | ~29¾" | 90° rotated (elements horizontal) |
 
 ---
 
