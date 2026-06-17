@@ -1,7 +1,7 @@
 # Location & Event Plan — Flaming Geyser State Park (Auburn, WA)
 
-**Location type:** Washington State Park (potential practice / local hunt)
-**Status:** Backup option (Marymoor / Sat Aug 22, 2026 is primary)
+**Location type:** Washington State Park (ARDF practice hunt)
+**Status:** PRIMARY — July practice hunt (Sun Jul 19, 2026)
 **Last updated:** 2026-06-16
 
 ---
@@ -10,8 +10,8 @@
 
 | Field            | Value                                       |
 | ---------------- | ------------------------------------------- |
-| Event type       | Short practice hunt (ARDF)                  |
-| Proposed date    | Backup option (Marymoor Aug 22 is primary)   |
+| Event type       | ARDF practice hunt (skills warm-up)         |
+| Proposed date    | Sun Jul 19, 2026 (PRIMARY July practice)     |
 | Proposed time    | 12:00 PM – 2:30 PM (2.5 hours)              |
 | Format           | Single fox (1-fox) practice                 |
 | Host club        | Mike & Key ARC — Fox Hunting Program        |
@@ -150,14 +150,27 @@ Based on current program equipment status (see
 
 ---
 
-## 9. Comparison vs. Marymoor Park
+## 9. Program context & comparison
 
-See `docs/locations/marymoor-park.md` for the alternative.
+This is the **first event in the 2026 series** — a low-stakes July
+practice hunt to warm up skills and equipment before the primary
+August "real" hunt at Marymoor and the September regional/mobile hunt
+finishing at Howarth.
+
+**2026 series at a glance:**
+
+| Event             | Location        | Date (2026)     | Role          |
+| ----------------- | --------------- | --------------- | ------------- |
+| July practice     | Flaming Geyser  | Sun Jul 19      | Primary (this)|
+| August hunt       | Marymoor Park   | Sat Aug 22      | Primary "real"|
+| September mobile  | Howarth Park    | Sun Sep 20      | Tentative     |
+
+**Flaming Geyser vs. Marymoor (terrain/logistics):**
 
 | Factor                | Flaming Geyser        | Marymoor              |
 | --------------------- | --------------------- | --------------------- |
 | RF / terrain          | Better (forest+valley)| Mixed                 |
-| Crowds (Jul 18–19)    | Quieter               | Jul 19 soccer event   |
+| Crowds (mid-summer)   | Quieter               | Event-heavy weekends  |
 | Group permit trigger  | Over 20 people        | 35 / 50               |
 | Parking pass          | Discover Pass $10/day | ~$1–3                 |
 | Drive from Seattle    | ~45–60 min            | ~20–30 min            |
@@ -168,6 +181,6 @@ See `docs/locations/marymoor-park.md` for the alternative.
 
 ## 10. Related plans
 
-- `docs/locations/marymoor-park.md` — primary practice-hunt location.
-- `docs/locations/howarth-park.md` — candidate finish line for a
+- `docs/locations/marymoor-park.md` — primary August "real" hunt.
+- `docs/locations/howarth-park.md` — tentative September regional /
   separate regional / mobile (car-based) hunt.

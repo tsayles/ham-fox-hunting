@@ -1,7 +1,7 @@
 # Location & Event Plan — Marymoor Park (Redmond, WA)
 
-**Location type:** Regional county park (potential practice / local hunt)
-**Status:** Tentatively planned — Sat Aug 22, 2026 (pending site walk)
+**Location type:** Regional county park (primary "real" hunt venue)
+**Status:** PRIMARY — August hunt (Sat Aug 22, 2026, pending site walk)
 **Last updated:** 2026-06-16
 
 ---
@@ -10,11 +10,11 @@
 
 | Field            | Value                                       |
 | ---------------- | ------------------------------------------- |
-| Event type       | Short practice hunt (ARDF)                  |
-| Proposed date    | Sat Aug 22, 2026 (TENTATIVE — see §9)        |
-| Date notes       | Jul 19 ruled out (conflict); Jul 18 backup   |
+| Event type       | Local hunt — primary "real" event (ARDF)    |
+| Proposed date    | Sat Aug 22, 2026 (PRIMARY — see §9)          |
+| Date notes       | Concert at 6 PM does not conflict (see §9)   |
 | Proposed time    | 12:00 PM – 2:30 PM (2.5 hours)              |
-| Format           | Single fox (1-fox) practice                 |
+| Format           | Single fox (1-fox) on-foot hunt             |
 | Host club        | Mike & Key ARC — Fox Hunting Program        |
 | Park             | Marymoor Park, 6046 W Lake Sammamish Pkwy   |
 |                  | NE, Redmond, WA 98052                       |
@@ -148,7 +148,7 @@ Based on current program equipment status (see
 
 ## 9. Event conflicts & alternatives
 
-### Selected date — Sat Aug 22, 2026 (tentative)
+### Selected date — Sat Aug 22, 2026 (PRIMARY August hunt)
 
 - **Marymoor Live concert:** Alison Krauss & Union Station feat. Jerry
   Douglas — **show 6:00–8:00 PM, gates 4:00 PM.**
@@ -180,16 +180,23 @@ Based on current program equipment status (see
 - Possible spillover setup for the Jul 19 event near the Marymoor Live
   venue — opposite side from the course; confirm during the site walk.
 
-### Alternative location considered
+### 2026 series context
 
-- **Flaming Geyser State Park** (Auburn) — quieter, better RDF terrain,
-  but a longer drive, a per-vehicle Discover Pass, and a lower (20
-  person) group-permit threshold. See
-  `docs/locations/flaming-geyser-state-park.md` for the full plan and a
-  side-by-side comparison.
+This is the **primary "real" hunt** of the 2026 series — the main event
+after a low-stakes July practice hunt and before a September
+regional/mobile hunt.
+
+| Event             | Location        | Date (2026)     | Role          |
+| ----------------- | --------------- | --------------- | ------------- |
+| July practice     | Flaming Geyser  | Sun Jul 19      | Primary       |
+| August hunt       | Marymoor Park   | Sat Aug 22      | Primary (this)|
+| September mobile  | Howarth Park    | Sun Sep 20      | Tentative     |
 
 ### Related plans
 
-- **Howarth Park (Everett)** — candidate finish line for a separate
+- **Flaming Geyser State Park** (Auburn) — primary July practice hunt
+  (warm-up before this event). See
+  `docs/locations/flaming-geyser-state-park.md`.
+- **Howarth Park (Everett)** — tentative finish line for the September
   regional / mobile (car-based) hunt. See
   `docs/locations/howarth-park.md`.

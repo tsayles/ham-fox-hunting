@@ -1,7 +1,7 @@
 # Location & Event Plan — Howarth Park (Everett, WA)
 
 **Location type:** City waterfront park — mobile/regional hunt FINISH point
-**Status:** Candidate finish line — pending site walk
+**Status:** TENTATIVE — September regional/mobile hunt (Sun Sep 20, 2026)
 **Last updated:** 2026-06-16
 
 ---
@@ -148,9 +148,75 @@ hunt — see issue
 
 ## 9. Related plans
 
-- `docs/locations/marymoor-park.md` — primary practice-hunt location
-  (tentative Sat Aug 22, 2026).
-- `docs/locations/flaming-geyser-state-park.md` — backup practice-hunt
-  location.
-- This plan is a different event type (regional/mobile) and could run
-  independently of the Marymoor practice hunt.
+- `docs/locations/flaming-geyser-state-park.md` — primary July practice
+  hunt (Sun Jul 19, 2026).
+- `docs/locations/marymoor-park.md` — primary August "real" hunt
+  (Sat Aug 22, 2026).
+- This September regional/mobile hunt is the third event in the 2026
+  series and could run independently of the earlier two.
+
+**2026 series at a glance:**
+
+| Event             | Location        | Date (2026)     | Role          |
+| ----------------- | --------------- | --------------- | ------------- |
+| July practice     | Flaming Geyser  | Sun Jul 19      | Primary       |
+| August hunt       | Marymoor Park   | Sat Aug 22      | Primary "real"|
+| September mobile  | Howarth Park    | Sun Sep 20      | Tentative(this)|
+
+---
+
+## 10. Sample mailing-list announcement
+
+> Draft for the fox-hunting mailing list
+> ([Mike & Key Foxhunt — groups.io](https://groups.io/g/mikeandkey-foxhunt)).
+> TENTATIVE — confirm date, times, frequency, and staging point before
+> sending. Edit the bracketed fields.
+
+---
+
+**Subject:** [TENTATIVE] September Mobile Fox Hunt — Finish at Howarth
+Park, Everett (Sun Sep 20)
+
+Hi all,
+
+Save the date — we're planning our first **regional / mobile (car-based)
+fox hunt** of the season, tentatively on **Sunday, September 20, 2026**,
+finishing at **Howarth Park in Everett**.
+
+This one's different from our in-park practice hunts: you'll hunt the fox
+**from your vehicle**, taking bearings as you drive the region and
+closing in on the hidden transmitter. The final leg is a short **on-foot
+walk** on Howarth's forested hillside down to the finish, where we'll
+gather for a social wrap-up with great Puget Sound views.
+
+**Tentative details:**
+
+- **Date:** Sunday, September 20, 2026
+- **Staging / start:** [TBD — southern/eastern launch point]
+- **Finish:** Howarth Park, 1127 Olympic Blvd, Everett (upper hillside)
+- **Fox frequency:** [147.42 MHz — confirm] / 15 s on, 15 s off, CW ID
+  K7LED
+- **Bring:** a 2 m receiver + directional antenna (or come learn — we'll
+  have mentors), a vehicle, sturdy shoes for the final on-foot leg, and
+  water. Carpooling encouraged.
+
+**A few notes:**
+
+- This is a **licensed-operator** activity; bring your ham license.
+- The final approach is **uphill with stairs** — heads-up for
+  accessibility, and please stay **clear of the railroad tracks, the
+  pedestrian bridge, and the beach** for safety.
+- Parking is in the park's lots (no guaranteed parking on busy
+  weekends — arrive together).
+
+Want to help **hide the fox** or **mentor new hounds**? Reply and let me
+know. More details (exact start point, timing, and final frequency) to
+follow as we lock things in.
+
+73,
+
+*[Your name / callsign here]*
+
+---
+
+*Note: remove or edit the bracketed sections before sending.*
