@@ -163,3 +163,11 @@ See `docs/locations/marymoor-park.md` for the alternative.
 | Drive from Seattle    | ~45–60 min            | ~20–30 min            |
 | Transit               | None                  | Light rail (2 Line)   |
 | Cell coverage         | May be spotty         | Good                  |
+
+---
+
+## 10. Related plans
+
+- `docs/locations/marymoor-park.md` — primary practice-hunt location.
+- `docs/locations/howarth-park.md` — candidate finish line for a
+  separate regional / mobile (car-based) hunt.

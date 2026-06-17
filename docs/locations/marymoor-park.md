@@ -187,3 +187,9 @@ Based on current program equipment status (see
   person) group-permit threshold. See
   `docs/locations/flaming-geyser-state-park.md` for the full plan and a
   side-by-side comparison.
+
+### Related plans
+
+- **Howarth Park (Everett)** — candidate finish line for a separate
+  regional / mobile (car-based) hunt. See
+  `docs/locations/howarth-park.md`.
