@@ -203,27 +203,27 @@ cutting.
 | Director | **35⅛"** (35.125") | 1 piece |
 
 **Total tape measure consumed per kit: ~112" (9 ft 4 in).
-One 25 ft tape yields two complete sets of elements (226" total
-used, 74" remaining).**
+One 25 ft tape yields two complete sets of elements (225" total
+used, 75" remaining).**
 
 #### Tape Blade Cut Marks
 
-Mark **all ten cut points at once** while the blade is fully
-extended, then cut in order. The first inch of each set is
-discarded — the hook end is often bent or worn, and 113" is
-reserved as a clean start for the second kit.
+Mark **all cut points at once** while the blade is fully
+extended, then cut in order. The first inch of Kit 1 is
+discarded (hook end). Kit 2 starts clean at the 113" cut with
+no scrap needed.
 
 | Cut # | Kit 1 mark | Kit 2 mark | Piece produced | Length |
 |-------|-----------|-----------|----------------|--------|
-| 1 | **1"** | **114"** | Scrap — discard | — |
-| 2 | **42⅜"** | **155⅜"** | Reflector | 41⅜" |
-| 3 | **77½"** | **190½"** | Director | 35⅛" |
-| 4 | **95¼"** | **208¼"** | Driven element half A | 17¾" |
-| 5 | **113"** | **226"** | Driven element half B | 17¾" |
+| 1 | **1"** | *(start at 113")* | Scrap — Kit 1 only | — |
+| 2 | **42⅜"** | **154⅜"** | Reflector | 41⅜" |
+| 3 | **77½"** | **189½"** | Director | 35⅛" |
+| 4 | **95¼"** | **207¼"** | Driven element half A | 17¾" |
+| 5 | **113"** | **225"** | Driven element half B | 17¾" |
 
-Lay the extended blade on a flat cutting mat, mark all ten lines,
-then cut from mark 1 to mark 10 in order. Label each piece
-immediately after cutting (masking tape + marker works well).
+Lay the extended blade on a flat cutting mat, mark all cut lines,
+then cut in order. Label each piece immediately after cutting
+(masking tape + marker works well).
 
 > **Cutting safety:** Tin snips leave sharp edges. Wear gloves or
 > work carefully. Immediately deburr cut ends by running a piece
