@@ -205,6 +205,24 @@ cutting.
 **Total tape measure consumed: 41.375 + 17.75 + 17.75 + 35.125
 = ~112" (9 ft 4 in) — well within the 25 ft tape measure.**
 
+#### Tape Blade Cut Marks
+
+Mark **all five cut points at once** while the blade is fully
+extended, then cut in order. The first inch is discarded — it
+includes the hook and is often bent or worn.
+
+| Cut # | Mark on tape | Piece produced | Length |
+|-------|-------------|----------------|--------|
+| 1 | **1"** | Scrap — discard (hook end) | — |
+| 2 | **42⅜"** | Reflector | 41⅜" |
+| 3 | **77½"** | Director | 35⅛" |
+| 4 | **95¼"** | Driven element half A | 17¾" |
+| 5 | **113"** | Driven element half B | 17¾" |
+
+Lay the extended blade on a flat cutting mat, mark all five lines,
+then cut from mark 1 to mark 5 in order. Label each piece
+immediately after cutting (masking tape + marker works well).
+
 > **Cutting safety:** Tin snips leave sharp edges. Wear gloves or
 > work carefully. Immediately deburr cut ends by running a piece
 > of sandpaper across the edge twice, or fold the cut end over
