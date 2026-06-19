@@ -703,7 +703,7 @@ SLIDES: tuple[SlideSpec, ...] = (
     SlideSpec(
         layout='C',
         title='The Concept',
-        image='Kids_with_tape-measure_yagi.webp',
+        image='RDF antenna array.jpg',
         bullets=(
             'A hidden transmitter — the **"fox"** — is placed in the '
             'field',
@@ -897,7 +897,7 @@ SLIDES: tuple[SlideSpec, ...] = (
         layout='B',
         title='ARDF Demonstration at Field Day',
         section_number='4',
-        image='Group_of_fox_hunters.jpg',
+        image='Ft_Flagler_Google_Maps_Satelite.png',
         notes=(
             'Talking point: shift from club-internal building to the '
             'public-facing Field Day demonstration.',
@@ -952,7 +952,7 @@ SLIDES: tuple[SlideSpec, ...] = (
         layout='B',
         title='2026 Hunt Season',
         section_number='5',
-        image='Car_with_Fox_Hunt_Antenna.jpeg',
+        image='EXAMPLE_Greater_Seattle_Hunt_Area.png',
         notes=(
             'Talking point: introduce the summer schedule as a tentative '
             'three-event progression.',
@@ -1025,7 +1025,7 @@ SLIDES: tuple[SlideSpec, ...] = (
     SlideSpec(
         layout='D',
         title='How to Get Involved',
-        image='Kids_with_tape-measure_yagi.webp',
+        image='Group_of_fox_hunters.jpg',
         notes=(
             'Talking point: pivot from the event calendar to the specific '
             'ways members can jump in right away.',
