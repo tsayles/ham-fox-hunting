@@ -6,9 +6,16 @@
 **Presenter:** Tom KE4HET
 **Target duration:** 40–45 minutes
 
+> **Image target:** 30–40% of slides should be image-led.
+> Inline `[📷 IMG-xx]` tags reference the Image List at the end of
+> this document.
+
 ---
 
 ## Section 1 — What Is Fox Hunting / ARDF? (~8 min)
+
+[📷 IMG-01 — M&K Logo (title slide)]
+[📷 IMG-02 — Kids fox hunting outdoors with Yagi (energy / hook)]
 
 1. The concept: a hidden transmitter (the "fox"), participants find it
    using Radio Direction Finding (RDF)
@@ -19,23 +26,43 @@
    - **Mobile (T-hunt):** car-based, hunting from the road
 4. Skills you use: signal bearing, antenna technique, map/terrain
    awareness, teamwork
+
+[📷 IMG-03 — Antenna radiation patterns (dipole vs. Yagi 3D patterns)]
+[📷 IMG-04 — Yagi polar pattern / cardioid pattern diagram]
+
 5. Why it's fun — and a genuine technical challenge for any license
    class
 6. What you need to get started: any 2 m HT + a directional antenna
+
+[📷 IMG-05 — Group of fox hunters in winter with Yagi antennas]
 
 ---
 
 ## Section 2 — Our Equipment (~5 min)
 
 1. Fox transmitters: Byonics MF-15 and MF-PC — programmed and tested
-   - 147.42 MHz, K7LED callsign, 15 s on / 15 s off, CW ID
+   - **147.42 MHz** simplex, K7LED callsign, 15 s on / 15 s off, CW ID
+   - Frequency coordination with WWARA pending (Steve N9VW contacted)
+
+[📷 IMG-06 — NEEDED: Byonics MF-15 or MF-PC fox transmitter photo]
+
 2. RDF antennas we'll be building: 3-element tape-measure Yagi
+
+[📷 IMG-07 — Tape measure Yagi completed (wall mount photo)]
+[📷 IMG-08 — DIY Yagi on workbench (build-in-progress look)]
+
 3. Accessory: switched step attenuator (close-in hunting aid)
-4. **Entry-level HT recommendation (conditional):**
-   - Radtel RT-910B — brief overview, why it fits fox hunting on a
-     budget
-   - Condition: only if the radio meets the technical bar (to be
-     confirmed before presenting)
+
+[📷 IMG-09 — NEEDED: Attenuator photo or schematic image]
+
+4. **Entry-level HT recommendation (conditional — not yet hands-on):**
+   - Radtel RT-910B (~$30, Amazon)
+   - Large S-meter display, TX lockout, SMA connector, USB-C, BT
+     programming
+   - BNC-to-SMA adapter required for club Yagi (~$5, 2-pack)
+   - ⚠️ No hands-on experience yet — recommendation is conditional
+
+[📷 IMG-10 — Radtel RT-910B product photo]
 
 ---
 
@@ -43,17 +70,25 @@
 
 **Thu Jun 26 — Wagon Wheel Group Campsite, Fort Flagler**
 
+[📷 IMG-11 — NEEDED: Fort Flagler / Wagon Wheel campsite photo or
+             aerial map showing Wagon Wheel and Battery Grattan]
+
 1. Context: week-long Radio Camp, Mon 6/22–Mon 6/29
-2. Build session: Thursday afternoon, ~5 hours (1 PM–6 PM)
+2. Build session: Thursday afternoon (~5 hours); time flexible —
+   will schedule once at camp
 3. What participants build:
    - **Project 1:** 3-element 2 m tape-measure Yagi (required)
    - **Project 2:** 3-section switched step attenuator (if time allows)
    - **Project 3:** Dual-band 2m/70cm Yagi (optional, advanced)
-4. Who it's for: licensed amateurs at camp (1–10 participants),
-   hands-on from minute one
-5. What they take home: working, tested RDF gear for use Saturday
+4. Who it's for: licensed amateurs at camp; hands-on from minute one
+
+[📷 IMG-08 — DIY Yagi on workbench (reuse — build session feel)]
+
+5. Materials mostly on hand; everything expected to arrive before
+   Thursday
 6. **Call to action: volunteers needed** — build assistants, tool
    wranglers, anyone spending the week at camp
+   - Tom KE4HET will bring materials for at least 5 sets
 
 ---
 
@@ -61,16 +96,20 @@
 
 **Sat–Sun Jun 28–29 — Battery Grattan / Parade Grounds, Fort Flagler**
 
-1. Location: visitor tent at Battery Grattan; fox hidden on south side
-   of the Parade Grounds
+[📷 IMG-11 — NEEDED: Fort Flagler map / aerial (reuse or second view
+             showing Battery Grattan ↔ Parade Grounds relationship)]
+[📷 IMG-05 — Group with Yagis (reuse — public demo energy)]
+
+1. Location: visitor tent at Battery Grattan; fox on south side of
+   the Parade Grounds (unstaffed — visible from tent)
 2. Audience: general public — no ham experience assumed
-3. Flow: visitor arrives → 2-minute intro → borrows HT + Yagi →
+3. Format: skill-level dependent — guided or self-guided based on
+   participant experience
+4. Flow: visitor arrives → 2-minute intro → borrows HT + Yagi →
    hunts the fox → returns gear → fox re-hidden
-4. Goal: show the public that radio is hands-on and exciting;
-   recruit future hams
-5. Equipment: built antennas + club handhelds loaned to visitors
-6. Open items: fox frequency (coordinate with FD ops), guided vs.
-   self-guided format, comms between tent and fox hide
+5. Frequency: **147.42 MHz** (pending WWARA coordination)
+6. Equipment: built antennas + club handhelds loaned to visitors;
+   headcount TBD — call for loaner equipment
 7. **Call to action: demonstration hosts and fox wranglers needed**
 
 ---
@@ -78,50 +117,62 @@
 ## Section 5 — 2026 Hunt Season (~10 min)
 
 ### July — Practice Hunt (~3 min)
-**Sun Jul 19 — Flaming Geyser State Park, Auburn**
+**Sun Jul 19 *(tentative)* — Flaming Geyser State Park, Auburn**
+
+[📷 IMG-12 — NEEDED: Flaming Geyser State Park photo (trails/river)]
 
 - Format: single-fox on-foot practice (2.5 hours, noon–2:30 PM)
-- Terrain: 480+ acres, Green River valley, wooded trails
-- Good intro challenge; multipath from valley walls adds realism
-- Logistics: Discover Pass required (per vehicle), possible shelter
-  reservation if group exceeds 20
-- Open items: site walk, permits, carpools
+- Terrain: 480+ acres, Green River valley, wooded trails, multipath
+  challenge — good intro event
+- Logistics: Discover Pass required per vehicle; possible shelter
+  reservation if 20+ attendees; carpools encouraged
+- Date is **tentative** — confirm closer to the event
 
 ### August — On-Foot Hunt (~3 min)
-**Sat Aug 22 — Marymoor Park, Redmond**
+**Sat Aug 22 *(tentative)* — Marymoor Park, Redmond**
 
-- Format: single-fox on-foot hunt, primary "real" event (noon–2:30 PM)
-- Terrain: 640 acres, wooded river corridor + open fields; 2 Line
-  light-rail access
-- Note: Marymoor Live concert that evening (gates 4 PM) — wrap by 2:30
-- Logistics: no permit needed under 35 people; no parking fees expected
-- Open items: site walk, shelter reservation if large turnout
+[📷 IMG-13 — NEEDED: Marymoor Park photo (wooded river corridor or
+             open fields)]
+
+- Format: single-fox on-foot hunt, primary "real" event
+  (noon–2:30 PM)
+- Terrain: 640 acres; wooded Sammamish River corridor + open fields;
+  2 Line light-rail access
+- Note: Marymoor Live concert that evening (gates 4 PM) — wrap by
+  2:30 PM
+- Date is **tentative** — confirm closer to the event
 
 ### September — Mobile (Car-Based) Hunt (~4 min)
-**Sun Sep 20 — Finish at Howarth Park, Everett**
+**Sun Sep 20 *(tentative)* — Finish at Howarth Park, Everett**
 
-- Format: regional T-hunt; hunt from vehicles, converge on Everett,
-  short on-foot final leg on forested hillside
+[📷 IMG-14 — NEEDED: Howarth Park / Puget Sound view photo]
+[📷 IMG-15 — NEEDED: Car-based T-hunt photo (vehicle with antenna)]
+
+- Format: regional T-hunt; drive the region taking bearings, converge
+  on Everett, short on-foot final leg on forested hillside
 - Finish: Howarth Park — Puget Sound views, picnic tables, social
   wrap-up
-- Safety note: fox and all foot traffic must stay clear of BNSF
-  railroad tracks / bridge
-- Equipment note: current MicroFox units are sub-1 W; a 10 W
-  Pi Zero beacon is planned for extended mobile range (issue #4)
-- Open items: start/staging point, route, shelter reservation,
-  site walk
+- Safety: all foot traffic stays clear of BNSF railroad tracks /
+  bridge
+- Equipment: current MicroFox units are sub-1 W; 10 W Pi Zero beacon
+  planned for extended mobile range (future)
+- Date is **tentative** — confirm closer to the event
+
+[📷 IMG-16 — Raspberry Pi Zero (future 10 W beacon teaser)]
 
 ---
 
 ## Section 6 — How to Get Involved (~3 min)
 
-1. **Radio Camp (Jun 22–29):** attend and/or volunteer at the build
-   session
+[📷 IMG-02 — Kids fox hunting (reuse — call to action energy)]
+
+1. **Radio Camp (Jun 22–29):** attend and/or volunteer at the
+   Thursday build session
 2. **Field Day demo (Jun 28–29):** host visitors or hide the fox
 3. **Hunts (Jul/Aug/Sep):** show up and hunt — all experience levels
    welcome; mentors will be present
-4. Join the fox hunt mailing list:
-   groups.io/g/mikeandkey-foxhunt
+4. Join the fox hunt mailing list — ask Scott KC7SAG to set up
+   groups.io/g/mikeandkey-foxhunt, or sign up at the meeting
 5. Questions? Contact Tom KE4HET
 
 ---
@@ -133,48 +184,36 @@
 ---
 
 ## Open Questions
-*(Answer before building the deck)*
+*(Answers recorded — carry forward any unresolved items)*
 
 ### RT-910B Recommendation
-      See new equipment page.
-      
+- Conditional — no hands-on experience yet; see
+  `equipment/radios/radtel-rt-910b.md` for full details and
+  pre-recommendation checklist.
 
 ### Field Day Demonstration
-- [ ] What frequency will the demo fox use?
-      147.42 MHz simplex, pending frequency coordination w/ WWARA
-- [ ] Guided or self-guided format for public visitors?
-      Yes. depending on skill level and experience. 
-- [ ] How many loaner HT + Yagi setups will be available?
-      TBD - Call for loaner equipment. 
-- [ ] Comms plan between visitor tent (Battery Grattan) and fox hide?
-      None. Hox location unstaffed, but viable from the visitor tent. 
+- [x] Frequency: 147.42 MHz simplex, pending WWARA coordination
+      (Steve N9VW contacted)
+- [x] Format: skill-level dependent (guided or self-guided)
+- [x] Loaner gear: TBD — call for loaner equipment at meeting
+- [x] Comms: fox location unstaffed; visible from visitor tent
 
 ### Radio Camp Build Event
-- [ ] Confirmed time for the Thu Jun 26 build session (1 PM proposed)?
-      Still tentative.  We'll see what time when we get there. 
-- [ ] How many participants are expected?
-      - Call for head count of those interested.
-      - Tom, K4HET, will bring materials for at least five sets. 
-- [ ] Are materials ordered / on their way?
-      - Most are on hand.
-      - Materials and tools should all arrive in time for Thursday at radio camp. 
-- [ ] Volunteer roster — who is helping?
-      - Call for volunteers.
+- [x] Time: flexible — will set when at camp (1 PM proposed)
+- [x] Participants: call for head count; Tom brings 5 sets minimum
+- [x] Materials: mostly on hand; all expected before Thursday
+- [x] Volunteers: call for volunteers at meeting
 
 ### General / Logistics
-- [ ] Should the July hunt date (Sun Jul 19) be announced as confirmed
-      or tentative?
-      - tentative
-- [ ] Same for August (Sat Aug 22) and September (Sun Sep 20)?
-      - tentative
-- [ ] Any club budget to mention (kit materials, Discover Passes, etc.)?
-      - Will discuss (partial) reimbursment with board menbers once all costs are known. 
-- [ ] Will there be a sign-up sheet / QR code at the meeting?
-      - Request to Scott Gilyeat, KC7SAG, to setup groups.io mailing list. 
+- [x] July, August, September hunt dates: all **tentative**
+- [x] Budget: discuss partial reimbursement with board after costs
+      known
+- [x] Mailing list / sign-up: ask Scott KC7SAG (KC7SAG) to set up
+      groups.io list; coordinate sign-up sheet at meeting
 
 ---
 
-## Appendix — Timing Summary
+## Appendix A — Timing Summary
 
 | Section | Topic | Minutes |
 |---|---|---|
@@ -186,3 +225,38 @@
 | 6 | How to get involved | 3 |
 | 7 | Q&A | 4 |
 | **Total** | | **45** |
+
+---
+
+## Appendix B — Image List
+
+Images marked ✅ are on hand in
+`docs/presentations/images/`.
+Images marked 🔲 still need to be sourced.
+
+| ID | Status | File / Source | Used In | Caption / Notes |
+|---|---|---|---|---|
+| IMG-01 | ✅ | `MnK_Logo.png` | Title slide | Mike & Key ARC logo |
+| IMG-02 | ✅ | `f6af1eed-...-_DSC3579.webp` | §1, §6 | Kids fox hunting outdoors with Yagi |
+| IMG-03 | ✅ | `patterns.jpg` | §1 | 3D antenna radiation patterns — dipole vs. Yagi |
+| IMG-04 | ✅ | `8168.contentimage_5F00_127508.png` | §1 | Yagi polar / cardioid pattern diagram |
+| IMG-05 | ✅ | `img_3097.jpg` | §1, §4 | Group of fox hunters in winter with Yagis |
+| IMG-06 | 🔲 | *Source needed* | §2 | Byonics MF-15 or MF-PC fox transmitter |
+| IMG-07 | ✅ | `Tapemeasure Yagi.jpg` | §2 | Completed 3-element tape measure Yagi |
+| IMG-08 | ✅ | `DIY 70cm handheld Yagi.png` | §2, §3 | Yagi on workbench (build-in-progress) |
+| IMG-09 | 🔲 | *Source needed* | §2 | Attenuator — photo or schematic render |
+| IMG-10 | ✅ | `71PP0t4+U4L._AC_SL1500_.jpg` | §2 | Radtel RT-910B product photo |
+| IMG-11 | 🔲 | *Source needed* | §3, §4 | Fort Flagler aerial/map or site photo |
+| IMG-12 | 🔲 | *Source needed* | §5 Jul | Flaming Geyser State Park trails/river |
+| IMG-13 | 🔲 | *Source needed* | §5 Aug | Marymoor Park wooded corridor or fields |
+| IMG-14 | 🔲 | *Source needed* | §5 Sep | Howarth Park / Puget Sound view |
+| IMG-15 | 🔲 | *Source needed* | §5 Sep | Car-based T-hunt (vehicle with antenna) |
+| IMG-16 | ✅ | `Pi+ZERO+Angle+1.png` | §5 Sep | Raspberry Pi Zero (future 10 W beacon) |
+
+**Images on hand but not currently assigned:**
+- `RDF antenna array.jpg` — advanced 2-element RDF array with HT
+  mounted; possible use in §2 equipment overview
+- `Baofeng_UV-5R_transceiver_5.jpg` — generic HT product shot;
+  use only if RT-910B image needs a contrast/comparison
+
+
