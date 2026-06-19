@@ -108,9 +108,6 @@ moment.
 
 **Thu Jun 26 — Wagon Wheel Group Campsite, Fort Flagler**
 
-**[📷 IMG-11]** *Fort Flagler satellite view — Battery Grattan and Parade Grounds*
-![Fort Flagler satellite](images/Ft_Flagler_Google_Maps_Satelite.png)
-
 1. Context: week-long Radio Camp, Mon 6/22–Mon 6/29
 2. Build session: Thursday afternoon (~5 hours); time flexible —
    will schedule once at camp
@@ -292,7 +289,7 @@ Images marked 🔲 still need to be sourced.
 | IMG-08 | ✅ | `DIY 70cm handheld Yagi.png` | §2, §3 | Yagi on workbench — build-in-progress feel |
 | IMG-09 | 🔲 | *Source needed* | §2 | Attenuator — photo or schematic render |
 | IMG-10 | ✅ | `71PP0t4+U4L._AC_SL1500_.jpg` | §2 | Radtel RT-910B product photo |
-| IMG-11 | ✅ | `Ft_Flagler_Google_Maps_Satelite.png` | §3, §4 | Fort Flagler satellite — Battery Grattan labeled |
+| IMG-11 | ✅ | `Ft_Flagler_Google_Maps_Satelite.png` | §4 | Fort Flagler satellite — Battery Grattan labeled |
 | IMG-12 | ✅ | `Flaming_Geyser_State_Park_Sign.webp` | §5 Jul | Flaming Geyser State Park entrance sign |
 | IMG-13 | 🔲 | *Source needed* | §5 Aug | Marymoor Park — wooded corridor or fields |
 | IMG-14 | 🔲 | *Source needed* | §5 Sep | Howarth Park / Puget Sound view |
