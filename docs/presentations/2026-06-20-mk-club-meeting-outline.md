@@ -90,7 +90,8 @@ moment.
 
 3. Accessory: switched step attenuator (close-in hunting aid)
 
-**[📷 IMG-09]** *🔲 NEEDED: Attenuator — photo or schematic render*
+**[📷 IMG-09]** *3-section switched step attenuator — interior view*
+![Step attenuator](images/rf_step_att_2.jpg)
 
 4. **Entry-level HT recommendation (conditional — not yet hands-on):**
    - Radtel RT-910B (~$30, Amazon)
@@ -287,7 +288,7 @@ Images marked 🔲 still need to be sourced.
 | IMG-06 | ✅ | `Mike_and_Key_Fox_Beacons.jpg` | §2 | M&K MF-15 (left) and MF-PC (right) side by side |
 | IMG-07 | ✅ | `Tapemeasure Yagi.jpg` | §2 | Completed 3-element tape-measure Yagi |
 | IMG-08 | ✅ | `DIY 70cm handheld Yagi.png` | §2, §3 | Yagi on workbench — build-in-progress feel |
-| IMG-09 | 🔲 | *Source needed* | §2 | Attenuator — photo or schematic render |
+| IMG-09 | ✅ | `rf_step_att_2.jpg` | §2 | 3-section step attenuator — interior, switches and resistors |
 | IMG-10 | ✅ | `71PP0t4+U4L._AC_SL1500_.jpg` | §2 | Radtel RT-910B product photo |
 | IMG-11 | ✅ | `Ft_Flagler_Google_Maps_Satelite.png` | §4 | Fort Flagler satellite — Battery Grattan labeled |
 | IMG-12 | ✅ | `Flaming_Geyser_State_Park_Sign.webp` | §5 Jul | Flaming Geyser State Park entrance sign |
