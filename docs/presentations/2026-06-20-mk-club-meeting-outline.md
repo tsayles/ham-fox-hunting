@@ -317,82 +317,221 @@ Images marked 🔲 still need to be sourced.
 
 ## Appendix C — Layout & Style Guide
 
-### Tool
-Use **LibreOffice Impress** (`.odp`) or **PowerPoint** (`.pptx`) —
-both formats are already in use by the club. Export to PDF for
-presenting from any machine.
+---
 
-### Slide dimensions
-**16:9 widescreen** (33.87 cm × 19.05 cm / 1920 × 1080 px).
+### C.1 Look & Feel Requirements
 
-### Color palette
+The presentation should feel **professional, technical, and welcoming**
+— consistent with the club's identity as a serious amateur radio
+organization that is also genuinely inclusive to newcomers.
 
-| Role | Color | Hex |
-|---|---|---|
-| Background | Dark navy | `#1A2744` |
-| Primary accent | Signal orange | `#E87722` |
-| Secondary accent | Sky blue | `#4AB3E8` |
-| Body text | Off-white | `#F0F4F8` |
-| Muted / caption text | Light gray | `#A8B8C8` |
-| Success / on-hand | Green | `#4CAF50` |
+**Core aesthetic goals:**
 
-> **Rationale:** Navy + orange echoes the RT-910B color scheme and
-> reads well in brightly lit club rooms. Orange accent draws the eye
-> to calls-to-action and key facts.
+- **Authoritative but approachable.** Dense spec tables belong in the
+  docs, not the slides. Lead with visuals and plain-language points;
+  the presenter supplies the depth.
+- **Ham radio heritage.** The color palette, type choices, and graphic
+  motifs should feel connected to the hobby — not generic corporate or
+  consumer-tech style.
+- **High contrast / room-friendly.** The presentation will likely be
+  shown in a meeting room with overhead lights on. Every slide must
+  be readable from the back row at full brightness.
+- **Image-led.** 30–40% of slides should be dominated by a photograph
+  or diagram. Text-only slides should be rare and short.
+- **Consistent, not flashy.** No animations, no slide transitions
+  beyond a simple fade or cut. Motion distracts from the content.
 
-### Typography
+---
 
-| Element | Font | Size | Weight |
-|---|---|---|---|
-| Slide title | Calibri (or Liberation Sans) | 36–40 pt | Bold |
-| Section subtitle | Calibri | 24–28 pt | Regular |
-| Body / bullets | Calibri | 20–24 pt | Regular |
-| Captions / labels | Calibri | 14–16 pt | Italic |
-| Callout / emphasis | Calibri | 24 pt | Bold, orange |
+### C.2 Branding — M&K Logo-Inspired
 
-### Slide layout types
+The Mike & Key ARC logo is the primary branding anchor. It is:
+- **Circular** — classic badge / seal form
+- **Black + forest green** on white
+- **Bold, uppercase block lettering** (MIKE & KEY / AMATEUR RADIO CLUB)
+- **Iconographic**: microphone, globe, lightning bolt (radio signal),
+  Morse key — all core ham radio symbols
 
-1. **Title slide** — full-bleed background image (IMG-01 logo top-left,
-   title centered, date/presenter bottom-left)
-2. **Section opener** — large section number + title only; full-bleed
-   image or dark background. No bullets.
-3. **Image + talking points** — image occupies left 50–60% of slide;
-   3–5 bullet points right side. Use for equipment and hunt slides.
-4. **Full-bleed image** — image fills entire slide; short caption or
-   title overlaid in a semi-transparent bar at bottom.
-   Use for hook photos (§1, §6).
-5. **Text + diagram** — diagram or map left; explanatory bullets right.
-   Use for antenna patterns and Fort Flagler map slides.
-6. **Call-to-action** — centered bold text, large font, minimal
-   decoration. Use for volunteer / sign-up moments.
+**Logo file:** `docs/presentations/images/MnK_Logo.png`
 
-### Bullet point rules
-- **Max 5 bullets per slide.** If more are needed, split the slide.
-- Lead with the key fact, not context. Cut anything the speaker will
-  say aloud anyway.
-- Use **bold** for one key term per bullet; no sentence-case full
-  sentences.
-- No sub-bullets deeper than one level.
+#### Logo usage rules
 
-### Image usage
-- Image-led slides: image should occupy **≥ 40%** of slide area.
-- Full-bleed slides: darken image 20–30% with an overlay layer so
-  text remains legible.
-- All images: add a 2–4 pt rounded corner radius for a clean finish.
-- Crop to 16:9 or 4:3 aspect before inserting — avoid letterboxing.
-
-### Slide count estimate
-At ~1.5 min/slide average and 45 minutes total:
-
-| Section | Slides |
+| Context | Treatment |
 |---|---|
-| Title + agenda (§0) | 2 |
-| §1 ARDF background | 5 |
-| §2 Equipment | 4 |
-| §3 Radio Camp build | 4 |
-| §4 Field Day demo | 4 |
-| §5 Hunt season | 5 |
-| §6 Get involved | 2 |
-| §7 Q&A / closing | 1 |
-| **Total** | **~27** |
+| Title slide | Centered or top-left, full color, min 4 cm diameter |
+| Section openers | Top-left corner, reduced size (~2 cm), white or green variant if on dark bg |
+| Content slides | Omit — do not repeat the logo on every slide |
+| Footer / closing | Small, bottom-right, same size as section opener |
+
+- Maintain a clear space equal to the logo radius on all sides.
+- Do not stretch, recolor, or apply effects to the logo.
+- On dark backgrounds, place the logo inside a white circle or use a
+  white-knockout version if available.
+
+#### Color palette — derived from the logo
+
+| Role | Name | Hex | Notes |
+|---|---|---|---|
+| **Primary background** | Carbon black | `#1A1A1A` | Deep neutral; echoes black logo ring |
+| **Primary accent** | M&K Green | `#2D7A27` | Sampled from logo artwork |
+| **Light accent** | Signal green | `#4CAF50` | Lighter green for highlights, icons |
+| **Body text** | Off-white | `#F0F4F8` | High contrast on dark bg |
+| **Secondary text / caption** | Warm gray | `#A8A8A8` | Labels, footnotes |
+| **Slide title bar** | Dark green | `#1B4D18` | Darker band behind slide titles |
+| **Call-to-action / alert** | Amber | `#F0A500` | Sparingly — volunteer asks, warnings |
+| **Map / diagram overlay** | Semi-transparent green | `#2D7A27` at 60% | Highlight boxes on maps |
+
+> **Light background variant (optional):** For slides with full-bleed
+> bright photos, use white (`#FFFFFF`) as the text box background with
+> M&K Green text rather than inverting the whole palette.
+
+#### Do not use
+- Blues, purples, or reds unrelated to the logo palette — they read as
+  "wrong brand."
+- Gradients (except a subtle dark overlay on full-bleed images).
+- Drop shadows on text.
+- More than two accent colors on a single slide.
+
+---
+
+### C.3 LibreOffice Impress Format
+
+**Primary file format:** `.odp` (LibreOffice Impress native)
+**Export for presentation:** PDF (File → Export as PDF → select
+"Presentation" mode so each slide is a page). Avoids font-substitution
+issues on the room projector.
+**Compatibility save:** Also save a `.pptx` copy for members who use
+PowerPoint.
+
+#### Master slide setup
+
+1. **Open a new Impress presentation.** Choose "Blank Presentation."
+2. **Set slide dimensions:** View → Slide Properties (or Slide → Slide
+   Size) → set **Width: 33.87 cm, Height: 19.05 cm** (16:9 widescreen).
+3. **Open Master View:** View → Master → Slide Master.
+4. Configure master elements (applied to every slide unless overridden):
+   - Background: solid carbon black (`#1A1A1A`)
+   - Title placeholder: top of slide, Liberation Sans Bold 36 pt,
+     off-white (`#F0F4F8`), left-aligned
+   - Title bar: solid dark green (`#1B4D18`) rectangle behind title,
+     full width, ~2.5 cm tall
+   - M&K logo: bottom-right corner, ~1.8 cm diameter, white clear-space
+     box or white-knockout version
+   - Footer text area: bottom-left, Liberation Sans 12 pt, warm gray
+     (`#A8A8A8`), slide number right-aligned
+
+#### Styles to define in Impress
+
+| Style name | Font | Size | Color | Use |
+|---|---|---|---|---|
+| `Title` | Liberation Sans Bold | 36 pt | `#F0F4F8` | Slide title |
+| `Subtitle` | Liberation Sans | 24 pt | `#4CAF50` | Section subtitle, date |
+| `Body` | Liberation Sans | 22 pt | `#F0F4F8` | Bullet points |
+| `Body2` | Liberation Sans | 18 pt | `#A8A8A8` | Sub-bullets, detail |
+| `Caption` | Liberation Sans Italic | 14 pt | `#A8A8A8` | Image captions |
+| `Callout` | Liberation Sans Bold | 24 pt | `#F0A500` | Key facts, CTAs |
+
+> **Font note:** Liberation Sans ships with LibreOffice and is metrically
+> compatible with Arial. Use it instead of Calibri to avoid font
+> substitution when the file is opened on another machine.
+
+#### File naming convention
+
+```
+2026-06-20-mk-club-meeting-presentation.odp   ← working file
+2026-06-20-mk-club-meeting-presentation.pptx  ← compatibility copy
+2026-06-20-mk-club-meeting-presentation.pdf   ← room export
+```
+
+Store all three in `docs/presentations/`.
+
+---
+
+### C.4 Slide Layout Templates
+
+Six named layouts — apply consistently across sections.
+
+#### Layout A — Title Slide
+- Full-bleed dark background (no photo)
+- M&K logo centered, large (≥ 6 cm diameter)
+- Club name in Signal Green below logo: `#4CAF50`, 20 pt
+- Presentation title: Off-white, Liberation Sans Bold, 40 pt, centered
+- Subtitle line: Amber `#F0A500`, 24 pt — *Fox Hunting & ARDF — 2026*
+- Date and presenter: Warm gray, 18 pt, bottom-center
+- **Use for:** Slide 1 only
+
+#### Layout B — Section Opener
+- Full-bleed photo (darkened 30% with black overlay)
+- Section number: top-right, Liberation Sans Bold, 72 pt, Signal Green
+- Section title: bottom third, off-white, 40 pt bold
+- Semi-transparent green bar (`#1B4D18`, 70%) behind title text
+- No bullets. No logo repeat.
+- **Use for:** Opening slide of each section (§0–§7)
+
+#### Layout C — Image + Talking Points
+- Left column (~55% width): photo or diagram, no border, rounded corners
+  4 pt radius
+- Right column (~40% width): title bar at top (dark green), then 3–5
+  bullet points, body text 22 pt
+- **Use for:** Equipment slides (§2), hunt venue slides (§5)
+
+#### Layout D — Full-Bleed Image
+- Photo fills entire 33.87 × 19.05 cm slide
+- Semi-transparent black bar (60%) at bottom ~4 cm tall
+- Caption overlaid: Liberation Sans Italic 16 pt, off-white
+- **Use for:** Hook photos (§1 opening, §6 closing)
+
+#### Layout E — Text + Diagram / Map
+- Right side (~55%): diagram, schematic, or map image
+- Left side (~40%): title + bullet explanation, dark green title bar
+- Map/diagram: annotate with M&K Green highlight boxes and amber labels
+- **Use for:** Antenna pattern slides (§1), Fort Flagler map (§3–4),
+  hunt area map (§5 Sep)
+
+#### Layout F — Call to Action
+- Dark background (carbon black)
+- Large centered text block, Liberation Sans Bold, 32 pt, off-white
+- 1–3 action items in Signal Green bullet points, 28 pt
+- Amber line at bottom: contact / mailing list info, 20 pt
+- **Use for:** Volunteer ask (§3, §4), sign-up / get involved (§6)
+
+---
+
+### C.5 Bullet Point Rules
+- **Max 5 bullets per slide.** Split the slide if more are needed.
+- Lead with the key fact — cut anything the speaker will say aloud.
+- One **bold** keyword per bullet; no full sentences.
+- No sub-bullets deeper than one level.
+- Bullet character: solid green circle `●` (`#4CAF50`), 14 pt
+
+---
+
+### C.6 Image Usage
+- Image-led slides: photo occupies **≥ 40%** of slide area.
+- Full-bleed slides: darken with a black overlay at 25–35% opacity so
+  text is legible over any part of the image.
+- All inserted images: set rounded corners to **4 pt radius** in
+  LibreOffice (right-click → Position and Size → no border; use a
+  rounded rectangle shape as a mask if needed).
+- Crop to **16:9** before inserting — no letterboxing or pillarboxing.
+- Image captions: Liberation Sans Italic 14 pt, warm gray `#A8A8A8`,
+  below or overlaid per layout.
+
+---
+
+### C.7 Slide Count Estimate
+
+At ~1.5 min/slide average over ~47 minutes:
+
+| Section | Layout types | Slides |
+|---|---|---|
+| §0 Title + agenda | A, F | 2 |
+| §1 ARDF background | B, D, E | 5 |
+| §2 Equipment | B, C | 4 |
+| §3 Radio Camp build | B, C, F | 4 |
+| §4 Field Day demo | B, C, E, F | 4 |
+| §5 Hunt season | B, C, E | 5 |
+| §6 Get involved | D, F | 2 |
+| §7 Q&A / closing | A or F | 1 |
+| **Total** | | **~27** |
 
