@@ -96,17 +96,28 @@ programming cable required. Set the fox hunt frequency (e.g.,
 
 ## Recommendation
 
-> **Recommended as an entry-level fox hunting radio** for new
-> participants who do not yet own a 2 m HT.
+> ⚠️ **The club has not yet had hands-on experience with this radio.**
+> This recommendation is based on published specifications, vendor
+> listings, and community reviews only. It should be treated as
+> **conditional** until a unit is purchased, tested on the fox hunt
+> frequency, and the TX lockout and S-meter behavior are verified
+> in the field.
+
+> **Conditionally recommended as an entry-level fox hunting radio**
+> for new participants who do not yet own a 2 m HT.
 >
 > At ~$30 with a large S-meter, SMA connector, TX lockout, and USB-C
 > charging, it provides everything needed to participate in club
 > hunts at minimal cost. Hounds can use it with the club's tape-measure
 > Yagi build directly out of the box.
 >
-> **Condition:** Verify the hound's radio receives the hunt frequency
-> (144–148 MHz) and that TX lockout works correctly on the current
-> firmware before the event.
+> **Before recommending to club members:**
+> - [ ] Purchase and bench-test a unit
+> - [ ] Confirm 2 m RX and TX on 144–148 MHz
+> - [ ] Verify TX lockout disables PTT reliably
+> - [ ] Confirm S-meter responds visibly when sweeping with the Yagi
+> - [ ] Update firmware and retest if S-meter behaves erratically
+> - [ ] Remove the ⚠️ notice above once hands-on testing is complete
 
 ---
 
