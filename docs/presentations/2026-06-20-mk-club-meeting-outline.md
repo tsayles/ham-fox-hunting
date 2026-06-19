@@ -14,7 +14,8 @@
 
 ## Section 0 — Introduction & Agenda (~2 min)
 
-[📷 IMG-01 — M&K Logo (title slide)]
+**[📷 IMG-01]** *M&K Logo — title slide*
+![M&K Logo](images/MnK_Logo.png)
 
 **Title slide:** *Fox Hunting & ARDF — M&K 2026 Program*
 Tom KE4HET — June 20, 2026
@@ -42,7 +43,8 @@ moment.
 
 ## Section 1 — What Is Fox Hunting / ARDF? (~8 min)
 
-[📷 IMG-02 — Kids with tape-measure Yagi, adult coaching (hook image)]
+**[📷 IMG-02]** *Kids with tape-measure Yagi, adult coaching — hook image*
+![Kids with tape-measure Yagi](images/Kids_with_tape-measure_yagi.webp)
 
 1. The concept: a hidden transmitter (the "fox"), participants find it
    using Radio Direction Finding (RDF)
@@ -54,14 +56,18 @@ moment.
 4. Skills you use: signal bearing, antenna technique, map/terrain
    awareness, teamwork
 
-[📷 IMG-03 — Antenna radiation patterns (dipole vs. Yagi 3D patterns)]
-[📷 IMG-04 — Yagi polar pattern / cardioid pattern diagram]
+**[📷 IMG-03]** *Antenna radiation patterns — dipole vs. Yagi*
+![Antenna radiation patterns](images/patterns.jpg)
+
+**[📷 IMG-04]** *Yagi polar / cardioid pattern diagram*
+![Yagi polar pattern](images/8168.contentimage_5F00_127508.png)
 
 5. Why it's fun — and a genuine technical challenge for any license
    class
 6. What you need to get started: any 2 m HT + a directional antenna
 
-[📷 IMG-05 — Group of fox hunters (large group, winter, Yagis raised)]
+**[📷 IMG-05]** *Group of fox hunters — winter, Yagis raised*
+![Group of fox hunters](images/Group_of_fox_hunters.jpg)
 
 ---
 
@@ -71,16 +77,20 @@ moment.
    - **147.42 MHz** simplex, K7LED callsign, 15 s on / 15 s off, CW ID
    - Frequency coordination with WWARA pending (Steve N9VW contacted)
 
-[📷 IMG-06 — Both M&K fox beacons: MF-15 (left) and MF-PC (right)]
+**[📷 IMG-06]** *M&K fox beacons — MF-15 (left) and MF-PC (right)*
+![Mike and Key Fox Beacons](images/Mike_and_Key_Fox_Beacons.jpg)
 
 2. RDF antennas we'll be building: 3-element tape-measure Yagi
 
-[📷 IMG-07 — Tape measure Yagi completed (wall mount photo)]
-[📷 IMG-08 — DIY Yagi on workbench (build-in-progress look)]
+**[📷 IMG-07]** *Completed 3-element tape-measure Yagi*
+![Tape measure Yagi](images/Tapemeasure%20Yagi.jpg)
+
+**[📷 IMG-08]** *Yagi on workbench — build-in-progress*
+![DIY Yagi on workbench](images/DIY%2070cm%20handheld%20Yagi.png)
 
 3. Accessory: switched step attenuator (close-in hunting aid)
 
-[📷 IMG-09 — NEEDED: Attenuator photo or schematic image]
+**[📷 IMG-09]** *🔲 NEEDED: Attenuator — photo or schematic render*
 
 4. **Entry-level HT recommendation (conditional — not yet hands-on):**
    - Radtel RT-910B (~$30, Amazon)
@@ -89,7 +99,8 @@ moment.
    - BNC-to-SMA adapter required for club Yagi (~$5, 2-pack)
    - ⚠️ No hands-on experience yet — recommendation is conditional
 
-[📷 IMG-10 — Radtel RT-910B product photo]
+**[📷 IMG-10]** *Radtel RT-910B product photo*
+![Radtel RT-910B](images/71PP0t4+U4L._AC_SL1500_.jpg)
 
 ---
 
@@ -97,8 +108,8 @@ moment.
 
 **Thu Jun 26 — Wagon Wheel Group Campsite, Fort Flagler**
 
-[📷 IMG-11 — Fort Flagler satellite view (Battery Grattan labeled,
-             Parade Grounds open field visible)]
+**[📷 IMG-11]** *Fort Flagler satellite view — Battery Grattan and Parade Grounds*
+![Fort Flagler satellite](images/Ft_Flagler_Google_Maps_Satelite.png)
 
 1. Context: week-long Radio Camp, Mon 6/22–Mon 6/29
 2. Build session: Thursday afternoon (~5 hours); time flexible —
@@ -109,7 +120,8 @@ moment.
    - **Project 3:** Dual-band 2m/70cm Yagi (optional, advanced)
 4. Who it's for: licensed amateurs at camp; hands-on from minute one
 
-[📷 IMG-08 — DIY Yagi on workbench (reuse — build session feel)]
+**[📷 IMG-08]** *Yagi on workbench — build session feel (reuse)*
+![DIY Yagi on workbench](images/DIY%2070cm%20handheld%20Yagi.png)
 
 5. Materials mostly on hand; everything expected to arrive before
    Thursday
@@ -123,9 +135,11 @@ moment.
 
 **Sat–Sun Jun 28–29 — Battery Grattan / Parade Grounds, Fort Flagler**
 
-[📷 IMG-11 — Fort Flagler satellite view (reuse — annotate Battery
-             Grattan ↔ Parade Grounds relationship)]
-[📷 IMG-05 — Group with Yagis (reuse — public demo energy)]
+**[📷 IMG-11]** *Fort Flagler satellite view — annotate Battery Grattan ↔ Parade Grounds*
+![Fort Flagler satellite](images/Ft_Flagler_Google_Maps_Satelite.png)
+
+**[📷 IMG-05]** *Group with Yagis — public demo energy (reuse)*
+![Group of fox hunters](images/Group_of_fox_hunters.jpg)
 
 1. Location: visitor tent at Battery Grattan; fox on south side of
    the Parade Grounds (unstaffed — visible from tent)
@@ -146,7 +160,8 @@ moment.
 ### July — Practice Hunt (~3 min)
 **Sun Jul 19 *(tentative)* — Flaming Geyser State Park, Auburn**
 
-[📷 IMG-12 — Flaming Geyser State Park entrance sign]
+**[📷 IMG-12]** *Flaming Geyser State Park entrance sign*
+![Flaming Geyser State Park](images/Flaming_Geyser_State_Park_Sign.webp)
 
 - Format: single-fox on-foot practice (2.5 hours, noon–2:30 PM)
 - Terrain: 480+ acres, Green River valley, wooded trails, multipath
@@ -158,8 +173,7 @@ moment.
 ### August — On-Foot Hunt (~3 min)
 **Sat Aug 22 *(tentative)* — Marymoor Park, Redmond**
 
-[📷 IMG-13 — NEEDED: Marymoor Park photo (wooded river corridor or
-             open fields)]
+**[📷 IMG-13]** *🔲 NEEDED: Marymoor Park — wooded river corridor or open fields*
 
 - Format: single-fox on-foot hunt, primary "real" event
   (noon–2:30 PM)
@@ -172,8 +186,11 @@ moment.
 ### September — Mobile (Car-Based) Hunt (~4 min)
 **Sun Sep 20 *(tentative)* — Finish at Howarth Park, Everett**
 
-[📷 IMG-15 — Car with roof-mounted multi-element Yagi (mobile hunt)]
-[📷 IMG-17 — Greater Seattle hunt area map with radius overlay]
+**[📷 IMG-15]** *Car with roof-mounted multi-element Yagi — mobile hunt*
+![Car with fox hunt antenna](images/Car_with_Fox_Hunt_Antenna.jpeg)
+
+**[📷 IMG-17]** *Greater Seattle hunt area with radius overlay*
+![Greater Seattle hunt area](images/EXAMPLE_Greater_Seattle_Hunt_Area.png)
 
 - Format: regional T-hunt; drive the region taking bearings, converge
   on Everett, short on-foot final leg on forested hillside
@@ -185,13 +202,15 @@ moment.
   planned for extended mobile range (future)
 - Date is **tentative** — confirm closer to the event
 
-[📷 IMG-16 — Raspberry Pi Zero (future 10 W beacon teaser)]
+**[📷 IMG-16]** *Raspberry Pi Zero — future 10 W beacon teaser*
+![Raspberry Pi Zero](images/Pi+ZERO+Angle+1.png)
 
 ---
 
 ## Section 6 — How to Get Involved (~3 min)
 
-[📷 IMG-02 — Kids with Yagi (reuse — call to action energy)]
+**[📷 IMG-02]** *Kids with Yagi — call to action energy (reuse)*
+![Kids with tape-measure Yagi](images/Kids_with_tape-measure_yagi.webp)
 
 1. **Radio Camp (Jun 22–29):** attend and/or volunteer at the
    Thursday build session
