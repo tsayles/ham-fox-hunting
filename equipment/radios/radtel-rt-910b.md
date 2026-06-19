@@ -29,8 +29,11 @@ fox frequency.
 
 > **Adapter required:** Club tape-measure Yagi builds terminate in a
 > BNC connector. The RT-910B has an SMA connector. A **BNC-female to
-> SMA-male adapter** is needed to connect the two. Budget ~$5–10 for
-> an adapter; include one per loaner radio kit.
+> SMA-male adapter** is needed to connect the two.
+>
+> - **Amazon:** https://a.co/d/0h4MA0ab — BNC SMA Coax Connector,
+>   SMA Male to BNC Female, Pack of 2, $4.99
+> - One adapter per radio; order extras as spares.
 
 ---
 
@@ -119,7 +122,7 @@ programming cable required. Set the fox hunt frequency (e.g.,
 > **Before recommending to club members:**
 > - [ ] Purchase and bench-test a unit
 > - [ ] Confirm 2 m RX and TX on 144–148 MHz
-> - [ ] Source BNC-female to SMA-male adapters (~$5–10 each)
+> - [ ] Source BNC-female to SMA-male adapters ($4.99/2-pack — https://a.co/d/0h4MA0ab)
 > - [ ] Verify TX lockout disables PTT reliably
 > - [ ] Confirm S-meter responds visibly when sweeping with the Yagi
 > - [ ] Update firmware and retest if S-meter behaves erratically
