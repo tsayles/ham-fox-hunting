@@ -130,6 +130,42 @@
 
 ---
 
+---
+
+## Open Questions
+*(Answer before building the deck)*
+
+### RT-910B Recommendation
+- [ ] Confirm the exact model name/number (Radtel RT-910B?)
+- [ ] Confirm the radio receives 2 m (144–148 MHz) — required for fox
+      hunting
+- [ ] Confirm it has a standard SMA antenna connector (for Yagi use)
+- [ ] What is the current street price?
+- [ ] Any known gotchas (narrow vs. wide FM, squelch behavior, etc.)?
+- [ ] Should the recommendation be unconditional, or "good enough for
+      getting started"?
+
+### Field Day Demonstration
+- [ ] What frequency will the demo fox use? (coordinate with FD ops)
+- [ ] Guided or self-guided format for public visitors?
+- [ ] How many loaner HT + Yagi setups will be available?
+- [ ] Comms plan between visitor tent (Battery Grattan) and fox hide?
+
+### Radio Camp Build Event
+- [ ] Confirmed time for the Thu Jun 26 build session (1 PM proposed)?
+- [ ] How many participants are expected?
+- [ ] Are materials ordered / on their way?
+- [ ] Volunteer roster — who is helping?
+
+### General / Logistics
+- [ ] Should the July hunt date (Sun Jul 19) be announced as confirmed
+      or tentative?
+- [ ] Same for August (Sat Aug 22) and September (Sun Sep 20)?
+- [ ] Any club budget to mention (kit materials, Discover Passes, etc.)?
+- [ ] Will there be a sign-up sheet / QR code at the meeting?
+
+---
+
 ## Appendix — Timing Summary
 
 | Section | Topic | Minutes |
