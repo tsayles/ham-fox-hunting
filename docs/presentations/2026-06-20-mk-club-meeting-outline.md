@@ -12,9 +12,36 @@
 
 ---
 
-## Section 1 — What Is Fox Hunting / ARDF? (~8 min)
+## Section 0 — Introduction & Agenda (~2 min)
 
 [📷 IMG-01 — M&K Logo (title slide)]
+
+**Title slide:** *Fox Hunting & ARDF — M&K 2026 Program*
+Tom KE4HET — June 20, 2026
+
+**Purpose of this slide:** Show the full agenda up front so the
+audience knows what's coming and can hold questions to the right
+moment.
+
+**Agenda slide — what we'll cover today:**
+
+1. What is fox hunting / ARDF?
+2. Our equipment — foxes, antennas, and a budget radio tip
+3. Radio Camp build event — Thu Jun 26 at Fort Flagler
+4. ARDF demonstration at Field Day — Jun 28–29
+5. 2026 hunt season — July, August, September
+6. How to get involved
+7. Q&A
+
+> **Presenter note:** Read the agenda aloud. Briefly call out that
+> the RT-910B radio recommendation is coming in §2, the hunt dates
+> are all tentative, and questions are welcome throughout but will
+> also be captured at the end.
+
+---
+
+## Section 1 — What Is Fox Hunting / ARDF? (~8 min)
+
 [📷 IMG-02 — Kids with tape-measure Yagi, adult coaching (hook image)]
 
 1. The concept: a hidden transmitter (the "fox"), participants find it
@@ -217,6 +244,7 @@
 
 | Section | Topic | Minutes |
 |---|---|---|
+| 0 | Introduction & agenda | 2 |
 | 1 | What is Fox Hunting / ARDF? | 8 |
 | 2 | Our equipment + RT-910B rec | 5 |
 | 3 | Radio Camp build event | 8 |
@@ -224,7 +252,7 @@
 | 5 | 2026 hunt season (Jul/Aug/Sep) | 10 |
 | 6 | How to get involved | 3 |
 | 7 | Q&A | 4 |
-| **Total** | | **45** |
+| **Total** | | **47** |
 
 ---
 
@@ -339,7 +367,7 @@ At ~1.5 min/slide average and 45 minutes total:
 
 | Section | Slides |
 |---|---|
-| Title + agenda | 2 |
+| Title + agenda (§0) | 2 |
 | §1 ARDF background | 5 |
 | §2 Equipment | 4 |
 | §3 Radio Camp build | 4 |
