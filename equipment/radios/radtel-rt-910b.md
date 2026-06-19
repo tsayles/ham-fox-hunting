@@ -17,7 +17,7 @@
 | S-meter | Large, real-time RSSI bar graph on color LCD |
 | TX lockout | Prevent inadvertent or unauthorized transmission |
 | Frequency coverage | 144–148 MHz (2 m) and 420–450 MHz (70 cm) TX/RX |
-| Antenna connector | SMA — compatible with club tape-measure Yagi builds |
+| Antenna connector | SMA — **BNC-to-SMA adapter required** for club Yagi builds (Yagis terminate in BNC) |
 | Programming | Bluetooth app — no programming cable required |
 | Charging | USB Type-C |
 
@@ -26,6 +26,11 @@ this radio especially well suited for fox hunting: the S-meter gives
 hounds a quick visual bearing aid, and TX lockout lets instructors loan
 the radio to newcomers without risk of accidental transmissions on the
 fox frequency.
+
+> **Adapter required:** Club tape-measure Yagi builds terminate in a
+> BNC connector. The RT-910B has an SMA connector. A **BNC-female to
+> SMA-male adapter** is needed to connect the two. Budget ~$5–10 for
+> an adapter; include one per loaner radio kit.
 
 ---
 
@@ -114,6 +119,7 @@ programming cable required. Set the fox hunt frequency (e.g.,
 > **Before recommending to club members:**
 > - [ ] Purchase and bench-test a unit
 > - [ ] Confirm 2 m RX and TX on 144–148 MHz
+> - [ ] Source BNC-female to SMA-male adapters (~$5–10 each)
 > - [ ] Verify TX lockout disables PTT reliably
 > - [ ] Confirm S-meter responds visibly when sweeping with the Yagi
 > - [ ] Update firmware and retest if S-meter behaves erratically
