@@ -15,7 +15,7 @@
 ## Section 1 — What Is Fox Hunting / ARDF? (~8 min)
 
 [📷 IMG-01 — M&K Logo (title slide)]
-[📷 IMG-02 — Kids fox hunting outdoors with Yagi (energy / hook)]
+[📷 IMG-02 — Kids with tape-measure Yagi, adult coaching (hook image)]
 
 1. The concept: a hidden transmitter (the "fox"), participants find it
    using Radio Direction Finding (RDF)
@@ -34,7 +34,7 @@
    class
 6. What you need to get started: any 2 m HT + a directional antenna
 
-[📷 IMG-05 — Group of fox hunters in winter with Yagi antennas]
+[📷 IMG-05 — Group of fox hunters (large group, winter, Yagis raised)]
 
 ---
 
@@ -44,7 +44,7 @@
    - **147.42 MHz** simplex, K7LED callsign, 15 s on / 15 s off, CW ID
    - Frequency coordination with WWARA pending (Steve N9VW contacted)
 
-[📷 IMG-06 — NEEDED: Byonics MF-15 or MF-PC fox transmitter photo]
+[📷 IMG-06 — Both M&K fox beacons: MF-15 (left) and MF-PC (right)]
 
 2. RDF antennas we'll be building: 3-element tape-measure Yagi
 
@@ -70,8 +70,8 @@
 
 **Thu Jun 26 — Wagon Wheel Group Campsite, Fort Flagler**
 
-[📷 IMG-11 — NEEDED: Fort Flagler / Wagon Wheel campsite photo or
-             aerial map showing Wagon Wheel and Battery Grattan]
+[📷 IMG-11 — Fort Flagler satellite view (Battery Grattan labeled,
+             Parade Grounds open field visible)]
 
 1. Context: week-long Radio Camp, Mon 6/22–Mon 6/29
 2. Build session: Thursday afternoon (~5 hours); time flexible —
@@ -96,8 +96,8 @@
 
 **Sat–Sun Jun 28–29 — Battery Grattan / Parade Grounds, Fort Flagler**
 
-[📷 IMG-11 — NEEDED: Fort Flagler map / aerial (reuse or second view
-             showing Battery Grattan ↔ Parade Grounds relationship)]
+[📷 IMG-11 — Fort Flagler satellite view (reuse — annotate Battery
+             Grattan ↔ Parade Grounds relationship)]
 [📷 IMG-05 — Group with Yagis (reuse — public demo energy)]
 
 1. Location: visitor tent at Battery Grattan; fox on south side of
@@ -119,7 +119,7 @@
 ### July — Practice Hunt (~3 min)
 **Sun Jul 19 *(tentative)* — Flaming Geyser State Park, Auburn**
 
-[📷 IMG-12 — NEEDED: Flaming Geyser State Park photo (trails/river)]
+[📷 IMG-12 — Flaming Geyser State Park entrance sign]
 
 - Format: single-fox on-foot practice (2.5 hours, noon–2:30 PM)
 - Terrain: 480+ acres, Green River valley, wooded trails, multipath
@@ -145,8 +145,8 @@
 ### September — Mobile (Car-Based) Hunt (~4 min)
 **Sun Sep 20 *(tentative)* — Finish at Howarth Park, Everett**
 
-[📷 IMG-14 — NEEDED: Howarth Park / Puget Sound view photo]
-[📷 IMG-15 — NEEDED: Car-based T-hunt photo (vehicle with antenna)]
+[📷 IMG-15 — Car with roof-mounted multi-element Yagi (mobile hunt)]
+[📷 IMG-17 — Greater Seattle hunt area map with radius overlay]
 
 - Format: regional T-hunt; drive the region taking bearings, converge
   on Everett, short on-foot final leg on forested hillside
@@ -164,7 +164,7 @@
 
 ## Section 6 — How to Get Involved (~3 min)
 
-[📷 IMG-02 — Kids fox hunting (reuse — call to action energy)]
+[📷 IMG-02 — Kids with Yagi (reuse — call to action energy)]
 
 1. **Radio Camp (Jun 22–29):** attend and/or volunteer at the
    Thursday build session
@@ -230,33 +230,122 @@
 
 ## Appendix B — Image List
 
-Images marked ✅ are on hand in
-`docs/presentations/images/`.
+Images marked ✅ are on hand in `docs/presentations/images/`.
 Images marked 🔲 still need to be sourced.
 
-| ID | Status | File / Source | Used In | Caption / Notes |
+| ID | Status | Filename | Used In | Caption / Notes |
 |---|---|---|---|---|
 | IMG-01 | ✅ | `MnK_Logo.png` | Title slide | Mike & Key ARC logo |
-| IMG-02 | ✅ | `f6af1eed-...-_DSC3579.webp` | §1, §6 | Kids fox hunting outdoors with Yagi |
-| IMG-03 | ✅ | `patterns.jpg` | §1 | 3D antenna radiation patterns — dipole vs. Yagi |
+| IMG-02 | ✅ | `Kids_with_tape-measure_yagi.webp` | §1, §6 | Kids + adult coaching with tape-measure Yagi |
+| IMG-03 | ✅ | `patterns.jpg` | §1 | 3D radiation patterns — dipole vs. Yagi |
 | IMG-04 | ✅ | `8168.contentimage_5F00_127508.png` | §1 | Yagi polar / cardioid pattern diagram |
-| IMG-05 | ✅ | `img_3097.jpg` | §1, §4 | Group of fox hunters in winter with Yagis |
-| IMG-06 | 🔲 | *Source needed* | §2 | Byonics MF-15 or MF-PC fox transmitter |
-| IMG-07 | ✅ | `Tapemeasure Yagi.jpg` | §2 | Completed 3-element tape measure Yagi |
-| IMG-08 | ✅ | `DIY 70cm handheld Yagi.png` | §2, §3 | Yagi on workbench (build-in-progress) |
+| IMG-05 | ✅ | `Group_of_fox_hunters.jpg` | §1, §4 | Large group, winter, Yagis raised |
+| IMG-06 | ✅ | `Mike_and_Key_Fox_Beacons.jpg` | §2 | M&K MF-15 (left) and MF-PC (right) side by side |
+| IMG-07 | ✅ | `Tapemeasure Yagi.jpg` | §2 | Completed 3-element tape-measure Yagi |
+| IMG-08 | ✅ | `DIY 70cm handheld Yagi.png` | §2, §3 | Yagi on workbench — build-in-progress feel |
 | IMG-09 | 🔲 | *Source needed* | §2 | Attenuator — photo or schematic render |
 | IMG-10 | ✅ | `71PP0t4+U4L._AC_SL1500_.jpg` | §2 | Radtel RT-910B product photo |
-| IMG-11 | 🔲 | *Source needed* | §3, §4 | Fort Flagler aerial/map or site photo |
-| IMG-12 | 🔲 | *Source needed* | §5 Jul | Flaming Geyser State Park trails/river |
-| IMG-13 | 🔲 | *Source needed* | §5 Aug | Marymoor Park wooded corridor or fields |
+| IMG-11 | ✅ | `Ft_Flagler_Google_Maps_Satelite.png` | §3, §4 | Fort Flagler satellite — Battery Grattan labeled |
+| IMG-12 | ✅ | `Flaming_Geyser_State_Park_Sign.webp` | §5 Jul | Flaming Geyser State Park entrance sign |
+| IMG-13 | 🔲 | *Source needed* | §5 Aug | Marymoor Park — wooded corridor or fields |
 | IMG-14 | 🔲 | *Source needed* | §5 Sep | Howarth Park / Puget Sound view |
-| IMG-15 | 🔲 | *Source needed* | §5 Sep | Car-based T-hunt (vehicle with antenna) |
-| IMG-16 | ✅ | `Pi+ZERO+Angle+1.png` | §5 Sep | Raspberry Pi Zero (future 10 W beacon) |
+| IMG-15 | ✅ | `Car_with_Fox_Hunt_Antenna.jpeg` | §5 Sep | Car with roof-mounted Yagi array (mobile hunt) |
+| IMG-16 | ✅ | `Pi+ZERO+Angle+1.png` | §5 Sep | Raspberry Pi Zero (future 10 W beacon teaser) |
+| IMG-17 | ✅ | `EXAMPLE_Greater_Seattle_Hunt_Area.png` | §5 Sep | Greater Seattle hunt area with radius overlay |
 
-**Images on hand but not currently assigned:**
-- `RDF antenna array.jpg` — advanced 2-element RDF array with HT
-  mounted; possible use in §2 equipment overview
-- `Baofeng_UV-5R_transceiver_5.jpg` — generic HT product shot;
-  use only if RT-910B image needs a contrast/comparison
+**On hand, unassigned — available as substitutes or extras:**
+- `RDF antenna array.jpg` — 2-element HT-mounted RDF array; good
+  alternative for §2 equipment slide
+- `Baofeng_UV-5R_transceiver_5.jpg` — generic HT product shot; use
+  only if a contrast/comparison to RT-910B is needed
+- `Greater_Seattle_Everett_google_maps.png` — plain regional map
+  (no radius); alternative to IMG-17 if overlay is too busy
+- `flaming_geyser_full_color_map_2014.pdf` — detailed trail map;
+  convert to image for a trail-layout slide if time permits
 
+**Incomplete download — delete before finalizing:**
+- `Unconfirmed 202603.crdownload` — failed download, not usable
+
+---
+
+## Appendix C — Layout & Style Guide
+
+### Tool
+Use **LibreOffice Impress** (`.odp`) or **PowerPoint** (`.pptx`) —
+both formats are already in use by the club. Export to PDF for
+presenting from any machine.
+
+### Slide dimensions
+**16:9 widescreen** (33.87 cm × 19.05 cm / 1920 × 1080 px).
+
+### Color palette
+
+| Role | Color | Hex |
+|---|---|---|
+| Background | Dark navy | `#1A2744` |
+| Primary accent | Signal orange | `#E87722` |
+| Secondary accent | Sky blue | `#4AB3E8` |
+| Body text | Off-white | `#F0F4F8` |
+| Muted / caption text | Light gray | `#A8B8C8` |
+| Success / on-hand | Green | `#4CAF50` |
+
+> **Rationale:** Navy + orange echoes the RT-910B color scheme and
+> reads well in brightly lit club rooms. Orange accent draws the eye
+> to calls-to-action and key facts.
+
+### Typography
+
+| Element | Font | Size | Weight |
+|---|---|---|---|
+| Slide title | Calibri (or Liberation Sans) | 36–40 pt | Bold |
+| Section subtitle | Calibri | 24–28 pt | Regular |
+| Body / bullets | Calibri | 20–24 pt | Regular |
+| Captions / labels | Calibri | 14–16 pt | Italic |
+| Callout / emphasis | Calibri | 24 pt | Bold, orange |
+
+### Slide layout types
+
+1. **Title slide** — full-bleed background image (IMG-01 logo top-left,
+   title centered, date/presenter bottom-left)
+2. **Section opener** — large section number + title only; full-bleed
+   image or dark background. No bullets.
+3. **Image + talking points** — image occupies left 50–60% of slide;
+   3–5 bullet points right side. Use for equipment and hunt slides.
+4. **Full-bleed image** — image fills entire slide; short caption or
+   title overlaid in a semi-transparent bar at bottom.
+   Use for hook photos (§1, §6).
+5. **Text + diagram** — diagram or map left; explanatory bullets right.
+   Use for antenna patterns and Fort Flagler map slides.
+6. **Call-to-action** — centered bold text, large font, minimal
+   decoration. Use for volunteer / sign-up moments.
+
+### Bullet point rules
+- **Max 5 bullets per slide.** If more are needed, split the slide.
+- Lead with the key fact, not context. Cut anything the speaker will
+  say aloud anyway.
+- Use **bold** for one key term per bullet; no sentence-case full
+  sentences.
+- No sub-bullets deeper than one level.
+
+### Image usage
+- Image-led slides: image should occupy **≥ 40%** of slide area.
+- Full-bleed slides: darken image 20–30% with an overlay layer so
+  text remains legible.
+- All images: add a 2–4 pt rounded corner radius for a clean finish.
+- Crop to 16:9 or 4:3 aspect before inserting — avoid letterboxing.
+
+### Slide count estimate
+At ~1.5 min/slide average and 45 minutes total:
+
+| Section | Slides |
+|---|---|
+| Title + agenda | 2 |
+| §1 ARDF background | 5 |
+| §2 Equipment | 4 |
+| §3 Radio Camp build | 4 |
+| §4 Field Day demo | 4 |
+| §5 Hunt season | 5 |
+| §6 Get involved | 2 |
+| §7 Q&A / closing | 1 |
+| **Total** | **~27** |
 
