@@ -5,12 +5,10 @@
 ---
 
 ### Pre-Presentation Checklist
-- [ ] Projector connected and slide deck loaded
-- [ ] Test clicker / advance slides
-- [ ] Confirm fox frequency coordination status (Steve N9VW / WWARA)
-- [ ] Sign-up sheet / QR code ready for mailing list (coordinate with Scott KC7SAG)
+- [ ] Join Zoom Meeting
 - [ ] Loaner equipment ask — have a volunteer ready to collect names
-- [ ] Water on the podium
+- [ ] Fox running
+- [ ] Antenna w/ Radtel available
 
 ---
 
@@ -79,28 +77,7 @@
 
 ---
 
-### Slide 7 — Antenna Pattern
-**[Layout D | ~8:00]**
-
-- Antenna does **not** hear equally in all directions — that's the whole point
-- Strong **forward lobe** = the direction the hunter is listening for
-- Side and rear response can create ambiguity → why comparing multiple headings matters
-- *Transition:* "From diagrams to a real club hunt."
-
----
-
-### Slide 8 — This Is What It Looks Like
-**[Layout D | ~9:30]**
-
-- This is the real look and feel — people spread out, **antennas up**, pausing to compare
-- Make the activity **tangible**, not abstract
-- Posture, pacing, and teamwork are all part of the fun
-- When people compare bearings and one of them has the better line — that's the moment
-- *Transition:* "Now let's look at the equipment the club has and plans to use."
-
----
-
-### Slide 9 — Our Equipment
+### Slide 7 — Our Equipment
 **[Layout B | ~11:00]**
 
 - The club now has the pieces to **stop talking and start doing**
@@ -110,7 +87,7 @@
 
 ---
 
-### Slide 10 — The Fox — Byonics MicroFox
+### Slide 8 — The Fox — Byonics MicroFox
 **[Layout C | ~12:00]**
 
 - **Two units:** MF-15 and MF-PC — both programmed and tested, ready to deploy
@@ -123,7 +100,7 @@
 
 ---
 
-### Slide 11 — The Hunter's Antenna — Tape Measure Yagi
+### Slide 9 — The Hunter's Antenna — Tape Measure Yagi
 **[Layout C | ~13:00]**
 
 - **3-element 2 m tape-measure Yagi** — cheap, durable, light, easy to build in a group
@@ -134,7 +111,7 @@
 
 ---
 
-### Slide 12 — The Close-In Tool — Step Attenuator
+### Slide 10 — The Close-In Tool — Step Attenuator
 **[Layout C | ~14:00]**
 
 - Inserted **between HT and antenna** — reduces signal strength in steps
@@ -145,7 +122,7 @@
 
 ---
 
-### Slide 13 — Entry-Level Radio — Radtel RT-910B
+### Slide 11 — Entry-Level Radio — Radtel RT-910B
 **[Layout C | ~15:00]**
 
 - ~**$30** on Amazon — lowest barrier to entry
@@ -156,7 +133,7 @@
 
 ---
 
-### Slide 14 — Radio Camp Build Event
+### Slide 12 — Radio Camp Build Event
 **[Layout B | ~16:00]**
 
 - Radio Camp is where this program stops being a slide deck and becomes **tools and antennas**
@@ -165,7 +142,7 @@
 
 ---
 
-### Slide 15 — Thu Jun 26 — Fort Flagler, Wagon Wheel
+### Slide 13 — Thu Jun 26 — Fort Flagler, Wagon Wheel
 **[Layout C | ~17:30]**
 
 - **Radio Camp:** Mon Jun 22 – Mon Jun 29 at Fort Flagler State Park
@@ -179,19 +156,20 @@
 
 ---
 
-### Slide 16 — Who, What, How
+### Slide 14 — Who, What, How
 **[Layout F | ~19:00]**
 
 - Hands-on from minute one — **no whiteboard lectures**
 - Planning for **1–10 licensed participants**; Tom brings materials for **≥5 complete sets**
 - Most supplies already on hand; everything expected before Thursday
 - **Volunteers needed:** build assistants and tool wranglers
+- 🙋 **Who wants to build an antenna AND will be at Radio Camp on Thursday?**
 
 **Cue:** Pause — ask for raised hands from members who will be at camp and can help at the build tables.
 
 ---
 
-### Slide 17 — ARDF Demonstration at Field Day
+### Slide 15 — ARDF Demonstration at Field Day
 **[Layout B | ~20:30]**
 
 - After Radio Camp: show fox hunting to the **general public at Field Day**
@@ -201,7 +179,7 @@
 
 ---
 
-### Slide 18 — Sat–Sun Jun 28–29 — Fort Flagler
+### Slide 16 — Sat–Sun Jun 28–29 — Fort Flagler
 **[Layout E | ~22:00]**
 
 - **Visitor tent:** Battery Grattan — start point, briefings, loaner gear
@@ -211,22 +189,21 @@
 
 ---
 
-### Slide 19 — How the Demo Works
+### Slide 17 — How the Demo Works
 **[Layout C | ~23:30]**
 
-- Visitor arrives at Battery Grattan tent → **2-minute intro** (no license required)
-- Borrow HT + Yagi → hunt the fox → return the gear
-- Format: **guided or self-guided** based on experience and tent traffic
-- Fox re-hidden between groups — repeat attempts stay interesting
+- **Option 1:** Line-of-sight demonstration of directional antenna — show how signal peaks as you rotate
+- **Option 2:** Fox at the Wagon Wheel — guest borrows equipment and hunts their way to the Fox for a prize / certificate
+- Format choice depends on time, staffing, and visitor experience level
 - *Transition:* "I need to be direct about the staffing this demo requires."
 
 ---
 
-### Slide 20 — We Need Your Help
+### Slide 18 — We Need Your Help
 **[Layout F | ~25:00]**
 
 - 🙋 **Demo hosts** — enjoy talking with the public, explain fox hunting in 2 minutes
-- 🦊 **Fox wranglers** — reset the hide between groups
+- 🦊 **Hunter wranglers** — return hunting gear to visitor tent
 - 📻 **Loaner gear** — HTs and Yagis for visitors; every unit helps scale the demo
 - Talk to Tom KE4HET directly — match names to roles now, not later
 
@@ -234,7 +211,7 @@
 
 ---
 
-### Slide 21 — 2026 Hunt Season
+### Slide 19 — 2026 Hunt Season
 **[Layout B | ~26:30]**
 
 - **Three-event progression** spanning all three hunt types:
@@ -245,7 +222,7 @@
 
 ---
 
-### Slide 22 — July — Practice Hunt *(tentative)*
+### Slide 20 — July — Practice Hunt *(tentative)*
 **[Layout C | ~28:30]**
 
 - **Sun Jul 19** — Flaming Geyser State Park, Auburn *(TENTATIVE)*
@@ -258,7 +235,7 @@
 
 ---
 
-### Slide 23 — August — On-Foot Hunt *(tentative)*
+### Slide 21 — August — On-Foot Hunt *(tentative)*
 **[Layout C | ~30:30]**
 
 - **Sat Aug 22** — Marymoor Park, Redmond *(TENTATIVE)*
@@ -271,7 +248,7 @@
 
 ---
 
-### Slide 24 — September — Regional Mobile T-Hunt *(tentative)*
+### Slide 22 — September — Regional Mobile Hunt *(tentative)*
 **[Layout C | ~32:30]**
 
 - **Sun Sep 20** — Finish at Howarth Park, Everett *(TENTATIVE)*
@@ -285,18 +262,18 @@
 
 ---
 
-### Slide 25 — The Region We'll Hunt
+### Slide 23 — The Region We'll Hunt
 **[Layout E | ~34:30]**
 
 - Map shows **three events across the greater Puget Sound area** — not one park
-- Point out: **Auburn** (Jul) → **Redmond** (Aug) → **Everett** (Sep)
+- Point out: **July 19: Auburn** (Flaming Geyser) → **August 22: Redmond** (Marymoor) → **September 20:** Regional hunt, details TBD
 - Map is illustrative — exact fox placements stay flexible
 - The goal is a **genuine regional program**, not a single isolated event
 - *Transition:* "How can you plug in right now?"
 
 ---
 
-### Slide 26 — How to Get Involved
+### Slide 24 — How to Get Involved
 **[Layout D | ~36:30]**
 
 - If any part of this sounded fun — **there is an on-ramp for you**
@@ -306,27 +283,28 @@
 
 ---
 
-### Slide 27 — Join the Program
+### Slide 25 — Join the Program
 **[Layout F | ~38:00]**
 
 - 🔧 **Radio Camp (Jun 22–29):** attend and/or volunteer at Thursday build session
 - 🎙️ **Field Day demo (Jun 28–29):** host visitors or hide the fox
 - 🦊 **Hunts (Jul/Aug/Sep):** show up and hunt — all levels welcome, **mentors present**
-- 📋 **Mailing list:** groups.io/g/mikeandkey-foxhunt — Scott KC7SAG setting up; sign up tonight
+- 📋 **Mailing list:** ??????? — ask Scott KC7SAG to set one up; sign up tonight
+- 🌐 **https://mikeandkey.org/foxhunt.php** — show QR code on screen
 - 💬 **Questions:** Tom KE4HET — talk to me after the meeting
 - Budget: partial reimbursement for build costs to be discussed with the board
 
-**Cue:** Point to the sign-up sheet or QR code. Ask Scott KC7SAG to identify the mailing-list path. Have a volunteer ready to collect names for loaner gear.
+**Cue:** Point to the QR code / foxhunt.php URL. Ask Scott KC7SAG to confirm the mailing-list path. Have a volunteer ready to collect names for loaner gear.
 
 ---
 
-### Slide 28 — Questions?
+### Slide 26 — Questions?
 **[Layout A | ~39:30]**
 
 - Invite questions warmly — **be honest about anything still pending**
 - If asked about coordination, dates, or RT-910B: repeat tentative / conditional status; don't overstate certainty
 - Direct people to talk after the meeting to **volunteer, lend gear, or be notified** of confirmed details
-- Simple follow-up path: Tom KE4HET + fox-hunt mailing list
+- Follow-up path: Tom KE4HET + **https://mikeandkey.org/foxhunt.php** (QR code on screen)
 
 ---
 
@@ -335,14 +313,14 @@
 | Section | Topic | Slides | Approx. Window | Target |
 |---|---|---:|---|---:|
 | 0 | Introduction & agenda | 1–2 | 0:00–2:00 | 2 min |
-| 1 | ARDF background | 3–8 | 2:00–11:00 | 9 min |
-| 2 | Equipment | 9–13 | 11:00–16:00 | 5 min |
-| 3 | Radio Camp | 14–16 | 16:00–20:30 | 4.5 min |
-| 4 | Field Day demo | 17–20 | 20:30–26:30 | 6 min |
-| 5 | Hunt season | 21–25 | 26:30–36:30 | 10 min |
-| 6 | Get involved | 26–27 | 36:30–39:30 | 3 min |
-| 7 | Q&A | 28 | 39:30–43:30 | 4 min |
-| — | Buffer / transitions | — | 43:30–47:00 | 3.5 min |
+| 1 | ARDF background | 3–6 | 2:00–9:00 | 7 min |
+| 2 | Equipment | 7–11 | 9:00–14:00 | 5 min |
+| 3 | Radio Camp | 12–14 | 14:00–18:30 | 4.5 min |
+| 4 | Field Day demo | 15–18 | 18:30–24:30 | 6 min |
+| 5 | Hunt season | 19–23 | 24:30–34:30 | 10 min |
+| 6 | Get involved | 24–25 | 34:30–37:30 | 3 min |
+| 7 | Q&A | 26 | 37:30–41:30 | 4 min |
+| — | Buffer / transitions | — | 41:30–45:00 | 3.5 min |
 
 The slide-by-slide pacing above totals ~43.5 minutes, leaving ~3.5 min buffer for transitions, laughter, and longer audience interaction.
 
