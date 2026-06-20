@@ -180,12 +180,11 @@
 ---
 
 ### Slide 16 — Sat–Sun Jun 28–29 — Fort Flagler
-**[Layout E | ~22:00]**
+**[Layout C | ~23:30]**
 
-- **Visitor tent:** Battery Grattan — start point, briefings, loaner gear
-- **Fox:** hidden south side of Parade Grounds — unstaffed but **visible from the tent**
-- Frequency: **147.42 MHz** — WWARA coordination in progress; describe honestly as pending
-- *Transition:* "I need to be direct about the staffing this demo requires."
+- Option 1: Line-of-sight demonstration of directional antenna — show how signal peaks as you rotate
+- Option 2: Fox at the Wagon Wheel — guest borrows equipment and hunts their way to the Fox for a prize / certificate
+- Format choice depends on time, staffing, and visitor experience level
 
 ---
 
