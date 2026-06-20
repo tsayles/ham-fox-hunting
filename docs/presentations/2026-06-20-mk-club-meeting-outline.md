@@ -50,9 +50,13 @@ moment.
    using Radio Direction Finding (RDF)
 2. Brief history: military origin, Olympic sport, worldwide amateur
    radio tradition
-3. Two flavors:
-   - **On-foot (ARDF):** walking / running with directional antenna
-   - **Mobile (T-hunt):** car-based, hunting from the road
+3. Three types of fox hunt:
+   - **On-foot (ARDF):** milliwatt fox · parks & trails · walking /
+     running with directional antenna
+   - **Local mobile:** <5 W fox · neighborhood roads · car-based,
+     local area
+   - **Regional mobile:** 5+ W fox · wide-area adventure · multi-city
+     drive, final on-foot leg
 4. Skills you use: signal bearing, antenna technique, map/terrain
    awareness, teamwork
 
@@ -76,6 +80,9 @@ moment.
 1. Fox transmitters: Byonics MF-15 and MF-PC — programmed and tested
    - **147.42 MHz** simplex, K7LED callsign, 15 s on / 15 s off, CW ID
    - Frequency coordination with WWARA pending (Steve N9VW contacted)
+   - Sub-1 W output — suited for **on-foot and local mobile** hunts
+   - Regional hunts need higher power; **10 W Pi Zero beacon** planned
+     (issue #4)
 
 **[📷 IMG-06]** *M&K fox beacons — MF-15 (left) and MF-PC (right)*
 ![Mike and Key Fox Beacons](images/Mike_and_Key_Fox_Beacons.jpg)
@@ -155,12 +162,13 @@ moment.
 
 ## Section 5 — 2026 Hunt Season (~10 min)
 
-### July — Practice Hunt (~3 min)
+### July — Practice Hunt · On-Foot · Milliwatts (~3 min)
 **Sun Jul 19 *(tentative)* — Flaming Geyser State Park, Auburn**
 
 **[📷 IMG-12]** *Flaming Geyser State Park entrance sign*
 ![Flaming Geyser State Park](images/Flaming_Geyser_State_Park_Sign.webp)
 
+- **Type:** On-foot ARDF — milliwatt fox, parks & trails
 - Format: single-fox on-foot practice (2.5 hours, noon–2:30 PM)
 - Terrain: 480+ acres, Green River valley, wooded trails, multipath
   challenge — good intro event
@@ -168,11 +176,12 @@ moment.
   reservation if 20+ attendees; carpools encouraged
 - Date is **tentative** — confirm closer to the event
 
-### August — On-Foot Hunt (~3 min)
+### August — On-Foot Hunt · Milliwatts (~3 min)
 **Sat Aug 22 *(tentative)* — Marymoor Park, Redmond**
 
 **[📷 IMG-13]** *🔲 NEEDED: Marymoor Park — wooded river corridor or open fields*
 
+- **Type:** On-foot ARDF — milliwatt fox, parks & trails
 - Format: single-fox on-foot hunt, primary "real" event
   (noon–2:30 PM)
 - Terrain: 640 acres; wooded Sammamish River corridor + open fields;
@@ -181,7 +190,7 @@ moment.
   2:30 PM
 - Date is **tentative** — confirm closer to the event
 
-### September — Mobile (Car-Based) Hunt (~4 min)
+### September — Regional Mobile Hunt · 5+ Watts (~4 min)
 **Sun Sep 20 *(tentative)* — Finish at Howarth Park, Everett**
 
 **[📷 IMG-15]** *Car with roof-mounted multi-element Yagi — mobile hunt*
@@ -190,14 +199,15 @@ moment.
 **[📷 IMG-17]** *Greater Seattle hunt area with radius overlay*
 ![Greater Seattle hunt area](images/EXAMPLE_Greater_Seattle_Hunt_Area.png)
 
-- Format: regional T-hunt; drive the region taking bearings, converge
-  on Everett, short on-foot final leg on forested hillside
+- **Type:** Regional mobile T-hunt — 5+ W fox, wide-area adventure
+- Format: hunt from vehicles across the region, converge on Everett,
+  short on-foot final leg on forested hillside
 - Finish: Howarth Park — Puget Sound views, picnic tables, social
   wrap-up
 - Safety: all foot traffic stays clear of BNSF railroad tracks /
   bridge
-- Equipment: current MicroFox units are sub-1 W; 10 W Pi Zero beacon
-  planned for extended mobile range (future)
+- Equipment: current MicroFox units are sub-1 W — **too low for
+  regional**; 10 W Pi Zero beacon planned (issue #4)
 - Date is **tentative** — confirm closer to the event
 
 **[📷 IMG-16]** *Raspberry Pi Zero — future 10 W beacon teaser*

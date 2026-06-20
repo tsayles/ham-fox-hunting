@@ -56,13 +56,14 @@
 
 ---
 
-### Slide 5 — Two Flavors of Fox Hunting
+### Slide 5 — Three Types of Fox Hunting
 **[Layout C | ~5:00]**
 
-- **On-foot (ARDF):** walk or run with a handheld directional antenna
-- **Mobile (T-hunt):** take bearings from a vehicle, converge on the fox from the road network
-- Different gear and pace — **same core skill**: read the signal, choose a bearing, move
-- This program covers both — club has members who will enjoy each style
+- **On-foot (ARDF):** milliwatt fox · parks & trails · walk or run with a handheld directional antenna
+- **Local mobile:** <5 W fox · neighborhood roads · take bearings from a car, hunt a local area
+- **Regional mobile:** 5+ W fox · wide-area adventure · multi-city drive, final on-foot leg
+- Power level of the fox **defines the hunt type** — higher power = bigger search area
+- All three share the same core skill: read the signal, take a bearing, make a move
 - *Transition:* "Let me show the signal behavior that makes direction finding possible."
 
 ---
@@ -116,6 +117,8 @@
 - Shared config: **147.42 MHz** simplex · K7LED · 15 s on / 15 s off · CW ID
 - WWARA coordination **still pending** — Steve N9VW contacted; active item, not closed
 - Both foxes identically configured → **deploy one at a time** for now
+- Sub-1 W output — suited for **on-foot and local mobile** hunts only
+- Regional hunts need **5+ W** — 10 W Pi Zero beacon is planned (issue #4)
 - *Transition:* "Now the hunter antenna that makes this all work."
 
 ---
@@ -234,7 +237,8 @@
 ### Slide 21 — 2026 Hunt Season
 **[Layout B | ~26:30]**
 
-- **Three-event progression:** easy practice → primary on-foot hunt → regional mobile hunt
+- **Three-event progression** spanning all three hunt types:
+  - July = on-foot (milliwatts) · August = on-foot (milliwatts) · September = regional mobile (5+ W)
 - All three dates are **tentative** — tonight is about building interest, not locking the calendar
 - The sequence is designed to **develop skills** over the summer, not just offer one event
 - *Transition:* "Let's take it month by month."
@@ -245,6 +249,7 @@
 **[Layout C | ~28:30]**
 
 - **Sun Jul 19** — Flaming Geyser State Park, Auburn *(TENTATIVE)*
+- **Type: on-foot ARDF · milliwatt fox · parks & trails**
 - Single fox · on-foot · noon – 2:30 PM (2.5 hrs)
 - 480+ acres, Green River valley, wooded trails — **multipath adds realism without being extreme**
 - **Discover Pass required** per vehicle — coordinate carpools; 1 pass per car
@@ -257,20 +262,23 @@
 **[Layout C | ~30:30]**
 
 - **Sat Aug 22** — Marymoor Park, Redmond *(TENTATIVE)*
+- **Type: on-foot ARDF · milliwatt fox · parks & trails**
 - Single fox · on-foot · noon – 2:30 PM — **primary "real" hunt of the season**
 - 640 acres — wooded Sammamish River corridor + open fields; **2 Line light-rail access**
 - ⚠️ **Wrap by 2:30 PM** — Marymoor Live concert gates open 4 PM
 - Date will be confirmed closer to the event
-- *Transition:* "After that, the season broadens into a mobile hunt."
+- *Transition:* "After that, the season broadens into a regional mobile hunt."
 
 ---
 
-### Slide 24 — September — Mobile T-Hunt *(tentative)*
+### Slide 24 — September — Regional Mobile T-Hunt *(tentative)*
 **[Layout C | ~32:30]**
 
 - **Sun Sep 20** — Finish at Howarth Park, Everett *(TENTATIVE)*
+- **Type: regional mobile · 5+ W fox · wide-area adventure**
 - Hunt from your **vehicle** — take bearings while driving, converge on Everett
 - Final leg: short **on-foot walk** on the forested hillside, scenic Puget Sound views
+- ⚠️ Current MicroFox units are sub-1 W — **too low for regional range**; 10 W Pi Zero beacon planned
 - ⚠️ **Safety:** all foot traffic stays clear of the **BNSF railroad tracks and bridge** — say this aloud
 - Date will be confirmed closer to the event
 - *Transition:* "Let's zoom out and see the season as a regional program."
@@ -344,7 +352,13 @@ The slide-by-slide pacing above totals ~43.5 minutes, leaving ~3.5 min buffer fo
 
 Use the answers below as short, steady responses. If a detail is still pending, say that directly.
 
-- **Q:** Do I need a ham license to participate?
+- **Q:** What's the difference between the three hunt types?
+  **A:** On-foot ARDF uses a milliwatt fox hidden in a park — you walk or run
+  with a directional antenna to find it. A local mobile hunt uses a sub-5 W
+  fox on neighborhood roads — you take bearings from your car. A regional
+  mobile hunt uses a 5+ W fox over a wide area — you drive across a region
+  taking bearings, then finish with a short on-foot leg. Our 2026 program
+  covers all three types across the summer.
   **A:** For the Field Day demo, no; visitors can learn the hunt flow without
   prior experience. For club activities, any license class can
   participate, and complete beginners can still observe, pair up with a
