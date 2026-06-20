@@ -719,18 +719,28 @@ SLIDES: tuple[SlideSpec, ...] = (
     ),
     SlideSpec(
         layout='C',
-        title='Two Flavors of Fox Hunting',
+        title='Three Types of Fox Hunting',
         image='Car_with_Fox_Hunt_Antenna.jpeg',
         body_image_mode='contain',
         bullets=(
-            '**On-foot (ARDF):** walk/run with a directional antenna',
-            '**Mobile (T-hunt):** car-based, hunting from the road',
-            'Both use the same core RDF skills',
-            "Today's program covers both",
+            '**On-foot (ARDF):** milliwatt fox · parks & trails · '
+            'walk/run with directional antenna',
+            '**Local mobile:** <5 W fox · neighborhood roads · take '
+            'bearings from car, hunt a local area',
+            '**Regional mobile:** 5+ W fox · wide-area adventure · '
+            'multi-city drive, final on-foot leg',
+            'Power level of the fox **defines the hunt type** — higher '
+            '= bigger search area',
+            'All three share the same core skill: read the signal, take '
+            'a bearing, make a move',
         ),
         notes=(
-            'Talking point: distinguish on-foot and mobile hunting while '
-            'showing the shared skills behind both.',
+            'Three types: on-foot (milliwatts), local mobile (<5 W), '
+            'regional (5+ W)',
+            'Power level of the fox defines the scale of the hunt',
+            'All three share the same core skill — the gear and distance '
+            'change, not the technique',
+            'This program covers all three across the summer',
         ),
     ),
     SlideSpec(
@@ -792,12 +802,20 @@ SLIDES: tuple[SlideSpec, ...] = (
             '**MF-15** and **MF-PC** — both programmed and tested',
             'Frequency: **147.42 MHz** simplex, callsign K7LED',
             'Cycle: 15 s on / 15 s off with CW ID',
+            'Sub-1 W output — suited for **on-foot and local mobile** '
+            'hunts',
+            'Regional hunts need **5+ W** — 10 W Pi Zero beacon planned '
+            '(issue #4)',
             'WWARA coordination in progress (Steve N9VW)',
             'Deploy **one at a time** (currently identical config)',
         ),
         notes=(
             'Talking point: describe the current beacon inventory and '
             'how each fox is configured for the program.',
+            'Sub-1 W output means these work for on-foot and local '
+            'mobile, not regional',
+            'Regional range needs 5+ W — the Pi Zero beacon project '
+            'addresses that',
         ),
     ),
     SlideSpec(
@@ -954,8 +972,10 @@ SLIDES: tuple[SlideSpec, ...] = (
         section_number='5',
         image='EXAMPLE_Greater_Seattle_Hunt_Area.png',
         notes=(
-            'Talking point: introduce the summer schedule as a tentative '
-            'three-event progression.',
+            'Three-event progression spanning all three hunt types',
+            'July = on-foot milliwatts, August = on-foot milliwatts, '
+            'September = regional 5+ W',
+            'All dates are tentative',
         ),
     ),
     SlideSpec(
@@ -963,6 +983,7 @@ SLIDES: tuple[SlideSpec, ...] = (
         title='July — Practice Hunt *(tentative)*',
         image='Flaming_Geyser_State_Park_Sign.webp',
         bullets=(
+            '**Type: on-foot ARDF · milliwatt fox · parks & trails**',
             '**Sun Jul 19** — Flaming Geyser State Park, Auburn',
             'On-foot, single fox, noon – 2:30 PM (2.5 hrs)',
             '480+ acres, Green River valley, wooded trails',
@@ -979,6 +1000,7 @@ SLIDES: tuple[SlideSpec, ...] = (
         title='August — On-Foot Hunt *(tentative)*',
         placeholder_text='Photo coming',
         bullets=(
+            '**Type: on-foot ARDF · milliwatt fox · parks & trails**',
             '**Sat Aug 22** — Marymoor Park, Redmond',
             'On-foot, single fox, noon – 2:30 PM',
             '640 acres — wooded Sammamish River corridor + open fields',
@@ -992,14 +1014,17 @@ SLIDES: tuple[SlideSpec, ...] = (
     ),
     SlideSpec(
         layout='C',
-        title='September — Mobile T-Hunt *(tentative)*',
+        title='September — Regional Mobile T-Hunt *(tentative)*',
         image='Car_with_Fox_Hunt_Antenna.jpeg',
         body_image_mode='contain',
         bullets=(
+            '**Type: regional mobile · 5+ W fox · wide-area adventure**',
             '**Sun Sep 20** — Finish at Howarth Park, Everett',
             'Hunt from your **vehicle** — take bearings while driving',
             'Final leg: short **on-foot** walk on forested hillside',
             'Puget Sound views; social wrap-up at finish',
+            '⚠️ Current MicroFox units sub-1 W — **too low for regional '
+            'range**; 10 W Pi Zero beacon planned',
             '⚠️ Stay clear of BNSF railroad tracks at finish',
         ),
         notes=(
