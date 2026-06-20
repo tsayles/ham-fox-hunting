@@ -185,21 +185,11 @@
 - **Visitor tent:** Battery Grattan — start point, briefings, loaner gear
 - **Fox:** hidden south side of Parade Grounds — unstaffed but **visible from the tent**
 - Frequency: **147.42 MHz** — WWARA coordination in progress; describe honestly as pending
-- *Transition:* "Let's walk through the visitor experience step by step."
-
----
-
-### Slide 17 — How the Demo Works
-**[Layout C | ~23:30]**
-
-- **Option 1:** Line-of-sight demonstration of directional antenna — show how signal peaks as you rotate
-- **Option 2:** Fox at the Wagon Wheel — guest borrows equipment and hunts their way to the Fox for a prize / certificate
-- Format choice depends on time, staffing, and visitor experience level
 - *Transition:* "I need to be direct about the staffing this demo requires."
 
 ---
 
-### Slide 18 — We Need Your Help
+### Slide 17 — We Need Your Help
 **[Layout F | ~25:00]**
 
 - 🙋 **Demo hosts** — enjoy talking with the public, explain fox hunting in 2 minutes
@@ -211,7 +201,7 @@
 
 ---
 
-### Slide 19 — 2026 Hunt Season
+### Slide 18 — 2026 Hunt Season
 **[Layout B | ~26:30]**
 
 - **Three-event progression** spanning all three hunt types:
@@ -222,7 +212,7 @@
 
 ---
 
-### Slide 20 — July — Practice Hunt *(tentative)*
+### Slide 19 — July — Practice Hunt *(tentative)*
 **[Layout C | ~28:30]**
 
 - **Sun Jul 19** — Flaming Geyser State Park, Auburn *(TENTATIVE)*
@@ -235,7 +225,7 @@
 
 ---
 
-### Slide 21 — August — On-Foot Hunt *(tentative)*
+### Slide 20 — August — On-Foot Hunt *(tentative)*
 **[Layout C | ~30:30]**
 
 - **Sat Aug 22** — Marymoor Park, Redmond *(TENTATIVE)*
@@ -248,7 +238,7 @@
 
 ---
 
-### Slide 22 — September — Regional Mobile Hunt *(tentative)*
+### Slide 21 — September — Regional Mobile Hunt *(tentative)*
 **[Layout C | ~32:30]**
 
 - **Sun Sep 20** — Finish at Howarth Park, Everett *(TENTATIVE)*
@@ -262,7 +252,7 @@
 
 ---
 
-### Slide 23 — The Region We'll Hunt
+### Slide 22 — The Region We'll Hunt
 **[Layout E | ~34:30]**
 
 - Map shows **three events across the greater Puget Sound area** — not one park
@@ -273,7 +263,7 @@
 
 ---
 
-### Slide 24 — How to Get Involved
+### Slide 23 — How to Get Involved
 **[Layout D | ~36:30]**
 
 - If any part of this sounded fun — **there is an on-ramp for you**
@@ -283,7 +273,7 @@
 
 ---
 
-### Slide 25 — Join the Program
+### Slide 24 — Join the Program
 **[Layout F | ~38:00]**
 
 - 🔧 **Radio Camp (Jun 22–29):** attend and/or volunteer at Thursday build session
@@ -298,7 +288,7 @@
 
 ---
 
-### Slide 26 — Questions?
+### Slide 25 — Questions?
 **[Layout A | ~39:30]**
 
 - Invite questions warmly — **be honest about anything still pending**
@@ -316,10 +306,10 @@
 | 1 | ARDF background | 3–6 | 2:00–9:00 | 7 min |
 | 2 | Equipment | 7–11 | 9:00–14:00 | 5 min |
 | 3 | Radio Camp | 12–14 | 14:00–18:30 | 4.5 min |
-| 4 | Field Day demo | 15–18 | 18:30–24:30 | 6 min |
-| 5 | Hunt season | 19–23 | 24:30–34:30 | 10 min |
-| 6 | Get involved | 24–25 | 34:30–37:30 | 3 min |
-| 7 | Q&A | 26 | 37:30–41:30 | 4 min |
+| 4 | Field Day demo | 15–17 | 18:30–24:30 | 6 min |
+| 5 | Hunt season | 18–22 | 24:30–34:30 | 10 min |
+| 6 | Get involved | 23–24 | 34:30–37:30 | 3 min |
+| 7 | Q&A | 25 | 37:30–41:30 | 4 min |
 | — | Buffer / transitions | — | 41:30–45:00 | 3.5 min |
 
 The slide-by-slide pacing above totals ~43.5 minutes, leaving ~3.5 min buffer for transitions, laughter, and longer audience interaction.
