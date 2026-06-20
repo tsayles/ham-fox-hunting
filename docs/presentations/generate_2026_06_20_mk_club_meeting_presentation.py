@@ -50,6 +50,19 @@ FULL_SLIDE_PX = (1920, 1080)
 
 
 @dataclass(frozen=True)
+class ImagePlacement:
+    """Placement specification for an individual slide image."""
+
+    image: str
+    x: int
+    y: int
+    w: int
+    h: int
+    mode: str = 'cover'
+    placeholder_text: str = ''
+
+
+@dataclass(frozen=True)
 class SlideSpec:
     """Content specification for a single slide."""
 
@@ -65,6 +78,14 @@ class SlideSpec:
     notes: tuple[str, ...] = ()
     body_image_mode: str = 'cover'
     placeholder_text: str = ''
+    body_font_size: int | None = None
+    bullet_rect: tuple[int, int, int, int] | None = None
+    image_rect: tuple[int, int, int, int] | None = None
+    extra_images: tuple[ImagePlacement, ...] = ()
+    mosaic_images: tuple[str, ...] = ()
+    qr_image: str = ''
+    qr_rect: tuple[int, int, int, int] | None = None
+    show_logo: bool = True
 
 
 def rgb(value: str) -> RGBColor:
@@ -205,6 +226,8 @@ def add_bullets(
     y: int,
     w: int,
     h: int,
+    *,
+    font_size=BODY_SIZE,
 ) -> None:
     """Create a standard bullet list textbox."""
 
@@ -225,7 +248,7 @@ def add_bullets(
             frame,
             bullet,
             color=text_color,
-            font_size=BODY_SIZE,
+            font_size=font_size,
             bullet=True,
         )
 
@@ -320,16 +343,37 @@ def add_image(
     slide.shapes.add_picture(stream, x, y, width=w, height=h)
 
 
-def add_logo(slide, *, centered: bool = False) -> None:
+def add_image_placement(slide, placement: ImagePlacement) -> None:
+    """Add a positioned image defined by an ImagePlacement spec."""
+
+    add_image(
+        slide,
+        placement.image,
+        placement.x,
+        placement.y,
+        placement.w,
+        placement.h,
+        mode=placement.mode,
+        placeholder_text=placement.placeholder_text,
+    )
+
+
+def add_logo(
+    slide,
+    *,
+    centered: bool = False,
+    size=None,
+    y=None,
+) -> None:
     """Add the Mike & Key logo in the standard location."""
 
     logo_path = IMAGE_DIR / 'MnK_Logo.png'
     if not logo_path.exists():
         return
     if centered:
-        size = Cm(6.0)
+        size = size or Cm(6.0)
         x = (SLIDE_WIDTH - size) // 2
-        y = Cm(1.8)
+        y = Cm(1.8) if y is None else y
         slide.shapes.add_picture(str(logo_path), x, y, height=size)
         return
     x = int(SLIDE_WIDTH) - int(MARGIN) - int(SMALL_LOGO)
@@ -371,12 +415,71 @@ def add_notes(slide, lines: Iterable[str]) -> None:
         para.text = line
 
 
+def add_optional_qr(slide, spec: SlideSpec) -> None:
+    """Add an optional QR code image for slides that request one."""
+
+    if not spec.qr_image or spec.qr_rect is None:
+        return
+    qr_x, qr_y, qr_w, qr_h = spec.qr_rect
+    add_image(
+        slide,
+        spec.qr_image,
+        qr_x,
+        qr_y,
+        qr_w,
+        qr_h,
+        mode='contain',
+        placeholder_text='QR code',
+    )
+
+
+def add_mosaic_panel(slide, images: tuple[str, ...]) -> None:
+    """Render a simple three-image mosaic on the left side of a slide."""
+
+    panel_width = int(int(SLIDE_WIDTH) * 0.56)
+    gutter = int(Cm(0.12))
+    panel_height = int(SLIDE_HEIGHT)
+    tile_height = (panel_height - (gutter * (len(images) - 1))) // len(images)
+
+    y = 0
+    for index, image_name in enumerate(images):
+        height = (
+            tile_height
+            if index < len(images) - 1
+            else panel_height - y
+        )
+        add_image(
+            slide,
+            image_name,
+            0,
+            y,
+            panel_width,
+            height,
+            mode='cover',
+            placeholder_text=image_name,
+        )
+        y += height + gutter
+
+
+def finalize_slide(slide, spec: SlideSpec):
+    """Add common per-slide finishing elements."""
+
+    if spec.show_logo:
+        add_logo(slide)
+    add_optional_qr(slide, spec)
+    add_notes(slide, spec.notes)
+    return slide
+
+
 def build_layout_a(prs: Presentation, spec: SlideSpec, closing: bool = False):
     """Build a title or closing slide."""
 
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     add_background(slide)
-    add_logo(slide, centered=True)
+    if closing:
+        add_logo(slide, centered=True)
+    else:
+        add_logo(slide, centered=True, size=Cm(7.0), y=Cm(1.1))
     if closing:
         add_textbox(
             slide,
@@ -401,13 +504,14 @@ def build_layout_a(prs: Presentation, spec: SlideSpec, closing: bool = False):
             color=SECONDARY,
             align=PP_ALIGN.CENTER,
         )
+        add_optional_qr(slide, spec)
         add_notes(slide, spec.notes)
         return slide
 
     add_textbox(
         slide,
         Cm(3.2),
-        Cm(8.0),
+        Cm(10.0),
         Cm(27.5),
         Cm(2.4),
         spec.title,
@@ -419,7 +523,7 @@ def build_layout_a(prs: Presentation, spec: SlideSpec, closing: bool = False):
     add_textbox(
         slide,
         Cm(5.4),
-        Cm(10.7),
+        Cm(12.7),
         Cm(23.0),
         Cm(1.3),
         spec.subtitle,
@@ -430,7 +534,7 @@ def build_layout_a(prs: Presentation, spec: SlideSpec, closing: bool = False):
     add_textbox(
         slide,
         Cm(7.3),
-        Cm(13.0),
+        Cm(15.0),
         Cm(19.5),
         Cm(1.0),
         spec.presenter,
@@ -447,15 +551,18 @@ def build_layout_b(prs: Presentation, spec: SlideSpec):
 
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     add_background(slide)
-    add_image(
-        slide,
-        spec.image,
-        0,
-        0,
-        int(SLIDE_WIDTH),
-        int(SLIDE_HEIGHT),
-        mode='cover',
-    )
+    if spec.mosaic_images:
+        add_mosaic_panel(slide, spec.mosaic_images)
+    else:
+        add_image(
+            slide,
+            spec.image,
+            0,
+            0,
+            int(SLIDE_WIDTH),
+            int(SLIDE_HEIGHT),
+            mode='cover',
+        )
     add_rect(
         slide,
         0,
@@ -487,9 +594,7 @@ def build_layout_b(prs: Presentation, spec: SlideSpec):
         color=BODY,
         bold=True,
     )
-    add_logo(slide)
-    add_notes(slide, spec.notes)
-    return slide
+    return finalize_slide(slide, spec)
 
 
 def build_layout_c(prs: Presentation, spec: SlideSpec):
@@ -498,20 +603,22 @@ def build_layout_c(prs: Presentation, spec: SlideSpec):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     add_background(slide)
     add_title_bar(slide, spec.title)
-    image_x = int(MARGIN)
-    image_y = int(TITLE_BAR_HEIGHT) + int(Cm(0.7))
-    image_w = int(Cm(16.6))
-    image_h = int(Cm(13.6))
-    if spec.placeholder_text:
-        add_placeholder(
-            slide,
-            image_x,
-            image_y,
-            image_w,
-            image_h,
-            spec.placeholder_text,
-        )
-    else:
+    image_rect = spec.image_rect or (
+        int(MARGIN),
+        int(TITLE_BAR_HEIGHT) + int(Cm(0.7)),
+        int(Cm(16.6)),
+        int(Cm(13.6)),
+    )
+    bullet_rect = spec.bullet_rect or (
+        int(Cm(18.8)),
+        int(TITLE_BAR_HEIGHT) + int(Cm(1.0)),
+        int(Cm(13.6)),
+        int(Cm(12.8)),
+    )
+    for image in spec.extra_images:
+        add_image_placement(slide, image)
+    image_x, image_y, image_w, image_h = image_rect
+    if spec.image:
         add_image(
             slide,
             spec.image,
@@ -520,18 +627,24 @@ def build_layout_c(prs: Presentation, spec: SlideSpec):
             image_w,
             image_h,
             mode=spec.body_image_mode,
+            placeholder_text=spec.placeholder_text,
+        )
+    elif spec.placeholder_text:
+        add_placeholder(
+            slide,
+            image_x,
+            image_y,
+            image_w,
+            image_h,
+            spec.placeholder_text,
         )
     add_bullets(
         slide,
         spec.bullets,
-        int(Cm(18.8)),
-        int(TITLE_BAR_HEIGHT) + int(Cm(1.0)),
-        int(Cm(13.6)),
-        int(Cm(12.8)),
+        *bullet_rect,
+        font_size=spec.body_font_size or BODY_SIZE,
     )
-    add_logo(slide)
-    add_notes(slide, spec.notes)
-    return slide
+    return finalize_slide(slide, spec)
 
 
 def build_layout_d(prs: Presentation, spec: SlideSpec):
@@ -590,9 +703,7 @@ def build_layout_d(prs: Presentation, spec: SlideSpec):
             color=SECONDARY,
             italic=True,
         )
-    add_logo(slide)
-    add_notes(slide, spec.notes)
-    return slide
+    return finalize_slide(slide, spec)
 
 
 def build_layout_e(prs: Presentation, spec: SlideSpec):
@@ -601,26 +712,35 @@ def build_layout_e(prs: Presentation, spec: SlideSpec):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     add_background(slide)
     add_title_bar(slide, spec.title)
-    add_bullets(
-        slide,
-        spec.bullets,
+    bullet_rect = spec.bullet_rect or (
         int(MARGIN),
         int(TITLE_BAR_HEIGHT) + int(Cm(1.0)),
         int(Cm(13.5)),
         int(Cm(12.6)),
     )
-    add_image(
-        slide,
-        spec.image,
+    image_rect = spec.image_rect or (
         int(Cm(15.0)),
         int(TITLE_BAR_HEIGHT) + int(Cm(0.7)),
         int(Cm(17.8)),
         int(Cm(13.6)),
+    )
+    add_bullets(
+        slide,
+        spec.bullets,
+        *bullet_rect,
+        font_size=spec.body_font_size or BODY_SIZE,
+    )
+    image_x, image_y, image_w, image_h = image_rect
+    add_image(
+        slide,
+        spec.image,
+        image_x,
+        image_y,
+        image_w,
+        image_h,
         mode='contain',
     )
-    add_logo(slide)
-    add_notes(slide, spec.notes)
-    return slide
+    return finalize_slide(slide, spec)
 
 
 def build_layout_f(prs: Presentation, spec: SlideSpec):
@@ -629,13 +749,17 @@ def build_layout_f(prs: Presentation, spec: SlideSpec):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     add_background(slide)
     add_title_bar(slide, spec.title)
-    add_bullets(
-        slide,
-        spec.bullets,
+    bullet_rect = spec.bullet_rect or (
         int(MARGIN),
         int(TITLE_BAR_HEIGHT) + int(Cm(1.2)),
         int(SLIDE_WIDTH) - int(Cm(2.0)),
         int(Cm(9.8)),
+    )
+    add_bullets(
+        slide,
+        spec.bullets,
+        *bullet_rect,
+        font_size=spec.body_font_size or BODY_SIZE,
     )
     if spec.cta:
         cta_box = slide.shapes.add_textbox(
@@ -655,9 +779,7 @@ def build_layout_f(prs: Presentation, spec: SlideSpec):
             font_size=CTA_SIZE,
             align=PP_ALIGN.CENTER,
         )
-    add_logo(slide)
-    add_notes(slide, spec.notes)
-    return slide
+    return finalize_slide(slide, spec)
 
 
 SLIDES: tuple[SlideSpec, ...] = (
@@ -694,7 +816,7 @@ SLIDES: tuple[SlideSpec, ...] = (
         layout='B',
         title='What Is Fox Hunting / ARDF?',
         section_number='1',
-        image='Kids_with_tape-measure_yagi.webp',
+        image='fox-hunting-friends.jpg',
         notes=(
             'Talking point: open section one by showing fox hunting as '
             'hands-on, approachable, and family friendly.',
@@ -703,9 +825,9 @@ SLIDES: tuple[SlideSpec, ...] = (
     SlideSpec(
         layout='C',
         title='The Concept',
-        image='RDF antenna array.jpg',
+        image='a-fox-foxhunting.jpg',
         bullets=(
-            'A hidden transmitter — the **"fox"** — is placed in the '
+            'A hidden transmitter, the **"fox"**, is placed in the '
             'field',
             'Participants find it using **Radio Direction Finding '
             '(RDF)**',
@@ -722,6 +844,26 @@ SLIDES: tuple[SlideSpec, ...] = (
         title='Three Types of Fox Hunting',
         image='Car_with_Fox_Hunt_Antenna.jpeg',
         body_image_mode='contain',
+        body_font_size=Pt(16),
+        image_rect=(
+            int(Cm(7.2)),
+            int(Cm(8.2)),
+            int(Cm(10.0)),
+            int(Cm(8.2)),
+        ),
+        extra_images=(
+            ImagePlacement(
+                image='DXE-OAB-Fox-Chasing-Image_Kids-on-the-Hunt_Post-10-18.jpg',
+                x=int(MARGIN),
+                y=int(TITLE_BAR_HEIGHT) + int(Cm(0.7)),
+                w=int(Cm(16.6)),
+                h=int(Cm(13.6)),
+                mode='contain',
+                placeholder_text=(
+                    'DXE-OAB-Fox-Chasing-Image_Kids-on-the-Hunt_Post-10-18.jpg'
+                ),
+            ),
+        ),
         bullets=(
             '**On-foot (ARDF):** milliwatt fox · parks & trails · '
             'walk/run with directional antenna',
@@ -759,31 +901,6 @@ SLIDES: tuple[SlideSpec, ...] = (
         ),
     ),
     SlideSpec(
-        layout='D',
-        title='Antenna Pattern',
-        image='8168.contentimage_5F00_127508.png',
-        image_caption=(
-            'Yagi polar pattern — signal strongest in the forward '
-            'direction'
-        ),
-        notes=(
-            'Talking point: reinforce that the forward lobe is the key '
-            'clue the hunter uses in the field.',
-        ),
-    ),
-    SlideSpec(
-        layout='D',
-        title='This Is What It Looks Like',
-        image='Group_of_fox_hunters.jpg',
-        image_caption=(
-            'Fox hunters at a club event — Yagis up, bearings taken'
-        ),
-        notes=(
-            'Talking point: show the audience a real hunt moment so the '
-            'gear and posture feel concrete.',
-        ),
-    ),
-    SlideSpec(
         layout='B',
         title='Our Equipment',
         section_number='2',
@@ -798,6 +915,7 @@ SLIDES: tuple[SlideSpec, ...] = (
         title='The Fox — Byonics MicroFox',
         image='Mike_and_Key_Fox_Beacons.jpg',
         body_image_mode='contain',
+        body_font_size=Pt(16),
         bullets=(
             '**MF-15** and **MF-PC** — both programmed and tested',
             'Frequency: **147.42 MHz** simplex, callsign K7LED',
@@ -840,8 +958,8 @@ SLIDES: tuple[SlideSpec, ...] = (
         bullets=(
             'Inserted **between HT and antenna**',
             'Reduces signal strength in steps as you approach',
-            'Prevents "spinning S-meter" confusion near the fox',
-            '**Also built at Radio Camp** — Project 2',
+            'Prevents "saturated S-meter" confusion near the fox',
+            '**Also built at Radio Camp**, Project 2',
         ),
         notes=(
             'Talking point: explain how attenuation keeps close-in '
@@ -853,12 +971,24 @@ SLIDES: tuple[SlideSpec, ...] = (
         title='Entry-Level Radio — Radtel RT-910B',
         image='71PP0t4+U4L._AC_SL1500_.jpg',
         body_image_mode='contain',
+        image_rect=(
+            int(MARGIN),
+            int(TITLE_BAR_HEIGHT) + int(Cm(0.7)),
+            int(Cm(13.5)),
+            int(Cm(13.6)),
+        ),
+        bullet_rect=(
+            int(Cm(15.6)),
+            int(TITLE_BAR_HEIGHT) + int(Cm(1.0)),
+            int(Cm(16.7)),
+            int(Cm(12.8)),
+        ),
         bullets=(
             '~**$30** on Amazon — lowest barrier to entry',
             'Large **S-meter** display — great visual RDF aid',
             '**TX lockout** — safe for loaner / demo use',
             'BNC-to-SMA adapter required (~$5, 2-pack)',
-            '⚠️ Conditional rec — not yet hands-on tested',
+            '⚠️ Conditional recommendation — not yet hands-on tested',
         ),
         notes=(
             'Talking point: share the lowest-cost HT path while keeping '
@@ -880,7 +1010,7 @@ SLIDES: tuple[SlideSpec, ...] = (
     SlideSpec(
         layout='C',
         title='Thu Jun 26 — Fort Flagler, Wagon Wheel',
-        image='DIY 70cm handheld Yagi.png',
+        image='Tapemeasure_Yagi-2.jpg',
         body_image_mode='contain',
         bullets=(
             '**Radio Camp:** Mon Jun 22 – Mon Jun 29 at Fort Flagler '
@@ -904,6 +1034,8 @@ SLIDES: tuple[SlideSpec, ...] = (
             'Hands-on from minute one — no whiteboard lectures',
             'Tom KE4HET brings materials for **at least 5 sets**',
             'Materials mostly on hand; everything expected by Thursday',
+            '🙋 Who wants to build an antenna AND will be at Radio Camp on '
+            'Thursday?',
         ),
         cta='🙋 Volunteers needed — build assistants & tool wranglers',
         notes=(
@@ -915,7 +1047,7 @@ SLIDES: tuple[SlideSpec, ...] = (
         layout='B',
         title='ARDF Demonstration at Field Day',
         section_number='4',
-        image='Ft_Flagler_Google_Maps_Satelite.png',
+        image='Ft_Flagler_Battery_Grattan.webp',
         notes=(
             'Talking point: shift from club-internal building to the '
             'public-facing Field Day demonstration.',
@@ -925,6 +1057,18 @@ SLIDES: tuple[SlideSpec, ...] = (
         layout='E',
         title='Sat–Sun Jun 28–29 — Fort Flagler',
         image='Ft_Flagler_Google_Maps_Satelite.png',
+        bullet_rect=(
+            int(MARGIN),
+            int(TITLE_BAR_HEIGHT) + int(Cm(1.0)),
+            int(Cm(15.6)),
+            int(Cm(12.6)),
+        ),
+        image_rect=(
+            int(Cm(17.4)),
+            int(TITLE_BAR_HEIGHT) + int(Cm(0.7)),
+            int(Cm(15.6)),
+            int(Cm(13.6)),
+        ),
         bullets=(
             '**Visitor tent:** Battery Grattan (start point)',
             '**Fox:** hidden south side of Parade Grounds',
@@ -941,11 +1085,9 @@ SLIDES: tuple[SlideSpec, ...] = (
         title='How the Demo Works',
         image='Kids_with_tape-measure_yagi.webp',
         bullets=(
-            'Visitor arrives at **Battery Grattan** tent',
-            '2-minute intro — no ham license required',
-            'Borrow HT + Yagi → hunt the fox → return gear',
-            'Format: **guided or self-guided** based on experience',
-            'Fox re-hidden between groups',
+            'Option 1: Line-of-sight demonstration of directional antenna',
+            'Option 2: Fox at the Wagon Wheel, guest borrows equipment and '
+            'hunts their way to the Fox for a prize / certificate',
         ),
         notes=(
             'Talking point: walk through the visitor experience so club '
@@ -957,7 +1099,7 @@ SLIDES: tuple[SlideSpec, ...] = (
         title='We Need Your Help',
         bullets=(
             '🙋 **Demo hosts** — explain fox hunting to the public',
-            '🦊 **Fox wranglers** — re-hide the transmitter between hunts',
+            '🦊 Hunter wranglers, return hunting gear to visitor tent',
             '📻 **Loaner gear** — HTs and Yagis for visitors',
         ),
         cta='Talk to Tom KE4HET to sign up',
@@ -970,7 +1112,11 @@ SLIDES: tuple[SlideSpec, ...] = (
         layout='B',
         title='2026 Hunt Season',
         section_number='5',
-        image='EXAMPLE_Greater_Seattle_Hunt_Area.png',
+        mosaic_images=(
+            'Marymoor_Park_Google_Satilite.png',
+            'Seattle_Neighborhood_Google_Satelite.png',
+            'West_King_county_Google_Satelite.png',
+        ),
         notes=(
             'Three-event progression spanning all three hunt types',
             'July = on-foot milliwatts, August = on-foot milliwatts, '
@@ -998,7 +1144,8 @@ SLIDES: tuple[SlideSpec, ...] = (
     SlideSpec(
         layout='C',
         title='August — On-Foot Hunt *(tentative)*',
-        placeholder_text='Photo coming',
+        image='Marymoor_Park_Google_Satilite.png',
+        body_image_mode='contain',
         bullets=(
             '**Type: on-foot ARDF · milliwatt fox · parks & trails**',
             '**Sat Aug 22** — Marymoor Park, Redmond',
@@ -1014,9 +1161,10 @@ SLIDES: tuple[SlideSpec, ...] = (
     ),
     SlideSpec(
         layout='C',
-        title='September — Regional Mobile T-Hunt *(tentative)*',
+        title='September — Regional Mobile Hunt *(tentative)*',
         image='Car_with_Fox_Hunt_Antenna.jpeg',
         body_image_mode='contain',
+        body_font_size=Pt(16),
         bullets=(
             '**Type: regional mobile · 5+ W fox · wide-area adventure**',
             '**Sun Sep 20** — Finish at Howarth Park, Everett',
@@ -1035,12 +1183,12 @@ SLIDES: tuple[SlideSpec, ...] = (
     SlideSpec(
         layout='E',
         title="The Region We'll Hunt",
-        image='EXAMPLE_Greater_Seattle_Hunt_Area.png',
+        image='Greater_Seattle_Google_satelite.png',
         bullets=(
             'Three events across the greater Puget Sound area',
-            'July: **Auburn** (Flaming Geyser)',
-            'August: **Redmond** (Marymoor)',
-            'September: **Everett** (Howarth) — mobile finish',
+            'July 19: **Auburn** (Flaming Geyser)',
+            'August 22: **Redmond** (Marymoor)',
+            'September 20: Regional hunt, details TBD',
         ),
         notes=(
             'Talking point: zoom out and show the three hunt areas as a '
@@ -1066,10 +1214,18 @@ SLIDES: tuple[SlideSpec, ...] = (
             'fox',
             '**Hunts:** show up and hunt — all levels welcome, mentors '
             'present',
-            '**Mailing list:** groups.io/g/mikeandkey-foxhunt (ask Scott '
-            'KC7SAG)',
+            '**Mailing list:** ??????? (Scott KC7SAG: can you set one up?)',
+            '🌐 https://mikeandkey.org/foxhunt.php',
             '**Questions:** Tom KE4HET',
         ),
+        qr_image='qr_signup.png',
+        qr_rect=(
+            int(SLIDE_WIDTH) - int(MARGIN) - int(Cm(3.0)),
+            int(SLIDE_HEIGHT) - int(MARGIN) - int(Cm(3.0)),
+            int(Cm(3.0)),
+            int(Cm(3.0)),
+        ),
+        show_logo=False,
         notes=(
             'Talking point: finish the call to action with the top entry '
             'points, contact path, and mailing list.',
@@ -1077,7 +1233,14 @@ SLIDES: tuple[SlideSpec, ...] = (
     ),
     SlideSpec(
         layout='A',
-        subtitle='Tom KE4HET  |  groups.io/g/mikeandkey-foxhunt',
+        subtitle='Tom KE4HET  |  https://mikeandkey.org/foxhunt.php',
+        qr_image='qr_signup.png',
+        qr_rect=(
+            (int(SLIDE_WIDTH) - int(Cm(4.0))) // 2,
+            int(Cm(12.7)),
+            int(Cm(4.0)),
+            int(Cm(4.0)),
+        ),
         notes=(
             'Talking point: invite questions and leave the audience with '
             'a clear follow-up contact path.',
