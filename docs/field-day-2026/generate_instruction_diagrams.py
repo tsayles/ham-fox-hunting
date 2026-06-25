@@ -12,9 +12,6 @@ Outputs (SVG + PNG):
   - attenuator-switch-modes
   - yagi-2m-boom-layout
   - yagi-hairpin-2m
-  - dual-band-layout
-  - dual-band-end-on
-  - dual-band-hairpin-70cm
 """
 
 from __future__ import annotations
@@ -218,57 +215,6 @@ def draw_yagi_hairpin_2m() -> None:
   _save(fig, "yagi-hairpin-2m")
 
 
-def draw_dual_band_layout() -> None:
-  fig, ax = _make_canvas(9.8, 3.2)
-  ax.set_xlim(0, 16)
-  ax.set_ylim(0, 6)
-  ax.plot([0.9, 15.0], [2.8, 2.8], color="black", linewidth=2)
-  ax.text(15.2, 2.8, "boom", va="center", fontsize=9)
-
-  positions = [2.2, 4.0, 5.9, 8.6, 10.4, 13.0]
-  labels = ["70cm Dir", "70cm DE", "70cm Refl", "2m Dir", "2m DE", "2m Refl"]
-  for x, label in zip(positions, labels):
-    ax.text(x, 5.0, label, ha="center", fontsize=8)
-  for x in [2.2, 4.0, 5.9]:
-    ax.plot([x - 0.6, x + 0.6], [2.8, 2.8], color="#3366CC", linewidth=3)
-  for x in [8.6, 10.4, 13.0]:
-    ax.plot([x, x], [1.4, 4.2], color="#009966", linewidth=3)
-
-  ax.text(4.0, 0.9, "70cm horizontal (90° to 2m)", ha="center", fontsize=9)
-  ax.text(10.7, 0.9, "2m vertical", ha="center", fontsize=9)
-  ax.set_title("Dual-Band Shared Boom Layout", fontsize=12)
-  _save(fig, "dual-band-layout")
-
-
-def draw_dual_band_end_on() -> None:
-  fig, ax = _make_canvas(4.6, 3.8)
-  ax.set_xlim(0, 10)
-  ax.set_ylim(0, 10)
-  ax.plot([2.0, 8.0], [5.0, 5.0], color="#3366CC", linewidth=3)
-  ax.plot([5.0, 5.0], [2.0, 8.0], color="#009966", linewidth=3)
-  ax.plot([5.0], [5.0], marker="o", color="black")
-  ax.text(5.0, 9.0, "2m vertical", ha="center", fontsize=9)
-  ax.text(5.0, 1.0, "70cm horizontal", ha="center", fontsize=9)
-  ax.text(5.4, 5.4, "boom axis", fontsize=8)
-  ax.set_title("End-On Orientation (90° Offset)", fontsize=12)
-  _save(fig, "dual-band-end-on")
-
-
-def draw_dual_band_hairpin_70cm() -> None:
-  fig, ax = _make_canvas(5.3, 3.2)
-  ax.set_xlim(0, 10)
-  ax.set_ylim(0, 8)
-  ax.plot([3.4, 3.4], [2.2, 5.8], color="black", linewidth=2)
-  ax.plot([6.6, 6.6], [2.2, 5.8], color="black", linewidth=2)
-  ax.plot([3.4, 6.6], [5.8, 5.8], color="black", linewidth=2)
-  ax.text(5.0, 6.4, "~1\" wire across top", ha="center", fontsize=9)
-  ax.text(5.0, 4.1, "~1/4\" leg spacing", ha="center", fontsize=9)
-  ax.text(3.4, 1.2, "left\nhalf", ha="center", fontsize=8)
-  ax.text(6.6, 1.2, "right\nhalf", ha="center", fontsize=8)
-  ax.set_title("70cm Hairpin Match Shape", fontsize=12)
-  _save(fig, "dual-band-hairpin-70cm")
-
-
 def main() -> None:
   draw_attenuator_switch_pinout()
   draw_attenuator_signal_chain()
@@ -278,9 +224,6 @@ def main() -> None:
   draw_attenuator_switch_modes()
   draw_yagi_2m_boom_layout()
   draw_yagi_hairpin_2m()
-  draw_dual_band_layout()
-  draw_dual_band_end_on()
-  draw_dual_band_hairpin_70cm()
 
 
 if __name__ == "__main__":

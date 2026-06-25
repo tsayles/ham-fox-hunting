@@ -32,9 +32,6 @@ to use at the demonstration on Saturday and Sunday:
 
 - **Project 1:** 3-element 2m tape measure Yagi antenna
 - **Project 2:** 3-section switched step attenuator
-- **Project 3 (optional):** Dual-band 2m/70cm tape measure Yagi
-  for participants with a dual-band HT and ~90 minutes of extra
-  time after completing Projects 1 and 2.
 
 The session is hands-on from the first minute. Instruction happens
 at the bench, not the whiteboard. Every participant builds their
@@ -95,8 +92,6 @@ Complete these tasks before arriving on Thursday.
 - [ ] Purchase all Project 1 (Yagi) materials — see BOM in Section 3
 - [ ] Purchase all Project 2 (Attenuator) materials — see BOM in
       Section 4
-- [ ] Purchase all Project 3 (Dual-Band Yagi) materials for
-      participants who choose that option — see BOM in Section 5
 - [ ] Pre-cut RG-58 coax to 6-foot lengths; crimp or solder one
       BNC-male connector on each length; label with masking tape
 - [ ] Buy a backup set of each most-breakable item: extra BNC
@@ -135,17 +130,6 @@ participant. Label each bag with the participant's callsign or just
   wires)
 - 1× small strip of perfboard (~1" × 3"), optional
 
-**Each dual-band Yagi kit bag (Project 3 — optional add-on):**
-- 2× ¾" PVC cross fitting (70cm reflector and driven element
-  positions — same part as the 2m section, rotated 90° on boom)
-- 1× ¾" PVC T fitting (70cm director — same part as 2m director,
-  rotated 90° on boom)
-- 6× additional stainless hose clamps (½"–1¼")
-- 1× 3–6 ft RG-58 pigtail with BNC-male (70cm feed, pre-built)
-- 1× 2" piece of 18–20 AWG solid copper wire (pre-cut; for 70cm
-  hairpin match)
-- 2× cable ties (coax routing)
-
 **Shared supplies (instructor brings, not per-kit):**
 - Solder (60/40 or 63/37 rosin-core, 0.032")
 - Flux pen or rosin flux
@@ -167,8 +151,7 @@ participant. Label each bag with the participant's callsign or just
       tip cleaner, solder, flux, small fan for fume dispersal
 - [ ] Lay out a kit bag and printed instruction sheet at each station
 - [ ] Stage PVC pipe (cut to rough length or full 10 ft) for
-      distribution; no separate ½" pipe needed for Project 3 —
-      70cm fittings mount directly on the main ¾" boom
+      distribution
 - [ ] Have the drill and enclosures ready at one central station for
       Project 2
 
@@ -451,62 +434,13 @@ fox hunting.
 
 ## 5. Project 3 — Dual-Band (2m / 70cm) Tape Measure Yagi
 
-> **Optional advanced project.** Build this if you want a single
-> antenna that covers both 2-meter and 70-cm ARDF bands. It adds
-> roughly 60–90 minutes to the build time and requires a dual-band
-> HT and a second coax pigtail.
+This content was moved out of PR #3 for dedicated rework.
 
-### Overview
+- Feature request: #7
+- Dedicated PR: #8
 
-This project adds a 3-element 70cm Yagi to the 2m Yagi built in
-Project 1, creating a dual-band directional antenna with two
-independent coax feeds. The 70cm fittings are ¾" PVC (same size
-as the 2m section) placed on the same boom, rotated 90° so the
-70cm elements are horizontal when the 2m elements are vertical.
-Useful for events running foxes on both 2m and 70cm simultaneously.
-
-### Full Build Instructions
-
-> **Step-by-step instructions, BOM, and testing procedures are in
-> the standalone build document:**
->
-> **[`build-instructions-dual-band-yagi.md`](build-instructions-dual-band-yagi.md)**
->
-> Print one copy per participant choosing this project.
-
-### Bill of Materials — Project 3 Add-On
-
-> **Target cost:** ~$10–15 per kit in addition to the Project 1
-> Yagi kit (~$32–43 total). This is the incremental cost for the
-> 70cm section only; the 25 ft tape measure and main boom are
-> shared with Project 1.
-
-| Qty | Item | Notes | Est. Cost |
-|-----|------|-------|-----------|
-| 2 | ¾" PVC cross (4-way) fittings | Reflector and driven element positions. Rotated 90° on main boom. Same part as Project 1. | $1.50–3.00 each |
-| 1 | ¾" PVC T fitting | Director position. Rotated 90° on main boom. Same part as Project 1. | $0.75–1.50 |
-| 6 | Stainless steel hose clamps, ½"–1¼" | Same size as Project 1 clamps. | $3.27 for 6 ($11.99/22-pack, Amazon Jun 2026) |
-| 1 | RG-58/U coax pigtail, 3–6 ft, BNC-male | 70cm feed. Pre-built by instructor. | $1.57–1.70 each (1.5–3 ft jumpers, Amazon Jun 2026) |
-| 1 | 18–20 AWG solid copper wire, 2" piece | 70cm hairpin match. Pre-cut. | <$0.25 |
-| 2 | Cable ties | Coax routing. | <$0.25 |
-
-**Incremental add-on cost: ~$10–15 per kit**
-
-### 70cm Element and Fitting Dimensions (Quick Reference)
-
-| Element | Length |
-|---|---|
-| Reflector | **13¾"** |
-| Driven element (each half) | **5⅞"**, gap = **⅜"** |
-| Director | **11⅝"** |
-
-All 70cm fittings are ¾" PVC on the main boom, rotated 90°.
-
-| Fitting position from handle | Fitting | Orientation |
-|---|---|---|
-| ~23" | 70cm Reflector cross | 90° rotated |
-| ~27⅛" | 70cm Driven cross | 90° rotated |
-| ~29¾" | 70cm Director T | 90° rotated |
+Project 3 dual-band instructions will be reintroduced after that
+separate technical review is complete.
 
 ---
 
@@ -698,12 +632,6 @@ of 1–10, expect times between these bounds.
 | — | **Testing and verification** | 20 min | 35 min |
 | — | **Wrap-up, Q&A, cleanup** | 15 min | 20 min |
 | **Total session (P1 + P2)** | | **~4 hr 0 min** | **~6 hr 40 min** |
-| — | *Optional: Project 3 add-on (dual-band Yagi)* | | |
-| 11 | *Mark 70cm positions and dry-fit fittings at 90°* | *10 min* | *20 min* |
-| 12 | *Cut 70cm tape measure elements* | *15 min* | *25 min* |
-| 13–18 | *Prep tips, mount elements, hairpin, coax* | *35 min* | *60 min* |
-| 19–20 | *Verify 90° orientation, route coax, label* | *10 min* | *20 min* |
-| **Project 3 subtotal (if pursued)** | | **~70 min** | **~125 min** |
 
 ### Recommended Session Plan
 
@@ -729,10 +657,6 @@ for 5.5 hours.
   group field walk: take one HT + Yagi + attenuator to the Parade
   Grounds and practice bearing runs on the Byonics fox transmitter.
   This is the best possible preparation for Saturday.
-- If any participants have extra time and a dual-band HT, walk them
-  through Project 3 (dual-band Yagi). The 70cm section takes
-  60–90 minutes and produces an antenna ready for 70cm fox hunts
-  or future dual-band events.
 
 ---
 
@@ -749,7 +673,6 @@ for 5.5 hours.
 | M&K ARC Field Day 2026 — Overall Plan | `docs/field-day-2026/overall-plan.md` in this repository |
 | Build Instructions — 2m Yagi | `docs/field-day-2026/build-instructions-2m-yagi.md` |
 | Build Instructions — Switched Step Attenuator | `docs/field-day-2026/build-instructions-attenuator.md` |
-| Build Instructions — Dual-Band (2m/70cm) Yagi | `docs/field-day-2026/build-instructions-dual-band-yagi.md` |
 
 ---
 
@@ -772,24 +695,6 @@ workstation.*
 |---|---|
 | Director T ↔ Driven element cross | **~8"** (Boom-B tube = 6⅞") |
 | Driven element cross ↔ Reflector cross | **~12½"** (Boom-A tube = 11¼") |
-
-### 70cm Element Lengths (Project 3 — dual-band add-on)
-
-| Element | Cut Length |
-|---|---|
-| Reflector | **13¾"** |
-| Driven element (each half) | **5⅞"** (gap = ⅜") |
-| Director | **11⅝"** |
-
-### 70cm Fitting Positions on Main Boom (Project 3)
-
-All ¾" PVC fittings — rotated 90° (70cm elements horizontal):
-
-| Fitting | Position from handle |
-|---|---|
-| 70cm Reflector cross | ~23" |
-| 70cm Driven cross | ~27⅛" |
-| 70cm Director T | ~29¾" |
 
 ### Attenuator Resistor Values
 
@@ -817,10 +722,6 @@ All ¾" PVC fittings — rotated 90° (70cm elements horizontal):
 | **Attenuator:** Signal drops even when all in bypass | R_series wired to COM pins instead of throw-B | Trace each signal path with ohmmeter in bypass mode |
 | **Attenuator:** One section doesn't attenuate | R_shunt not grounded; resistor not soldered | Check ground connection to chassis; re-solder R_shunt |
 | **Attenuator:** Intermittent behavior | Switch not seating fully in throw positions | Verify switch hardware is tight in enclosure; check for wobble |
-| **Dual-band Yagi:** 70cm section omni-directional | Coax center shorted to braid at 70cm driven element | Inspect 70cm solder joints; probe with ohmmeter |
-| **Dual-band Yagi:** No 70cm receive at all | 70cm coax center disconnected | Probe 70cm BNC center → 70cm driven element half |
-| **Dual-band Yagi:** Antenna looks crooked | Sub-boom skewed relative to main boom | Re-position and re-cinch zip ties until parallel |
-| **Dual-band Yagi:** 2m pigtail and 70cm pigtail mixed up | Connected wrong HT to wrong coax | Label both ends of each pigtail before leaving the bench |
 
 ---
 
