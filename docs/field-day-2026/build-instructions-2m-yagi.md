@@ -149,10 +149,7 @@ use.
 
 **Boom layout, front to back:**
 
-```
-[Director T] ←Boom-B→ [Driven Cross] ←Boom-A→ [Reflector Cross] ←Handle→ [Handle T]
-   (front)                (center)                  (rear)
-```
+![2m boom layout front to back](yagi-2m-boom-layout.png)
 
 1. Push Boom-B into one socket of the director T fitting (front).
 2. Push the other end of Boom-B into one socket of the driven
@@ -169,12 +166,7 @@ use.
 The boom should look like this from above (elements will be
 horizontal, perpendicular to the boom):
 
-```
-   Director                  Driven Element    Reflector
-      ↕                    ↕    ↕    ↕           ↕
-[T]──────────[Cross]──────────[Cross]──────────[Cross]──[Handle]──[T]
-  ←— 8" C-C —→              ←——— 12½" C-C ———→
-```
+![2m boom layout and spacing](yagi-2m-boom-layout.png)
 
 > **Verify spacing:** With the boom assembled, measure
 > center-to-center from the director T to the driven element
@@ -361,14 +353,7 @@ feedpoint impedance to better match the 50 Ω coax.
    U-shape. The two parallel legs of the U should be
    approximately ¾" apart at the tips.
 
-   ```
-       ┌──────────────┐   ← ~3" of wire across the top
-       │              │
-       │  ←~ ¾" →    │   ← gap between legs
-       ↓              ↓
-   (solders to)  (solders to)
-   left element  right element
-   ```
+   ![2m hairpin match geometry](yagi-hairpin-2m.png)
 
 3. Lay the U-shape across the 1" gap between the driven element
    halves, with each leg resting on one of the tinned corners.

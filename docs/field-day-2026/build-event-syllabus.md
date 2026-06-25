@@ -345,14 +345,7 @@ fox hunting.
 
 **DPDT switch wiring per section:**
 
-```
-Standard DPDT ON-ON mini toggle switch pin numbering (from above):
-
-  [1]──[2]──[3]   ← Pole 1  (toggle throws: 1↔2 or 2↔3)
-  [4]──[5]──[6]   ← Pole 2  (toggle throws: 4↔5 or 5↔6)
-
-  Pins 2 and 5 are the "common" pins of each pole.
-```
+![DPDT ON-ON mini toggle switch pin numbering](attenuator-switch-pinout.png)
 
 | Pin | Connection |
 |---|---|
@@ -375,9 +368,7 @@ Standard DPDT ON-ON mini toggle switch pin numbering (from above):
 **Three sections are wired in series:** The output of one section
 (pin 5) feeds directly to the input of the next section (pin 2).
 
-```
-BNC IN → [Section A: 6 dB] → [Section B: 10 dB] → [Section C: 20 dB] → BNC OUT
-```
+![Attenuator section signal chain](attenuator-signal-chain.png)
 
 ### Bill of Materials — Attenuator
 
@@ -809,18 +800,7 @@ All ¾" PVC fittings — rotated 90° (70cm elements horizontal):
 
 ### DPDT Switch Wiring Summary
 
-```
-Position: BYPASS (lever to throw-A side)
-  Pin 2 → Pin 1 ←bypass wire→ Pin 4 → Pin 5
-  T-pad resistors are floating (disconnected)
-
-Position: ATTENUATE (lever to throw-B side)
-  Pin 2 → Pin 3 → R_s1 → MID → R_s2 → Pin 6 → Pin 5
-                               ↓
-                            R_shunt
-                               ↓
-                             chassis
-```
+![DPDT section signal paths](attenuator-switch-modes.png)
 
 ---
 

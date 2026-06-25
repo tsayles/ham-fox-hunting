@@ -49,32 +49,11 @@ proportionally (frequency ratio: 440/146 ≈ 3.01).
 
 ### Antenna Layout
 
-```
-← director/tip end                     handle/reflector end →
-
-70cm  70cm         70cm  2m    2m             2m
-Dir    DE          Refl  Dir    DE            Refl
- •     ••           •    ↕    ↕↕↕              ↕
-
-═══════════════════════════════════════════════════ ¾" PVC boom
-
-←2⅝"→←— 4⅛" —→←2½"→←—— 8" ——→←————— 12½" ————→
-
-  • = 70cm element tip (horizontal, 90° to 2m elements)
-  ↕ = 2m element (vertical)
-```
+![Dual-band shared boom layout](dual-band-layout.png)
 
 End-on view (looking from director/tip end, boom horizontal):
 
-```
-     ←———— 70cm element (horizontal) ————→
-     ─────────────┬────────────────
-                  │
-                  │  ← boom axis (perpendicular to page)
-                  │
-                 ↕↕↕
-           2m element (vertical)
-```
+![End-on 90-degree orientation](dual-band-end-on.png)
 
 The 70cm section sits at the forward (tip) end of the boom, past
 the 2m director. All 70cm fittings are ¾" PVC (same as the 2m
@@ -249,17 +228,7 @@ The 70cm fittings are ¾" PVC — the same part as the 2m section —
 but each is **rotated 90° around the boom axis** so that the
 element ports are perpendicular to the 2m element ports.
 
-```
-End-on view (looking from director/tip end, boom horizontal):
-
-     ←———— 70cm element (horizontal) ————→
-     ─────────────┬────────────────
-                  │
-                  │  ← boom axis
-                  │
-                 ↕↕↕
-           2m element (vertical)
-```
+![End-on 90-degree orientation](dual-band-end-on.png)
 
 1. Slide the 70cm Reflector cross fitting from the boom tip to
    the ~23" mark.
@@ -392,14 +361,7 @@ Same principle as the 2m hairpin, scaled down.
 2. Using needle-nose pliers, bend the wire into a U-shape with
    the two parallel legs **~¼"** apart at the tips.
 
-   ```
-       ┌──────┐   ← ~1" of wire across the top
-       │      │
-       │  ¼"  │   ← gap between legs
-       ↓      ↓
-   (solders)  (solders)
-   left half  right half
-   ```
+   ![70cm hairpin match geometry](dual-band-hairpin-70cm.png)
 
 3. Lay the U-shape across the ⅜" gap between the driven element
    halves, with each leg resting on one of the tinned corners.
@@ -470,17 +432,7 @@ correctly and all fittings are fully secured.
 5. Add a ¾" PVC end cap or hose clamp to the boom tip forward
    of the 70cm director fitting to prevent it from sliding off.
 
-```
-Side view (both element sets visible, boom horizontal):
-
-← tip/director end                    handle/reflector end →
-
-70cm  70cm         70cm  2m    2m             2m
-Dir    DE          Refl  Dir    DE            Refl
- •     ••           •    ↕    ↕↕↕              ↕
-
-═══════════════════════════════════════════════════ boom
-```
+![Dual-band shared boom layout](dual-band-layout.png)
 
 ---
 

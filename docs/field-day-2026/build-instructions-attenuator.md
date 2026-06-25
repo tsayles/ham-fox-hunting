@@ -95,14 +95,7 @@ fox hunting.
 
 **DPDT switch wiring per section:**
 
-```
-Standard DPDT ON-ON mini toggle switch pin numbering (from above):
-
-  [1]──[2]──[3]   ← Pole 1  (toggle throws: 1↔2 or 2↔3)
-  [4]──[5]──[6]   ← Pole 2  (toggle throws: 4↔5 or 5↔6)
-
-  Pins 2 and 5 are the "common" pins of each pole.
-```
+![DPDT ON-ON mini toggle switch pin numbering](attenuator-switch-pinout.png)
 
 | Pin | Connection |
 |---|---|
@@ -125,9 +118,7 @@ Standard DPDT ON-ON mini toggle switch pin numbering (from above):
 **Three sections are wired in series:** The output of one section
 (pin 5) feeds directly to the input of the next section (pin 2).
 
-```
-BNC IN → [Section A: 6 dB] → [Section B: 10 dB] → [Section C: 20 dB] → BNC OUT
-```
+![Attenuator section signal chain](attenuator-signal-chain.png)
 
 ---
 
@@ -218,17 +209,7 @@ without leaving permanent marks on the box if you need to adjust.
 
 **Recommended layout:**
 
-```
-Enclosure top view (lid face up):
-
-  ┌──────────────────────────────────────────┐
-  │  [SW-A]    [SW-B]    [SW-C]              │  ← Top face: 3 switch holes
-  │  (6 dB)   (10 dB)  (20 dB)              │     Spaced ~1" apart, centered
-  └──────────────────────────────────────────┘
-
-  Left end:   BNC IN  hole (center of end wall)
-  Right end:  BNC OUT hole (center of end wall)
-```
+![Enclosure top view layout](attenuator-enclosure-layout.png)
 
 **Hole sizes:**
 - BNC female panel-mount: typically ⅜" (9.5 mm) body hole;
@@ -350,13 +331,7 @@ to the switch.
    node bundle. The other lead of R_shunt will go to chassis
    (box body).
 4. You now have a small component "tree":
-   ```
-   free end of R_s1 — [18Ω] — MID — [18Ω] — free end of R_s2
-                                |
-                              [68Ω]
-                                |
-                            (chassis)
-   ```
+   ![T-pad component tree example](attenuator-resistor-tree.png)
 5. Solder the MID junction cleanly.
 6. Solder the free end of R_s1 to **Pin 3** (Throw B, Pole 1) of
    Switch A.
@@ -460,9 +435,7 @@ Before closing the lid, verify all connections with an ohmmeter.
      direction you chose for bypass in Step 4)
 4. Apply a label strip showing attenuation for each switch
    position:
-   ```
-   [ 6 dB ]  [ 10 dB ]  [ 20 dB ]
-   ```
+   ![Switch label strip](attenuator-label-strip.png)
 
 **Attenuator build is complete. Proceed to testing (Section 7).**
 
@@ -566,18 +539,7 @@ participant's HT transmitting briefly.
 
 **DPDT Switch Wiring Summary**
 
-```
-Position: BYPASS (lever to throw-A side)
-  Pin 2 → Pin 1 ←bypass wire→ Pin 4 → Pin 5
-  T-pad resistors are floating (disconnected)
-
-Position: ATTENUATE (lever to throw-B side)
-  Pin 2 → Pin 3 → R_s1 → MID → R_s2 → Pin 6 → Pin 5
-                               ↓
-                            R_shunt
-                               ↓
-                             chassis
-```
+![DPDT section signal paths](attenuator-switch-modes.png)
 
 ---
 
