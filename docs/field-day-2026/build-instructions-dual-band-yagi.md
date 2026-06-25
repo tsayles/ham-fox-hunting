@@ -554,16 +554,16 @@ Perform the same continuity checks described in Section 6 of
 `build-instructions-2m-yagi.md` for **each band independently**:
 
 **For each coax pigtail:**
-- BNC center → BNC shell: **open** (no short)
+- BNC center → BNC shell: **low resistance/continuity** (normal
+  through the hairpin bridge on that band's driven element)
 - BNC center → one driven element half: **low resistance** (< 2 Ω)
 - BNC shell → other driven element half: **low resistance** (< 2 Ω)
 
 **Also verify:**
 - 2m BNC center → 70cm BNC center: **open** (the two feed
   systems must be independent — no connection between them)
-- 2m BNC shell → 70cm BNC shell: may show continuity through the
-  shared boom; this is acceptable since both shields are RF
-  ground through the metal hose clamps and tape measure blades
+- 2m BNC shell → 70cm BNC shell: **open** (no intentional DC
+  connection between band feed systems)
 
 ---
 

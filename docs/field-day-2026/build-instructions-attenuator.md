@@ -494,7 +494,7 @@ Equipment: Ohmmeter or DMM.
 - BNC IN center → BNC IN shell: open ✓
 
 **With 6 dB section switched in (others bypass):**
-- BNC IN → BNC OUT: should read approximately 5–15 Ω
+- BNC IN → BNC OUT: should read approximately 30–35 Ω
   (not an exact attenuator measurement with a DMM — just verifies
   the resistors are in circuit)
 

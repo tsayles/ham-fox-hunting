@@ -509,11 +509,11 @@ soldering.
 
 Equipment: Ohmmeter or DMM in continuity/resistance mode.
 
-1. **Center-to-braid short check:** Probe BNC-male center pin and
-   BNC-male shell. Expect: **open** (infinite resistance, no
-   continuity). If you read continuity, there is a short in the
-   coax, at the BNC connector, or at the driven element. Do not
-   proceed until this is resolved.
+1. **Center-to-braid continuity check:** Probe BNC-male center pin
+   and BNC-male shell. Expect: **low resistance/continuity** (the
+   hairpin intentionally bridges the two driven element halves).
+   If this reads open, the hairpin or one of the feed solder joints
+   is likely disconnected.
 
 2. **Driven element wiring:** Probe BNC center pin while touching
    one driven element half with the other probe. Expect: very low
