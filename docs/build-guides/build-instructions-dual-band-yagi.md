@@ -576,7 +576,7 @@ front-to-back null.
 | WB2HOL (Joel Hartman) | Original designer of the tape measure Yagi. 70cm dimensions scale directly from his 2m design by frequency ratio. |
 | ARDF.net | ARDF resources, dual-band fox hunting: [https://www.ardf.net](https://www.ardf.net) |
 | Homingin.com | ARDF equipment and dual-band hunting techniques: [https://www.homingin.com](https://www.homingin.com) |
-| M&K ARC Field Day 2026 — 2m Yagi Instructions | `docs/field-day-2026/build-instructions-2m-yagi.md` |
+| M&K ARC Field Day 2026 — 2m Yagi Instructions | `docs/build-guides/build-instructions-2m-yagi.md` |
 | M&K ARC Field Day 2026 — Build Session Syllabus | `docs/field-day-2026/build-event-syllabus.md` |
 
 ---
