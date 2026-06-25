@@ -202,41 +202,40 @@ around one-handed for extended periods.
 
 ### Bill of Materials — Yagi
 
-> **Target cost:** ~$30–35 per kit when ordered in bulk for 10
-> participants. Individual retail purchase: ~$38–45.
+> **Target cost:** ~$22–28 per kit when ordered in bulk for 10
+> participants using Amazon Jun 2026 pricing for key parts.
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 1 | 25 ft × 1" wide steel tape measure | Stanley, Craftsman, or similar. Must be at least 25 ft. **1" blade width is critical** — wider blades are too stiff; narrower won't tune correctly. | $6–10 |
+| 1 | 25 ft × 1" wide steel tape measure | Stanley, Craftsman, or similar. Must be at least 25 ft. **1" blade width is critical** — wider blades are too stiff; narrower won't tune correctly. | $3.80 each ($37.99/10-pack, Amazon Jun 2026) |
 | 1 | 10 ft length of ¾" Schedule 40 PVC pipe | Available at any hardware store. One 10 ft stick yields boom + handle for one kit with material to spare. | $4–6 |
 | 2 | ¾" PVC cross (4-way) fittings | One for reflector position, one for driven element. | $1.50–3.00 each |
 | 2 | ¾" PVC T fittings | One for director (front), one for handle grip (rear). | $0.75–1.50 each |
-| 6 | Stainless steel hose clamps, ½"–1¼" range | Buy a 10-pack and split among kits. Must be worm-drive (screw-tighten), not spring-type. | ~$7–10/10-pack |
-| 1 | RG-58/U coax pigtail, 6 ft, BNC-male one end | Pre-built by instructor. Or buy a 6 ft BNC-M–BNC-M jumper and cut one BNC off. | $4–7 |
+| 6 | Stainless steel hose clamps, ½"–1¼" range | Must be worm-drive (screw-tighten), not spring-type. | $3.27 for 6 ($11.99/22-pack, Amazon Jun 2026) |
+| 1 | RG-58/U coax pigtail, 6 ft, BNC-male one end | Pre-built by instructor. Or buy BNC jumpers and cut one BNC off. | $3.40 for 6 ft equivalent (2 × 3 ft @ $1.70 each, Amazon Jun 2026) |
 | 1 | 14 AWG solid copper wire, 6" piece | Pre-cut. From a scrap of THHN or solid hookup wire. | <$0.50 |
 | — | Rosin-core solder, 60/40 | Shared supply | — |
 | — | Fine sandpaper, 80–120 grit | One small piece per kit | <$0.25 |
 | — | Electrical tape | Shared supply | — |
 | — | 2 cable ties | For coax routing | <$0.25 |
 
-**Per-kit total (bulk purchasing): ~$30–36**
+**Per-kit total (bulk purchasing): ~$22–28**
 
 #### Sourcing Suggestions
 
-- **Tape measures:** Home Depot or Lowe's in-store (~$6–8 for a basic
-  Stanley or store brand). Alternatively, buy a 4-pack on Amazon for
-  ~$20–24 ($5–6 each). Avoid "autolock" models — the blade needs to
+- **Tape measures:** Purchased a 10-pack for $37.99 in Jun 2026
+  ($3.80 each). Avoid "autolock" models — the blade needs to
   retract freely so you can slide it through the hose clamps.
 - **PVC pipe and fittings:** Any hardware store, plumbing section.
   Buy fittings individually — cross fittings may not be in the "grab
   bag" section, look for individual ¾" DWV or pressure fittings.
-- **Hose clamps:** Hardware store, automotive section. Buy a 10-pack.
-  Specify "worm-drive" or "screw-type". Size range ½"–1¼" works;
-  pack labeled "12–20 mm" or "5/16"–¾" will also fit ¾" PVC OD.
-- **RG-58 pigtails:** Build from bulk RG-58 ($0.30/ft) + BNC crimp
-  connectors ($0.80–1.50 each). Or buy pre-made 6 ft BNC jumpers on
-  Amazon (search "6 ft RG-58 BNC cable", ~$5–8 each) and cut one
-  connector off.
+- **Hose clamps:** Purchased a 22-pack for $11.99 in Jun 2026
+  (about $0.55 each). Specify "worm-drive" or "screw-type".
+  Size range ½"–1¼" works; pack labeled "12–20 mm" or
+  "5/16"–¾" will also fit ¾" PVC OD.
+- **RG-58 pigtails:** Purchased 3 ft BNC jumpers in a 10-pack for
+  $16.99 in Jun 2026 ($1.70 each). Two 3 ft jumpers provide a rough
+  6 ft cost equivalent of ~$3.40 for planning.
 
 ### Tools Required — Yagi
 
@@ -372,13 +371,13 @@ fox hunting.
 
 ### Bill of Materials — Attenuator
 
-> **Target cost:** ~$22–28 per kit when ordered in bulk.
+> **Target cost:** ~$10–13 per kit using Amazon Jun 2026 pricing.
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 3 | DPDT ON-ON miniature toggle switch, PCB or solder-lug terminals | 6-pin, ON-ON (not ON-OFF-ON). Bushing diameter typically 6 mm or ¼". | $1.50–2.50 each |
-| 2 | BNC female panel-mount (chassis-mount) connector | Bulkhead type. Thread-mount, ⅜" or ½" panel hole. | $1.50–2.50 each |
-| 1 | Metal project enclosure, approx. 3.7" × 2.9" × 1.2" | Hammond 1590A (die-cast aluminum) or equivalent. **Must be metal** for RF shielding. | $10–14 |
+| 3 | DPDT ON-ON miniature toggle switch, PCB or solder-lug terminals | 6-pin, ON-ON (not ON-OFF-ON). Bushing diameter typically 6 mm or ¼". | $1.00 each ($9.99/10-pack, Amazon Jun 2026) |
+| 2 | BNC female panel-mount (chassis-mount) connector | Bulkhead type. Thread-mount, ⅜" or ½" panel hole. | $0.39 each ($9.79/25-pack, Amazon Jun 2026) |
+| 1 | Metal project enclosure, approx. 3.7" × 2.9" × 1.2" | Hammond 1590A (die-cast aluminum) or equivalent. **Must be metal** for RF shielding. | $5.40 each ($26.99/5-pack, Amazon Jun 2026) |
 | 2 | 18 Ω ¼ W metal film resistor | For 6 dB section | < $0.25 total |
 | 1 | 68 Ω ¼ W metal film resistor | For 6 dB section | < $0.25 total |
 | 2 | 27 Ω ¼ W metal film resistor | For 10 dB section | < $0.25 total |
@@ -388,7 +387,7 @@ fox hunting.
 | — | 22–24 AWG hookup wire, ~12" | Short runs inside enclosure | Shared |
 | — | Solder | Shared | — |
 
-**Per-kit total (bulk purchasing): ~$22–28**
+**Per-kit total (using Amazon Jun 2026 purchases): ~$10–13**
 
 > **Resistor sourcing:** Buy an assortment kit from Amazon (500-piece
 > or 1000-piece metal film assortment, ~$8–12) and pull the values
@@ -396,8 +395,8 @@ fox hunting.
 > resistor costs $0.08–0.15 each. For 10 participant kits, you need
 > 20× 18 Ω, 10× 68 Ω, 20× 27 Ω, 10× 36 Ω, 20× 39 Ω, 10× 10 Ω.
 
-> **BNC connectors:** 10-pack on Amazon is ~$8–10. Leftover connectors
-> are useful for future projects.
+> **BNC connectors:** Paid $9.79 for a 25-pack in Jun 2026
+> (~$0.39 each), enough for 12 attenuators with one spare.
 
 > **Hammond 1590A alternative:** Any die-cast or stamped-steel box
 > in the 3"–4" range works. Plastic boxes are NOT acceptable — they
@@ -407,13 +406,15 @@ fox hunting.
 
 #### Sourcing Suggestions
 
-- **Switches:** Amazon search "DPDT ON-ON mini toggle switch 6 pin"
-  — buy a 10-pack (~$8–12) so you have spares. Confirm they are
-  ON-ON (not ON-OFF-ON, which has 3 positions).
-- **BNC connectors:** Amazon, Digi-Key, Mouser. Search "BNC female
-  panel mount" or "BNC chassis mount". Buy a 10-pack.
-- **Enclosures:** Hammond 1590A from Amazon, Digi-Key, or Mouser
-  (~$10–12 each). Order in advance; this is the longest-lead item.
+- **Switches:** Purchased Twidec 10-pack for $9.99 in Jun 2026
+  (~$1.00 each). Confirm they are ON-ON (not ON-OFF-ON, which has
+  3 positions).
+- **BNC connectors:** Purchased 25-pack for $9.79 in Jun 2026
+  (~$0.39 each). Search "BNC female panel mount" or
+  "BNC chassis mount".
+- **Enclosures:** Purchased a 5-pack of 1590B-style die-cast boxes
+  for $26.99 in Jun 2026 (~$5.40 each). Order in advance; this is
+  still a longer-lead item than switches/connectors.
 - **Resistors:** 1% metal film assortment kit from Amazon (~$8–12 for
   500-piece kit). Confirm the kit includes 10 Ω, 18 Ω, 27 Ω, 36 Ω,
   39 Ω, 68 Ω. Most 600-value kits include these.
@@ -475,8 +476,8 @@ Useful for events running foxes on both 2m and 70cm simultaneously.
 
 ### Bill of Materials — Project 3 Add-On
 
-> **Target cost:** ~$14–20 per kit in addition to the Project 1
-> Yagi kit (~$46–56 total). This is the incremental cost for the
+> **Target cost:** ~$10–15 per kit in addition to the Project 1
+> Yagi kit (~$32–43 total). This is the incremental cost for the
 > 70cm section only; the 25 ft tape measure and main boom are
 > shared with Project 1.
 
@@ -484,12 +485,12 @@ Useful for events running foxes on both 2m and 70cm simultaneously.
 |-----|------|-------|-----------|
 | 2 | ¾" PVC cross (4-way) fittings | Reflector and driven element positions. Rotated 90° on main boom. Same part as Project 1. | $1.50–3.00 each |
 | 1 | ¾" PVC T fitting | Director position. Rotated 90° on main boom. Same part as Project 1. | $0.75–1.50 |
-| 6 | Stainless steel hose clamps, ½"–1¼" | Same size as Project 1 clamps. | ~$3–5 (from shared pack) |
-| 1 | RG-58/U coax pigtail, 3–6 ft, BNC-male | 70cm feed. Pre-built by instructor. | $3–6 |
+| 6 | Stainless steel hose clamps, ½"–1¼" | Same size as Project 1 clamps. | $3.27 for 6 ($11.99/22-pack, Amazon Jun 2026) |
+| 1 | RG-58/U coax pigtail, 3–6 ft, BNC-male | 70cm feed. Pre-built by instructor. | $1.57–1.70 each (1.5–3 ft jumpers, Amazon Jun 2026) |
 | 1 | 18–20 AWG solid copper wire, 2" piece | 70cm hairpin match. Pre-cut. | <$0.25 |
 | 2 | Cable ties | Coax routing. | <$0.25 |
 
-**Incremental add-on cost: ~$12–18 per kit**
+**Incremental add-on cost: ~$10–15 per kit**
 
 ### 70cm Element and Fitting Dimensions (Quick Reference)
 

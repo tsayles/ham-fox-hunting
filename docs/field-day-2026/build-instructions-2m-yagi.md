@@ -48,44 +48,41 @@ around one-handed for extended periods.
 
 ## 2. Bill of Materials
 
-> **Target cost:** ~$30–35 per kit when ordered in bulk for 10
-> participants. Individual retail purchase: ~$38–45.
+> **Target cost:** ~$22–28 per kit when ordered in bulk for 10
+> participants using Amazon Jun 2026 pricing for key parts.
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 1 | 25 ft × 1" wide steel tape measure | Stanley, Craftsman, or similar. Must be at least 25 ft. **1" blade width is critical** — wider blades are too stiff; narrower won't tune correctly. | $6–10 |
+| 1 | 25 ft × 1" wide steel tape measure | Stanley, Craftsman, or similar. Must be at least 25 ft. **1" blade width is critical** — wider blades are too stiff; narrower won't tune correctly. | $3.80 each ($37.99/10-pack, Amazon Jun 2026) |
 | 1 | 10 ft length of ¾" Schedule 40 PVC pipe | Available at any hardware store. One 10 ft stick yields boom + handle for one kit with material to spare. | $4–6 |
 | 2 | ¾" PVC cross (4-way) fittings | One for reflector position, one for driven element. | $1.50–3.00 each |
 | 2 | ¾" PVC T fittings | One for director (front), one for handle grip (rear). | $0.75–1.50 each |
-| 6 | Stainless steel hose clamps, ½"–1¼" range | Buy a 10-pack and split among kits. Must be worm-drive (screw-tighten), not spring-type. | ~$7–10/10-pack |
-| 1 | RG-58/U coax pigtail, 6 ft, BNC-male one end | Pre-built by instructor. Or buy a 6 ft BNC-M–BNC-M jumper and cut one BNC off. | $4–7 |
+| 6 | Stainless steel hose clamps, ½"–1¼" range | Must be worm-drive (screw-tighten), not spring-type. | $3.27 for 6 ($11.99/22-pack, Amazon Jun 2026) |
+| 1 | RG-58/U coax pigtail, 6 ft, BNC-male one end | Pre-built by instructor. Or buy BNC jumpers and cut one BNC off. | $3.40 for 6 ft equivalent (2 × 3 ft @ $1.70 each, Amazon Jun 2026) |
 | 1 | 14 AWG solid copper wire, 6" piece | Pre-cut. From a scrap of THHN or solid hookup wire. | <$0.50 |
 | — | Rosin-core solder, 60/40 | Shared supply | — |
 | — | Fine sandpaper, 80–120 grit | One small piece per kit | <$0.25 |
 | — | Electrical tape | Shared supply | — |
 | — | 2 cable ties | For coax routing | <$0.25 |
 
-**Per-kit total (bulk purchasing): ~$30–36**
+**Per-kit total (bulk purchasing): ~$22–28**
 
 ### Sourcing Suggestions
 
-- **Tape measures:** Home Depot or Lowe's in-store (~$6–8 for a
-  basic Stanley or store brand). Alternatively, buy a 4-pack on
-  Amazon for ~$20–24 ($5–6 each). Avoid "autolock" models — the
-  blade needs to retract freely so you can slide it through the hose
-  clamps.
+- **Tape measures:** Purchased a 10-pack for $37.99 in Jun 2026
+  ($3.80 each). Avoid "autolock" models — the blade needs to
+  retract freely so you can slide it through the hose clamps.
 - **PVC pipe and fittings:** Any hardware store, plumbing section.
   Buy fittings individually — cross fittings may not be in the
   "grab bag" section, look for individual ¾" DWV or pressure
   fittings.
-- **Hose clamps:** Hardware store, automotive section. Buy a
-  10-pack. Specify "worm-drive" or "screw-type". Size range
-  ½"–1¼" works; pack labeled "12–20 mm" or "5/16"–¾" will also
-  fit ¾" PVC OD.
-- **RG-58 pigtails:** Build from bulk RG-58 ($0.30/ft) + BNC crimp
-  connectors ($0.80–1.50 each). Or buy pre-made 6 ft BNC jumpers on
-  Amazon (search "6 ft RG-58 BNC cable", ~$5–8 each) and cut one
-  connector off.
+- **Hose clamps:** Purchased a 22-pack for $11.99 in Jun 2026
+  (about $0.55 each). Specify "worm-drive" or "screw-type".
+  Size range ½"–1¼" works; pack labeled "12–20 mm" or "5/16"–¾"
+  will also fit ¾" PVC OD.
+- **RG-58 pigtails:** Purchased 3 ft BNC jumpers in a 10-pack for
+  $16.99 in Jun 2026 ($1.70 each). Two 3 ft jumpers provide a rough
+  6 ft cost equivalent of ~$3.40 for planning.
 
 ---
 

@@ -86,7 +86,7 @@ near their respective driven elements.
 
 ## 3. Bill of Materials
 
-> **Target cost:** ~$46–56 per kit (bulk purchasing). This is
+> **Target cost:** ~$34–44 per kit (bulk purchasing). This is
 > higher than the single-band kit because it adds materials for
 > the 70cm section.
 
@@ -94,11 +94,11 @@ near their respective driven elements.
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 1 | 25 ft × 1" wide steel tape measure | Provides elements for both bands. Stanley, Craftsman, or similar. 1" blade width required. | $6–10 |
+| 1 | 25 ft × 1" wide steel tape measure | Provides elements for both bands. Stanley, Craftsman, or similar. 1" blade width required. | $3.80 each ($37.99/10-pack, Amazon Jun 2026) |
 | 1 | 10 ft length of ¾" Schedule 40 PVC pipe | Boom + handle. One 10 ft stick per kit. | $4–6 |
 | 2 | ¾" PVC cross (4-way) fittings | Reflector and driven element positions. | $1.50–3.00 each |
 | 2 | ¾" PVC T fittings | Director and handle grip. | $0.75–1.50 each |
-| 1 | RG-58/U coax pigtail, 6 ft, BNC-male | 2m feed. Pre-built by instructor. | $4–7 |
+| 1 | RG-58/U coax pigtail, 6 ft, BNC-male | 2m feed. Pre-built by instructor. | $3.40 for 6 ft equivalent (2 × 3 ft @ $1.70 each, Amazon Jun 2026) |
 | 1 | 14 AWG solid copper wire, 6" piece | 2m hairpin match. | <$0.50 |
 
 ### 70cm Section (main boom, 90° rotated)
@@ -107,20 +107,20 @@ near their respective driven elements.
 |-----|------|-------|-----------|
 | 2 | ¾" PVC cross (4-way) fittings | Reflector and driven element positions. Rotated 90° on the main boom so 70cm elements are horizontal. Buy with the 2m fittings — same part. | $1.50–3.00 each |
 | 1 | ¾" PVC T fitting | Director position. Rotated 90° on the main boom. Same part as 2m director fitting. | $0.75–1.50 |
-| 1 | RG-58/U coax pigtail, 3–6 ft, BNC-male | 70cm feed. Pre-built by instructor. | $3–6 |
+| 1 | RG-58/U coax pigtail, 3–6 ft, BNC-male | 70cm feed. Pre-built by instructor. | $1.57–1.70 each (1.5–3 ft jumpers, Amazon Jun 2026) |
 | 1 | 18–20 AWG solid copper wire, 2" piece | 70cm hairpin match. Pre-cut. | <$0.25 |
 
 ### Shared Hardware (both sections)
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 12 | Stainless steel hose clamps, ½"–1¼" range | 6 for 2m section, 6 for 70cm section. Worm-drive only, not spring-type. All fittings are ¾" PVC. | ~$10–14/20-pack |
+| 12 | Stainless steel hose clamps, ½"–1¼" range | 6 for 2m section, 6 for 70cm section. Worm-drive only, not spring-type. All fittings are ¾" PVC. | $6.54 for 12 ($11.99/22-pack, Amazon Jun 2026) |
 | 4 | Cable ties | Coax routing along the boom. | <$0.25 |
 | — | Rosin-core solder, 60/40 | Shared supply | — |
 | — | Fine sandpaper, 80–120 grit | One piece per kit | <$0.25 |
 | — | Electrical tape | Shared supply | — |
 
-**Per-kit total (bulk purchasing): ~$46–56**
+**Per-kit total (bulk purchasing): ~$34–44**
 
 ### Sourcing Notes
 
@@ -128,15 +128,14 @@ near their respective driven elements.
   additional ¾" fittings — same part numbers as the 2m section.
   Buy all five crosses and two T fittings at once when procuring
   the 2m hardware; no second trip needed.
-- **Hose clamps:** Buy a 20-pack of ½"–1¼" worm-drive clamps and
-  split 12 per kit. All PVC fittings in this build are ¾", so
-  only one clamp size is needed.
+- **Hose clamps:** Purchased a 22-pack of ½"–1¼" worm-drive clamps
+  for $11.99 in Jun 2026 (~$0.55 each). Allocate 12 per kit.
 - **18–20 AWG wire:** A few inches of stranded or solid hookup
   wire stripped of insulation, or stripped telephone wire, works.
   Pre-cut by instructor.
-- **Second coax pigtail:** Build or buy the same way as the 2m
-  pigtail. A shorter length (3 ft) saves weight and material.
-  Both pigtails can be bundled with a cable tie along the boom.
+- **Coax pigtails:** Purchased 3 ft RG-58 BNC jumpers in a 10-pack
+  for $16.99 ($1.70 each) and 1.5 ft jumpers in a 10-pack for
+  $15.69 ($1.57 each) in Jun 2026.
 
 ---
 

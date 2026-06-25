@@ -124,13 +124,13 @@ fox hunting.
 
 ## 3. Bill of Materials
 
-> **Target cost:** ~$22–28 per kit when ordered in bulk.
+> **Target cost:** ~$10–13 per kit using Amazon Jun 2026 pricing.
 
 | Qty | Item | Notes | Est. Cost |
 |-----|------|-------|-----------|
-| 3 | DPDT ON-ON miniature toggle switch, PCB or solder-lug terminals | 6-pin, ON-ON (not ON-OFF-ON). Bushing diameter typically 6 mm or ¼". | $1.50–2.50 each |
-| 2 | BNC female panel-mount (chassis-mount) connector | Bulkhead type. Thread-mount, ⅜" or ½" panel hole. | $1.50–2.50 each |
-| 1 | Metal project enclosure, approx. 3.7" × 2.9" × 1.2" | Hammond 1590A (die-cast aluminum) or equivalent. **Must be metal** for RF shielding. | $10–14 |
+| 3 | DPDT ON-ON miniature toggle switch, PCB or solder-lug terminals | 6-pin, ON-ON (not ON-OFF-ON). Bushing diameter typically 6 mm or ¼". | $1.00 each ($9.99/10-pack, Amazon Jun 2026) |
+| 2 | BNC female panel-mount (chassis-mount) connector | Bulkhead type. Thread-mount, ⅜" or ½" panel hole. | $0.39 each ($9.79/25-pack, Amazon Jun 2026) |
+| 1 | Metal project enclosure, approx. 3.7" × 2.9" × 1.2" | Hammond 1590A (die-cast aluminum) or equivalent. **Must be metal** for RF shielding. | $5.40 each ($26.99/5-pack, Amazon Jun 2026) |
 | 2 | 18 Ω ¼ W metal film resistor | For 6 dB section | < $0.25 total |
 | 1 | 68 Ω ¼ W metal film resistor | For 6 dB section | < $0.25 total |
 | 2 | 27 Ω ¼ W metal film resistor | For 10 dB section | < $0.25 total |
@@ -140,7 +140,7 @@ fox hunting.
 | — | 22–24 AWG hookup wire, ~12" | Short runs inside enclosure | Shared |
 | — | Solder | Shared | — |
 
-**Per-kit total (bulk purchasing): ~$22–28**
+**Per-kit total (using Amazon Jun 2026 purchases): ~$10–13**
 
 > **Resistor sourcing:** Buy an assortment kit from Amazon
 > (500-piece or 1000-piece metal film assortment, ~$8–12) and
@@ -149,8 +149,8 @@ fox hunting.
 > participant kits you need: 20× 18 Ω, 10× 68 Ω, 20× 27 Ω,
 > 10× 36 Ω, 20× 39 Ω, 10× 10 Ω.
 
-> **BNC connectors:** 10-pack on Amazon is ~$8–10. Leftover
-> connectors are useful for future projects.
+> **BNC connectors:** Paid $9.79 for a 25-pack in Jun 2026
+> (~$0.39 each), enough for 12 attenuators with one spare.
 
 > **Hammond 1590A alternative:** Any die-cast or stamped-steel
 > box in the 3"–4" range works. Plastic boxes are NOT acceptable
@@ -160,14 +160,15 @@ fox hunting.
 
 ### Sourcing Suggestions
 
-- **Switches:** Amazon search "DPDT ON-ON mini toggle switch
-  6 pin" — buy a 10-pack (~$8–12) so you have spares. Confirm
-  they are ON-ON (not ON-OFF-ON, which has 3 positions).
-- **BNC connectors:** Amazon, Digi-Key, Mouser. Search "BNC
-  female panel mount" or "BNC chassis mount". Buy a 10-pack.
-- **Enclosures:** Hammond 1590A from Amazon, Digi-Key, or Mouser
-  (~$10–12 each). Order in advance; this is the longest-lead
-  item.
+- **Switches:** Purchased Twidec 10-pack for $9.99 in Jun 2026
+  (~$1.00 each). Confirm they are ON-ON (not ON-OFF-ON, which
+  has 3 positions).
+- **BNC connectors:** Purchased 25-pack for $9.79 in Jun 2026
+  (~$0.39 each). Search "BNC female panel mount" or
+  "BNC chassis mount".
+- **Enclosures:** Purchased a 5-pack of 1590B-style die-cast boxes
+  for $26.99 in Jun 2026 (~$5.40 each). Order in advance; this is
+  still a longer-lead item than switches/connectors.
 - **Resistors:** 1% metal film assortment kit from Amazon
   (~$8–12 for 500-piece kit). Confirm the kit includes 10 Ω,
   18 Ω, 27 Ω, 36 Ω, 39 Ω, 68 Ω. Most 600-value kits include
