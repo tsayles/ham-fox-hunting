@@ -63,7 +63,7 @@ the event date changes.
 | `2026/2026-08-15-august-hunt-reminder.eml` | Sat Aug&nbsp;15, 2026 | One-week reminder |
 | `2026/2026-08-21-august-hunt-day-before.eml` | Fri Aug&nbsp;21, 2026 | Day-before details |
 
-### September Hunt — Howarth Park, Everett (Sun Sep 20)
+### September Hunt — West Snohomish County Mobile Hunt (Sun Sep 20)
 
 | File | Recommended Send Date | Purpose |
 |------|-----------------------|---------|

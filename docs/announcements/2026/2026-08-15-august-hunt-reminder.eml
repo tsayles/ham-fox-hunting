@@ -57,7 +57,8 @@ Content-Transfer-Encoding: 8bit
                     <strong>Location:</strong> Marymoor Park,
                     Redmond<br>
                     <strong>Frequency:</strong>
-                    147.42&nbsp;MHz simplex
+                    147.42&nbsp;MHz simplex (net control on K7LED
+                    repeater; alt 146.580&nbsp;MHz FM simplex)
                   </td>
                 </tr>
               </table>
@@ -111,7 +112,8 @@ Content-Transfer-Encoding: 8bit
                   </td>
                   <td style="vertical-align:top;">
                     <strong>147.42&nbsp;MHz simplex</strong>
-                    (callsign K7LED)
+                    (callsign K7LED); net control on K7LED repeater
+                    (alt 146.580&nbsp;MHz FM simplex)
                   </td>
                 </tr>
                 <tr>

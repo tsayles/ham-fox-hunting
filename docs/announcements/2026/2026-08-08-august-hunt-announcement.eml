@@ -47,7 +47,7 @@ Content-Transfer-Encoding: 8bit
                       style="color:#ffffff;font-size:14px;
                              line-height:1.8;vertical-align:top;">
                     <strong>Date:</strong>
-                    Sat Aug 22, 2026 <em>(tentative)</em><br>
+                    Sat Aug 22, 2026<br>
                     <strong>Time:</strong> Noon &ndash; 2:30 PM
                   </td>
                   <td width="50%"
@@ -107,8 +107,8 @@ Content-Transfer-Encoding: 8bit
                     Date &amp; Time:
                   </td>
                   <td style="vertical-align:top;">
-                    <strong>Saturday, August 22, 2026</strong>
-                    (tentative), Noon &ndash; 2:30&nbsp;PM
+                    <strong>Saturday, August 22, 2026</strong>,
+                    Noon &ndash; 2:30&nbsp;PM
                   </td>
                 </tr>
                 <tr>
@@ -127,7 +127,8 @@ Content-Transfer-Encoding: 8bit
                   </td>
                   <td style="vertical-align:top;">
                     <strong>147.42&nbsp;MHz simplex</strong>
-                    (callsign K7LED)
+                    (callsign K7LED); net control on K7LED repeater
+                    (alt 146.580&nbsp;MHz FM simplex)
                   </td>
                 </tr>
                 <tr>
@@ -135,10 +136,10 @@ Content-Transfer-Encoding: 8bit
                     Parking:
                   </td>
                   <td style="vertical-align:top;">
-                    Main parking lots at the park entrance are
-                    free on weekends. Arrive before noon to
-                    secure a spot before the concert crowds
-                    build up.
+                    Paid parking may apply. See King County parking
+                    passes/rates page for current fees; arrive
+                    before noon to secure a spot before concert
+                    traffic builds.
                   </td>
                 </tr>
                 <tr>
