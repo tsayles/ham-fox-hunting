@@ -1,8 +1,9 @@
 # Location & Event Plan — Marymoor Park (Redmond, WA)
 
-**Location type:** Regional county park (primary "real" hunt venue)
-**Status:** PRIMARY — August hunt (Sat Aug 22, 2026, pending site walk)
-**Last updated:** 2026-06-16
+**Location type:** Regional county park (informal practice hunt)
+**Status:** PRIMARY — August informal practice hunt
+  (Sat Aug 22, 2026, pending site walk)
+**Last updated:** 2026-07-19
 
 ---
 
@@ -10,7 +11,7 @@
 
 | Field            | Value                                       |
 | ---------------- | ------------------------------------------- |
-| Event type       | Local hunt — primary "real" event (ARDF)    |
+| Event type       | ARDF informal practice hunt                 |
 | Proposed date    | Sat Aug 22, 2026 (PRIMARY — see §9)          |
 | Date notes       | Evening concert that day — see §9            |
 | Proposed time    | 12:00 PM – 2:30 PM (2.5 hours)              |
@@ -38,7 +39,7 @@ Source: King County Parks (kingcounty.gov), 2026.
 
 ### Do we need a permit or reservation?
 
-For a small, informal club practice, **most likely no** — provided we
+For a small, **informal practice hunt**, **most likely no** — provided we
 stay under the thresholds below and do not publicly advertise it as a
 formal event.
 

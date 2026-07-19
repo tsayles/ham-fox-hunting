@@ -1,47 +1,75 @@
-# Location & Event Plan — Howarth Park (Everett, WA)
+# Location & Event Plan — Snohomish County Mobile Hunt
+## (Finish: Howarth Park, Everett, WA)
 
-**Location type:** City waterfront park — mobile/regional hunt FINISH point
-**Status:** TENTATIVE — September regional/mobile hunt (Sun Sep 20, 2026)
-**Last updated:** 2026-06-16
+**Location type:** Snohomish County mobile T-hunt — finish at city
+  waterfront park
+**Status:** TENTATIVE — September mobile hunt (Sun Sep 20, 2026)
+**Last updated:** 2026-07-19
 
 ---
 
 ## 1. Event summary
 
-| Field            | Value                                       |
-| ---------------- | ------------------------------------------- |
-| Event type       | Regional / mobile T-hunt (car-based)        |
-| Role             | Finish line + final-fox location            |
-| Proposed date    | Sun Sept 20, 2026 (tentative)               |
-| Proposed time    | Afternoon finish (confirm vs. dusk ~7 PM)   |
-| Format           | Mobile hunt ending in a short on-foot leg   |
-| Host club        | Mike & Key ARC — Fox Hunting Program        |
-| Park             | Howarth Park, 1127 Olympic Blvd, Everett,   |
+| Field            | Value                                        |
+| ---------------- | -------------------------------------------- |
+| Event type       | Mobile T-hunt (car-based, Snohomish County)  |
+| Role             | Finish line + final-fox location             |
+| Proposed date    | Sun Sep 20, 2026 (tentative)                 |
+| Proposed time    | Afternoon finish (confirm vs. dusk ~7 PM)    |
+| Format           | Mobile hunt ending in a short on-foot leg    |
+| Host club        | Mike & Key ARC — Fox Hunting Program         |
+| Hunt area        | Snohomish County: south of Marysville,       |
+|                  | west of SR-9, north of Snohomish/King        |
+|                  | county line, east of Puget Sound shoreline   |
+| Finish park      | Howarth Park, 1127 Olympic Blvd, Everett,    |
 |                  | WA 98203                                     |
 
 ---
 
-## 2. Concept — Howarth as a finish point
+## 2. Hunt area — geographic boundaries
 
-Howarth is small (~28 acres) — too small for a full stand-alone
-practice hunt, but well suited as the **finish line and final-fox
-location for a regional (car-based) hunt**. Hounds drive the region
-taking bearings, converge on Everett, park, then do a short forested
-hillside walk to the hidden fox, followed by a social wrap-up with
-Puget Sound / Olympic / Cascade views.
+The mobile course is confined to **western Snohomish County**, bounded
+by:
 
-- **Final on-foot "sniff" leg:** the ~0.6-mile upper-loop forest trail
-  is ideal for the close-in finish after the drive.
-- **Convoy parking:** three lots (north / central / south).
-- **Social wrap-up:** picnic tables, restrooms, grassy field, and
-  viewpoints; a reservable shelter can host a finish-line gathering.
-- **Regional anchor:** Everett's north-end waterfront lets the course
-  start further south/east (I-5 / Snohomish / Lake Stevens corridor)
-  and end at the water — a satisfying geographic arc.
+| Boundary | Landmark / route                                    |
+| -------- | --------------------------------------------------- |
+| **North**  | South city limits of Marysville                   |
+| **East**   | State Route 9 (SR-9)                              |
+| **South**  | Snohomish / King county line                      |
+| **West**   | Puget Sound shoreline                             |
+
+This window encompasses Everett, Mukilteo, Lynnwood, Edmonds, Brier,
+Mountlake Terrace, and the Mill Creek / Silver Lake corridor west of
+SR-9. It provides ~15–25 miles of drivable terrain with a variety of
+urban-edge, suburban, and light-industrial RF environments — all
+reachable without leaving Snohomish County.
+
+**Course concept:** Teams start at a TBD southern/central launch point
+within the hunt area, take mobile bearings as they work northward and
+westward toward Everett, then park and walk the final on-foot leg at
+Howarth Park.
 
 ---
 
-## 3. Park rules & permit requirements
+## 3. Finish point — Howarth Park, Everett
+
+Howarth is small (~28 acres) — too small for a full stand-alone
+practice hunt, but well suited as the **finish line and final-fox
+location for a mobile (car-based) hunt**. Hounds drive the defined
+area taking bearings, converge on Everett, park, then do a short
+forested hillside walk to the hidden fox, followed by a social wrap-up
+with Puget Sound / Olympic / Cascade views.
+
+- **Final on-foot "sniff" leg:** the ~0.6-mile upper-loop forest trail
+  is ideal for the close-in finish after the mobile drive.
+- **Convoy parking:** three lots (north / central / south).
+- **Social wrap-up:** picnic tables, restrooms, grassy field, and
+  viewpoints; a reservable shelter can host a finish-line gathering.
+- **Geographic arc:** starting in the southern/central hunt area and
+  finishing at the Everett waterfront gives the course a satisfying
+  north-and-west convergence to the Sound.
+
+### Park rules & permit requirements
 
 Source: City of Everett Parks (everettwa.gov), 2026.
 
@@ -135,7 +163,11 @@ hunt — see issue
 
 - [ ] Site walk to confirm final-fox hide and safe foot routes (clear of
       the railroad / bridge / beach).
-- [ ] Confirm the regional course's start/staging point and route.
+- [ ] Choose and confirm the mobile course launch point within the hunt
+      area (south of Marysville, west of SR-9, north of Snohomish/King
+      county line, east of Puget Sound shoreline).
+- [ ] Plan the mobile beacon placement for drive-in bearings across the
+      defined area; verify coverage at launch point.
 - [ ] Reserve a finish-line shelter if hosting a social wrap-up.
 - [ ] Confirm dusk time and a finish window with margin (~7 PM late Sep).
 - [ ] Confirm practice frequency (147.42 MHz or alternate).
@@ -162,25 +194,30 @@ hunt — see issue
 
 ---
 
-**Subject:** [TENTATIVE] September Mobile Fox Hunt — Finish at Howarth
-Park, Everett (Sun Sep 20)
+**Subject:** [TENTATIVE] September Mobile Fox Hunt — Snohomish County,
+Finish at Howarth Park, Everett (Sun Sep 20)
 
 Hi all,
 
-Save the date — we're planning our first **regional / mobile (car-based)
-fox hunt** of the season, tentatively on **Sunday, September 20, 2026**,
-finishing at **Howarth Park in Everett**.
+Save the date — we're planning a **mobile (car-based) fox hunt**
+tentatively on **Sunday, September 20, 2026**, finishing at **Howarth
+Park in Everett**.
 
-This one's different from our in-park practice hunts: you'll hunt the fox
-**from your vehicle**, taking bearings as you drive the region and
-closing in on the hidden transmitter. The final leg is a short **on-foot
-walk** on Howarth's forested hillside down to the finish, where we'll
-gather for a social wrap-up with great Puget Sound views.
+This one's different from our in-park practice hunts: you'll hunt the
+fox **from your vehicle**, taking bearings as you drive **western
+Snohomish County** — south of Marysville, west of SR-9, north of the
+King County line, and east of the Puget Sound shoreline. The hunt
+closes in on Everett, where the final leg is a short **on-foot walk**
+on Howarth's forested hillside, followed by a social wrap-up with
+Puget Sound / Olympic / Cascade views.
 
 **Tentative details:**
 
 - **Date:** Sunday, September 20, 2026
-- **Staging / start:** [TBD — southern/eastern launch point]
+- **Hunt area:** Western Snohomish County (south of Marysville, west of
+  SR-9, north of Snohomish/King county line, east of Puget Sound)
+- **Staging / start:** [TBD — southern/central launch point in the hunt
+  area]
 - **Finish:** Howarth Park, 1127 Olympic Blvd, Everett (upper hillside)
 - **Fox frequency:** [147.42 MHz — confirm] / 15 s on, 15 s off, CW ID
   K7LED
@@ -197,9 +234,9 @@ gather for a social wrap-up with great Puget Sound views.
 - Parking is in the park's lots (no guaranteed parking on busy
   weekends — arrive together).
 
-Want to help **hide the fox** or **mentor new hounds**? Reply and let me
-know. More details (exact start point, timing, and final frequency) to
-follow as we lock things in.
+Want to help **hide the fox**, **drive the course ahead of time**, or
+**mentor new hounds**? Reply and let me know. More details (exact start
+point, timing, and final frequency) to follow as we lock things in.
 
 73,
 

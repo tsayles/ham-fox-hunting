@@ -1,8 +1,8 @@
 # Location & Event Plan — Flaming Geyser State Park (Auburn, WA)
 
 **Location type:** Washington State Park (ARDF practice hunt)
-**Status:** PRIMARY — July practice hunt (Sun Jul 19, 2026)
-**Last updated:** 2026-06-16
+**Status:** COMPLETE — July practice hunt (Sun Jul 19, 2026)
+**Last updated:** 2026-07-19
 
 ---
 
@@ -11,8 +11,8 @@
 | Field            | Value                                       |
 | ---------------- | ------------------------------------------- |
 | Event type       | ARDF practice hunt (skills warm-up)         |
-| Proposed date    | Sun Jul 19, 2026 (PRIMARY July practice)     |
-| Proposed time    | 12:00 PM – 2:30 PM (2.5 hours)              |
+| Date             | Sun Jul 19, 2026 — **COMPLETE**             |
+| Time             | 12:00 PM – 2:30 PM (2.5 hours)              |
 | Format           | Single fox (1-fox) practice                 |
 | Host club        | Mike & Key ARC — Fox Hunting Program        |
 | Park             | Flaming Geyser State Park, SE Flaming Geyser |
@@ -138,15 +138,15 @@ Based on current program equipment status (see
 
 ## 8. Open items / to-do
 
-- [ ] Site walk to confirm start point and beacon hide.
-- [ ] Confirm head-count; if over 20, apply for a Special Activity
+- [x] Site walk to confirm start point and beacon hide.
+- [x] Confirm head-count; if over 20, apply for a Special Activity
       Permit (and reserve a shelter if desired).
-- [ ] Coordinate Discover Passes / carpools for all vehicles.
-- [ ] Confirm practice frequency (147.42 MHz or alternate).
-- [ ] Decide 1-fox vs. multi-fox format.
-- [ ] Recruit a fox hider / mentor for new participants.
-- [ ] Confirm cell coverage and set a safety recall plan.
-- [ ] Check WA State Parks calendar for any events closer to the date.
+- [x] Coordinate Discover Passes / carpools for all vehicles.
+- [x] Confirm practice frequency (147.42 MHz or alternate).
+- [x] Decide 1-fox vs. multi-fox format.
+- [x] Recruit a fox hider / mentor for new participants.
+- [x] Confirm cell coverage and set a safety recall plan.
+- [x] Check WA State Parks calendar for any events closer to the date.
 
 ---
 
