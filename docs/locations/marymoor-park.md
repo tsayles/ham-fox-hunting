@@ -16,8 +16,7 @@
 | Proposed time    | 12:00 PM – 2:30 PM (2.5 hours)              |
 | Format           | Single fox (1-fox) on-foot hunt             |
 | Host club        | Mike & Key ARC — Fox Hunting Program        |
-| Park             | Marymoor Park, 6046 W Lake Sammamish Pkwy   |
-|                  | NE, Redmond, WA 98052                       |
+| Park             | Marymoor Park, 6046 W Lake Sammamish Pkwy NE, Redmond, WA 98052 |
 
 ---
 
