@@ -106,6 +106,8 @@ Based on current program equipment status (see
 | TX frequency  | 147.42 MHz (confirm for this hunt)             |
 | Cycle         | 15 s on / 15 s off                             |
 | CW ID         | K7LED at 20 WPM                                |
+| Net control   | K7LED repeater                                 |
+| Alt channel   | 146.580 MHz FM simplex                         |
 
 > Deploy only ONE fox until units are reprogrammed for a multi-fox
 > format (both are currently programmed identically). For a mobile hunt,
