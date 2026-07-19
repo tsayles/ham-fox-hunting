@@ -82,10 +82,16 @@ See the full program page at
 
 ## Repository Contents
 
-This repository will grow to include:
+| Resource | Description |
+|---|---|
+| [`docs/netcontrol-script.md`](docs/netcontrol-script.md) | Net control / hunt host script |
+| [`foxes/`](foxes/) | Fox transmitter configs and programming |
+| [`equipment/`](equipment/) | Equipment build guides and reference |
+| [`docs/`](docs/) | Presentations, reports, and operational docs |
+
+This repository will continue to grow to include:
 
 - Event scheduling and registration tooling
-- Equipment build guides and bill of materials
 - Hunt organization workflows and scoring
 - Workshop curricula and resources
 
