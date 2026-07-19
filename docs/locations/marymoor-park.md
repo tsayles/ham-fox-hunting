@@ -165,4 +165,5 @@ Based on current program equipment status (see
 ### Related plans
 
 - `docs/locations/flaming-geyser-state-park.md` — July practice hunt.
-- `docs/locations/howarth-park.md` — September regional / mobile hunt.
+- `docs/locations/west-snohomish-county-mobile-hunt.md` — September
+  mobile hunt.

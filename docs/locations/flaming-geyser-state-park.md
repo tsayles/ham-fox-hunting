@@ -153,4 +153,5 @@ Based on current program equipment status (see
 ## 9. Related plans
 
 - `docs/locations/marymoor-park.md` — August hunt.
-- `docs/locations/howarth-park.md` — September regional / mobile hunt.
+- `docs/locations/west-snohomish-county-mobile-hunt.md` — September
+  mobile hunt.
