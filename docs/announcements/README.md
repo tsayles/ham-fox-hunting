@@ -89,5 +89,9 @@ seasons. Replace every `[BRACKETED PLACEHOLDER]` before sending.
   description and the "What to Bring" section accordingly.
 - The August hunt at Marymoor Park must wrap by **2:30 PM** —
   Marymoor Live concerts begin setup at 4 PM.
+- General policy: no registration is required; participants should
+  check in with net control at hunt start (or when they begin
+  hunting); RSVP to FoxHunting@mkarc.groups.io is requested, not
+  required.
 - The September regional mobile hunt uses the defined west Snohomish
   County hunt area; start/finish specifics are sent closer to hunt day.
