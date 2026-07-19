@@ -275,15 +275,20 @@
 ### Slide 24 — Join the Program
 **[Layout F | ~38:00]**
 
-- 🔧 **Radio Camp (Jun 22–29):** attend and/or volunteer at Thursday build session
+- 🔧 **Radio Camp (Jun 22–29):** attend and/or volunteer at Thursday
+  build session
 - 🎙️ **Field Day demo (Jun 28–29):** host visitors or hide the fox
-- 🦊 **Hunts (Jul/Aug/Sep):** show up and hunt — all levels welcome, **mentors present**
-- 📋 **Mailing list:** ??????? — ask Scott KC7SAG to set one up; sign up tonight
+- 🦊 **Hunts (Jul/Aug/Sep):** open participation, mentors present;
+  check in with net control at start or when you begin hunting
+- 📋 **RSVP:** FoxHunting@mkarc.groups.io requested, not required
 - 🌐 **https://mikeandkey.org/foxhunt.php** — show QR code on screen
 - 💬 **Questions:** Tom KE4HET — talk to me after the meeting
-- Budget: partial reimbursement for build costs to be discussed with the board
+- Budget: partial reimbursement for build costs to be discussed with
+  the board
 
-**Cue:** Point to the QR code / foxhunt.php URL. Ask Scott KC7SAG to confirm the mailing-list path. Have a volunteer ready to collect names for loaner gear.
+**Cue:** Point to the QR code / foxhunt.php URL. Emphasize that
+registration is not required, but net-control check-in and RSVP are
+requested.
 
 ---
 

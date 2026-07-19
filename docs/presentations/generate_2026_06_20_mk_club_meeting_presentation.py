@@ -1102,7 +1102,7 @@ SLIDES: tuple[SlideSpec, ...] = (
             '🦊 Hunter wranglers, return hunting gear to visitor tent',
             '📻 **Loaner gear** — HTs and Yagis for visitors',
         ),
-        cta='Talk to Tom KE4HET to sign up',
+        cta='Talk to Tom KE4HET; RSVP requested (not required)',
         notes=(
             'Talking point: make the staffing and loaner-equipment asks '
             'explicit for Field Day.',
@@ -1212,9 +1212,9 @@ SLIDES: tuple[SlideSpec, ...] = (
             'build',
             '**Field Day demo (Jun 28–29):** host visitors or hide the '
             'fox',
-            '**Hunts:** show up and hunt — all levels welcome, mentors '
-            'present',
-            '**Mailing list:** ??????? (Scott KC7SAG: can you set one up?)',
+            '**Hunts:** open participation; check in with net control at '
+            'start or when you begin hunting',
+            '**RSVP:** FoxHunting@mkarc.groups.io requested, not required',
             '🌐 https://mikeandkey.org/foxhunt.php',
             '**Questions:** Tom KE4HET',
         ),
