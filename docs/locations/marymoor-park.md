@@ -1,8 +1,7 @@
 # Location & Event Plan — Marymoor Park (Redmond, WA)
 
 **Location type:** Regional county park (informal practice hunt)
-**Status:** PRIMARY — August informal practice hunt
-  (Sat Aug 22, 2026, pending site walk)
+**Status:** PRIMARY — August informal practice hunt (Sat Aug 22, 2026)
 **Last updated:** 2026-07-19
 
 ---
@@ -39,17 +38,11 @@ Source: King County Parks (kingcounty.gov), 2026.
 
 ### Do we need a permit or reservation?
 
-For a small, **informal practice hunt**, **most likely no** — provided we
-stay under the thresholds below and do not publicly advertise it as a
-formal event.
+Assume **fewer than 20 participants** for this hunt.
 
-- **Shelter reservation:** required only for groups of **35 or more**
-  (KCC 7.12.030). Reserve up to 365 days out, minimum 7 days ahead.
-- **Special Event Permit:** required for groups **over 50**, OR for any
-  size involving vendors, tents/structures, ticket sales, amplified
-  sound, or public advertising.
-- If we expect 35+ people or want a guaranteed base shelter, contact
-  the scheduling office (see Section 7).
+- Under that headcount, no shelter reservation or special event permit
+  is expected for an informal club practice.
+- Full permit thresholds are listed in **Appendix A**.
 
 ### Operating rules to plan around
 
@@ -70,8 +63,7 @@ formal event.
 
 ## 4. Start point & base
 
-**Candidate:** A central picnic shelter / lawn near the athletic fields
-and Clise Mansion area.
+**Suggested:** Marymoor Village Station / Velodrome area.
 
 - Obvious landmark with nearby parking and restrooms.
 - Gives hounds a clean radial spread in multiple directions.
@@ -81,15 +73,16 @@ and Clise Mansion area.
 
 ## 5. Beacon (fox) placement
 
-**Candidate:** Wooded natural area on the northeast side — the Audubon
+**In Bounds:** Wooded natural area on the northeast side — the Audubon
 Bird Loop / Sammamish River corridor.
 
 - Real tree canopy provides a genuine RDF challenge.
-- Walkable on-trail or just off-trail; ~0.5–0.8 mi from the start for
-  meaningful bearings.
+- Fox will be hidden along a trail, path, sidewalk, or other walkway.
+- Walkable on-trail; ~0.5–0.8 mi from the start for meaningful
+  bearings.
 - Contained safely within the park boundary.
 
-**Avoid:**
+**Out of Bounds:**
 
 - The off-leash dog area (east side).
 - The velodrome and concert lawn (crowds + possible RF noise).
@@ -99,9 +92,7 @@ Bird Loop / Sammamish River corridor.
 northeast so initial bearings cross the open fields — easy to teach,
 with a tougher wooded approach near the end.
 
-> NOTE: All start/beacon locations are planning candidates only.
-> Confirm access, tree cover, and current conditions during a site walk
-> before the event.
+> NOTE: Confirm day-of access and current conditions before deployment.
 
 ---
 
@@ -136,7 +127,6 @@ Based on current program equipment status (see
 
 ## 8. Open items / to-do
 
-- [ ] Site walk to confirm start point and beacon hide.
 - [ ] Confirm head-count; reserve a shelter if 35+ attendees.
 - [ ] Confirm practice frequency (147.42 MHz or alternate).
 - [ ] Decide 1-fox vs. multi-fox format.
@@ -167,3 +157,15 @@ Based on current program equipment status (see
 - `docs/locations/flaming-geyser-state-park.md` — July practice hunt.
 - `docs/locations/west-snohomish-county-mobile-hunt.md` — September
   mobile hunt.
+
+---
+
+## Appendix A. Permit requirements (King County Parks, 2026)
+
+- **Shelter reservation:** required for groups of **35 or more**
+  (KCC 7.12.030). Reserve up to 365 days out, minimum 7 days ahead.
+- **Special Event Permit:** required for groups **over 50**, or for any
+  size involving vendors, tents/structures, ticket sales, amplified
+  sound, or public advertising.
+- If attendance is expected to exceed the small-hunt assumption, contact
+  the scheduling office (see Section 7).

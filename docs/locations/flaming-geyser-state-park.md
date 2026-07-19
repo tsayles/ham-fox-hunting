@@ -12,7 +12,7 @@
 | ---------------- | ------------------------------------------- |
 | Event type       | ARDF practice hunt (skills warm-up)         |
 | Date             | Sun Jul 19, 2026 — **COMPLETE**             |
-| Time             | 12:00 PM – 2:30 PM (2.5 hours)              |
+| Time             | 12:00 PM – 2:00 PM (2 hours)                |
 | Format           | Single fox (1-fox) practice                 |
 | Host club        | Mike & Key ARC — Fox Hunting Program        |
 | Park             | Flaming Geyser State Park, SE Flaming Geyser |
