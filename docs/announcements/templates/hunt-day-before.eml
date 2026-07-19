@@ -1,0 +1,198 @@
+From - Mon Jan 01 00:00:00 2024
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0;
+ uuencode=0; attachmentreminder=0; deliveryformat=4
+To: FoxHunting@mkarc.groups.io, MKARC@mkarc.groups.io
+Subject: [M&K Fox Hunt] Tomorrow — [EVENT NAME] at [PARK/VENUE]
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[M&amp;K Fox Hunt] Tomorrow &mdash; [EVENT NAME]</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f0f0f0;
+             font-family:Arial,Helvetica,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0"
+         style="background-color:#f0f0f0;">
+    <tr>
+      <td align="center" style="padding:20px 10px;">
+        <table cellpadding="0" cellspacing="0" border="0"
+               style="width:100%;max-width:600px;">
+
+          <!-- HEADER -->
+          <tr>
+            <td style="background-color:#1a3a5c;padding:24px 32px;
+                       border-radius:6px 6px 0 0;">
+              <p style="margin:0;color:#ffffff;font-size:22px;
+                        font-weight:bold;line-height:1.3;">
+                Mike &amp; Key ARC &mdash; Fox Hunt Program
+              </p>
+              <p style="margin:8px 0 0;color:#8ecae6;font-size:15px;">
+                Day-Before Details &mdash; [EVENT NAME]
+              </p>
+            </td>
+          </tr>
+
+          <!-- EVENT DETAILS BANNER -->
+          <tr>
+            <td style="background-color:#2e7d32;padding:14px 32px;">
+              <table width="100%" cellpadding="0" cellspacing="0"
+                     border="0">
+                <tr>
+                  <td width="50%"
+                      style="color:#ffffff;font-size:14px;
+                             line-height:1.8;vertical-align:top;">
+                    <strong>Tomorrow:</strong> [DATE]<br>
+                    <strong>Time:</strong> [START TIME] &ndash;
+                    [END TIME]
+                  </td>
+                  <td width="50%"
+                      style="color:#ffffff;font-size:14px;
+                             line-height:1.8;vertical-align:top;">
+                    <strong>Location:</strong> [PARK/VENUE],
+                    [CITY]<br>
+                    <strong>Frequency:</strong>
+                    [FREQUENCY]&nbsp;MHz simplex
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- BODY -->
+          <tr>
+            <td style="background-color:#ffffff;padding:28px 32px;
+                       font-size:15px;line-height:1.7;color:#212121;">
+
+              <p>Hello fellow hams,</p>
+
+              <p>
+                The fox hunt is tomorrow! Here are the final details
+                for the <strong>[EVENT NAME]</strong> at
+                <strong>[PARK/VENUE NAME]</strong>.
+              </p>
+
+              <h3 style="color:#1a3a5c;margin:20px 0 8px;">
+                Logistics
+              </h3>
+              <table width="100%" cellpadding="0" cellspacing="0"
+                     border="0"
+                     style="font-size:15px;line-height:1.9;">
+                <tr>
+                  <td width="140"
+                      style="color:#555555;vertical-align:top;">
+                    Meet time:
+                  </td>
+                  <td style="vertical-align:top;">
+                    <strong>[START TIME]</strong> at
+                    [MEETING POINT DESCRIPTION]
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:#555555;vertical-align:top;">
+                    Address:
+                  </td>
+                  <td style="vertical-align:top;">
+                    [FULL ADDRESS OR DIRECTIONS], [CITY], WA
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:#555555;vertical-align:top;">
+                    Parking:
+                  </td>
+                  <td style="vertical-align:top;">
+                    [PARKING DETAILS]
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:#555555;vertical-align:top;">
+                    Frequency:
+                  </td>
+                  <td style="vertical-align:top;">
+                    <strong>[FREQUENCY]&nbsp;MHz simplex</strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:#555555;vertical-align:top;">
+                    Wrap-up:
+                  </td>
+                  <td style="vertical-align:top;">
+                    [END TIME] &mdash; [ANY WRAP-UP NOTES]
+                  </td>
+                </tr>
+              </table>
+
+              <h3 style="color:#1a3a5c;margin:20px 0 8px;">
+                Last-Minute Reminders
+              </h3>
+              <ul style="margin:8px 0;padding-left:20px;">
+                <li style="margin-bottom:6px;">
+                  Program your HT to
+                  <strong>[FREQUENCY]&nbsp;MHz simplex</strong>
+                  tonight
+                </li>
+                <li style="margin-bottom:6px;">
+                  [PARKING PASS REMINDER if applicable &mdash;
+                  e.g., &ldquo;Bring your Discover Pass or cash
+                  for the day-use fee&rdquo;]
+                </li>
+                <li style="margin-bottom:6px;">
+                  Check the weather and dress in layers; bring
+                  rain gear if needed
+                </li>
+                <li style="margin-bottom:6px;">
+                  Bring water and a snack
+                </li>
+              </ul>
+
+              <p>
+                No prior experience needed &mdash; just show up
+                and we will get you started. Loaner gear is
+                available at the event.
+              </p>
+
+              <p>
+                Questions? Contact
+                <strong>[ORGANIZER NAME]
+                [ORGANIZER CALLSIGN]</strong> at
+                [ORGANIZER EMAIL].
+              </p>
+
+              <p>
+                See you on the hunt! 73 de [ORGANIZER CALLSIGN]
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td style="background-color:#1a3a5c;padding:16px 32px;
+                       border-radius:0 0 6px 6px;text-align:center;">
+              <p style="margin:0;color:#8ecae6;font-size:13px;
+                        line-height:1.7;">
+                Mike &amp; Key Amateur Radio Club &mdash; Fox Hunt
+                Program<br>
+                <a href="https://mikeandkey.org/foxhunt.php"
+                   style="color:#ffffff;">
+                  mikeandkey.org/foxhunt.php
+                </a>
+                &nbsp;&bull;&nbsp;
+                <a href="https://mkarc.groups.io/g/FoxHunting"
+                   style="color:#ffffff;">
+                  Mailing List
+                </a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

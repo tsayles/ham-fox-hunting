@@ -1,0 +1,195 @@
+From - Sat Sep 19 12:00:00 2026
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0;
+ uuencode=0; attachmentreminder=0; deliveryformat=4
+To: FoxHunting@mkarc.groups.io, MKARC@mkarc.groups.io
+Subject: [M&K Fox Hunt] Tomorrow — Regional Mobile Hunt, Start [TIME] at [LOCATION]
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[M&amp;K Fox Hunt] Tomorrow &mdash; Regional Mobile Hunt</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f0f0f0;
+             font-family:Arial,Helvetica,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0"
+         style="background-color:#f0f0f0;">
+    <tr>
+      <td align="center" style="padding:20px 10px;">
+        <table cellpadding="0" cellspacing="0" border="0"
+               style="width:100%;max-width:600px;">
+
+          <!-- HEADER -->
+          <tr>
+            <td style="background-color:#1a3a5c;padding:24px 32px;
+                       border-radius:6px 6px 0 0;">
+              <p style="margin:0;color:#ffffff;font-size:22px;
+                        font-weight:bold;line-height:1.3;">
+                Mike &amp; Key ARC &mdash; Fox Hunt Program
+              </p>
+              <p style="margin:8px 0 0;color:#8ecae6;font-size:15px;">
+                Day-Before Details &mdash; Regional Mobile Hunt
+              </p>
+            </td>
+          </tr>
+
+          <!-- EVENT DETAILS BANNER -->
+          <tr>
+            <td style="background-color:#2e7d32;padding:14px 32px;">
+              <table width="100%" cellpadding="0" cellspacing="0"
+                     border="0">
+                <tr>
+                  <td width="50%"
+                      style="color:#ffffff;font-size:14px;
+                             line-height:1.8;vertical-align:top;">
+                    <strong>Tomorrow:</strong> Sun Sep 20, 2026<br>
+                    <strong>Start:</strong> [START TIME] at
+                    [START LOCATION]
+                  </td>
+                  <td width="50%"
+                      style="color:#ffffff;font-size:14px;
+                             line-height:1.8;vertical-align:top;">
+                    <strong>Finish:</strong> Howarth Park,
+                    Everett<br>
+                    <strong>Frequency:</strong>
+                    [FREQUENCY]&nbsp;MHz simplex
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- BODY -->
+          <tr>
+            <td style="background-color:#ffffff;padding:28px 32px;
+                       font-size:15px;line-height:1.7;color:#212121;">
+
+              <p>Hello fellow hams,</p>
+
+              <p>
+                The season finale is tomorrow! Here are the
+                final details for the
+                <strong>Regional Mobile Hunt</strong>.
+              </p>
+
+              <h3 style="color:#1a3a5c;margin:20px 0 8px;">
+                Logistics
+              </h3>
+              <table width="100%" cellpadding="0" cellspacing="0"
+                     border="0"
+                     style="font-size:15px;line-height:1.9;">
+                <tr>
+                  <td width="140"
+                      style="color:#555555;vertical-align:top;">
+                    Start:
+                  </td>
+                  <td style="vertical-align:top;">
+                    <strong>[START TIME]</strong> &mdash;
+                    [START LOCATION NAME]<br>
+                    [START ADDRESS], [CITY], WA
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:#555555;vertical-align:top;">
+                    Frequency:
+                  </td>
+                  <td style="vertical-align:top;">
+                    <strong>[FREQUENCY]&nbsp;MHz simplex</strong>
+                    &mdash; program your radio tonight
+                  </td>
+                </tr>
+                <tr>
+                  <td style="color:#555555;vertical-align:top;">
+                    Finish:
+                  </td>
+                  <td style="vertical-align:top;">
+                    <strong>Howarth Park</strong><br>
+                    1127 Olympic Blvd, Everett, WA&nbsp;98203<br>
+                    <em>Post-hunt social at the picnic shelter
+                    &mdash; Puget Sound views</em>
+                  </td>
+                </tr>
+              </table>
+
+              <h3 style="color:#1a3a5c;margin:20px 0 8px;">
+                Last-Minute Checklist
+              </h3>
+              <ul style="margin:8px 0;padding-left:20px;">
+                <li style="margin-bottom:8px;">
+                  Program your radio to
+                  <strong>[FREQUENCY]&nbsp;MHz simplex</strong>
+                  tonight
+                </li>
+                <li style="margin-bottom:8px;">
+                  Check your antenna mount and cable connections
+                </li>
+                <li style="margin-bottom:8px;">
+                  Charge your handheld and spare batteries
+                </li>
+                <li style="margin-bottom:8px;">
+                  Bring a map or have your navigation app
+                  ready for plotting bearings
+                </li>
+                <li style="margin-bottom:8px;">
+                  Pack walking shoes, water, snacks, and a
+                  jacket; Howarth Park can be breezy
+                </li>
+                <li style="margin-bottom:8px;">
+                  Top off the fuel tank tonight
+                </li>
+              </ul>
+
+              <p style="background-color:#fce4e4;border-left:4px solid
+                        #c62828;padding:12px 16px;margin:20px 0;
+                        font-size:14px;">
+                <strong>Safety reminder:</strong> At Howarth Park,
+                all foot traffic must stay clear of the BNSF
+                railroad tracks near the bottom of the hillside.
+                Do not cross the tracks.
+              </p>
+
+              <p>
+                Questions tonight? Contact
+                <strong>Tom Sayles, KE4HET</strong> at
+                [TOM-EMAIL].
+              </p>
+
+              <p>
+                Good luck, and we will see you on the hunt!
+                73 de KE4HET
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td style="background-color:#1a3a5c;padding:16px 32px;
+                       border-radius:0 0 6px 6px;text-align:center;">
+              <p style="margin:0;color:#8ecae6;font-size:13px;
+                        line-height:1.7;">
+                Mike &amp; Key Amateur Radio Club &mdash; Fox Hunt
+                Program<br>
+                <a href="https://mikeandkey.org/foxhunt.php"
+                   style="color:#ffffff;">
+                  mikeandkey.org/foxhunt.php
+                </a>
+                &nbsp;&bull;&nbsp;
+                <a href="https://mkarc.groups.io/g/FoxHunting"
+                   style="color:#ffffff;">
+                  Mailing List
+                </a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
