@@ -214,8 +214,11 @@ Puget Sound / Olympic / Cascade views.
 **Tentative details:**
 
 - **Date:** Sunday, September 20, 2026
-- **Hunt area:** Western Snohomish County (south of Marysville, west of
-  SR-9, north of Snohomish/King county line, east of Puget Sound)
+- **Hunt area:** Western Snohomish County —
+  - South of Marysville
+  - West of SR-9
+  - North of Snohomish / King county line
+  - East of Puget Sound shoreline
 - **Staging / start:** [TBD — southern/central launch point in the hunt
   area]
 - **Finish:** Howarth Park, 1127 Olympic Blvd, Everett (upper hillside)
