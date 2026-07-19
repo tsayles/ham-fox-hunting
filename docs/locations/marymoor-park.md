@@ -11,8 +11,8 @@
 | Field            | Value                                       |
 | ---------------- | ------------------------------------------- |
 | Event type       | ARDF informal practice hunt                 |
-| Proposed date    | Sat Aug 22, 2026 (PRIMARY — see §9)          |
-| Date notes       | Evening concert that day — see §9            |
+| Proposed date    | Sat Aug 22, 2026 (PRIMARY — see §8)          |
+| Date notes       | Evening concert that day — see §8            |
 | Proposed time    | 12:00 PM – 2:30 PM (2.5 hours)              |
 | Format           | Single fox (1-fox) on-foot hunt             |
 | Host club        | Mike & Key ARC — Fox Hunting Program        |
@@ -32,36 +32,7 @@
 
 ---
 
-## 3. Park rules & permit requirements
-
-Source: King County Parks (kingcounty.gov), 2026.
-
-### Do we need a permit or reservation?
-
-Assume **fewer than 20 participants** for this hunt.
-
-- Under that headcount, no shelter reservation or special event permit
-  is expected for an informal club practice.
-- Full permit thresholds are listed in **Appendix A**.
-
-### Operating rules to plan around
-
-- **Hours:** open daily 8:00 AM – dusk. Our window is well within this.
-- **Parking:** small daily fee (~$1–3) on busy days; summer Sunday lots
-  fill early — arrive ahead of the start.
-- **Off-leash dog area (42 acres, east side):** avoid for both start and
-  beacon. Loose dogs and heavy traffic; dogs may disturb the
-  transmitter.
-- **Amplified-sound permit** covers PA systems / music — NOT our radios.
-  Low-power ARDF transmitters operate under our amateur license. All
-  operators must be licensed; coordinate the frequency in advance.
-- **No drones / RC aircraft** without a separate permit.
-- **General:** leash dogs outside the OLA, pack out all trash, no alcohol
-  without a permit, no signs nailed to trees, stay out of Clise Gardens.
-
----
-
-## 4. Start point & base
+## 3. Start point
 
 **Suggested:** Marymoor Village Station / Velodrome area.
 
@@ -71,12 +42,12 @@ Assume **fewer than 20 participants** for this hunt.
 
 ---
 
-## 5. Beacon (fox) placement
+## 4. Beacon (fox) placement
 
-**In Bounds:** Wooded natural area on the northeast side — the Audubon
-Bird Loop / Sammamish River corridor.
+**In Bounds:** Public park areas with legal pedestrian access, including
+the Audubon Bird Loop / Sammamish River corridor and connecting
+walkways.
 
-- Real tree canopy provides a genuine RDF challenge.
 - Fox will be hidden along a trail, path, sidewalk, or other walkway.
 - Walkable on-trail; ~0.5–0.8 mi from the start for meaningful
   bearings.
@@ -88,15 +59,11 @@ Bird Loop / Sammamish River corridor.
 - The velodrome and concert lawn (crowds + possible RF noise).
 - Clise Gardens and any private/planted beds.
 
-**Geometry tip:** Place the start west/central and the beacon to the
-northeast so initial bearings cross the open fields — easy to teach,
-with a tougher wooded approach near the end.
-
 > NOTE: Confirm day-of access and current conditions before deployment.
 
 ---
 
-## 6. Transmitter / frequency plan
+## 5. Transmitter / frequency plan
 
 Based on current program equipment status (see
 `docs/reports/2026-06-07-fox-transmitter-status.md`).
@@ -108,24 +75,34 @@ Based on current program equipment status (see
 | TX frequency  | 147.42 MHz (confirm for this hunt)             |
 | Cycle         | 15 s on / 15 s off                             |
 | CW ID         | K7LED at 20 WPM                                 |
+| Net control   | K7LED repeater                                  |
+| Alt channel   | 146.580 MHz FM simplex                          |
 
 > Deploy only ONE fox until units are reprogrammed for a multi-fox
 > format (both are currently programmed identically).
 
 ---
 
-## 7. Logistics & contacts
+## 6. Logistics & contacts
 
 - **Marymoor scheduling office:** marymoorrentals@kingcounty.gov /
   206-477-7275 (for shelter reservations or permit questions).
 - **Parking:** budget for the daily fee; carpool encouraged.
+- **Parking passes & fees:**
+  <https://kingcounty.gov/en/dept/dnrp/nature-recreation/parks-recreation/king-county-parks/parks/marymoor/parking-passes>
+  — official King County page for current parking-pass options, rates,
+  and purchase details.
 - **Transit:** 2 Line light rail (Downtown Redmond / Marymoor Village)
   plus connecting bus for car-free hounds.
+- **Concert access/traffic info:**
+  <https://www.marymoorlive.com/getting-here/> — venue guidance on
+  driving, transit, rideshare, and arrival routing for Marymoor Live
+  events.
 - **Restrooms:** available near central shelters/fields.
 
 ---
 
-## 8. Open items / to-do
+## 7. Open items / to-do
 
 - [ ] Confirm head-count; reserve a shelter if 35+ attendees.
 - [ ] Confirm practice frequency (147.42 MHz or alternate).
@@ -137,7 +114,7 @@ Based on current program equipment status (see
 
 ---
 
-## 9. Scheduling notes & related plans
+## 8. Scheduling notes & related plans
 
 ### Day-of note — Sat Aug 22, 2026
 
@@ -162,10 +139,28 @@ Based on current program equipment status (see
 
 ## Appendix A. Permit requirements (King County Parks, 2026)
 
+Source: King County Parks (kingcounty.gov), 2026.
+
+Assume **fewer than 20 participants** for this hunt.
+
+- Under that headcount, no shelter reservation or special event permit
+  is expected for an informal club practice.
 - **Shelter reservation:** required for groups of **35 or more**
   (KCC 7.12.030). Reserve up to 365 days out, minimum 7 days ahead.
 - **Special Event Permit:** required for groups **over 50**, or for any
   size involving vendors, tents/structures, ticket sales, amplified
   sound, or public advertising.
 - If attendance is expected to exceed the small-hunt assumption, contact
-  the scheduling office (see Section 7).
+  the scheduling office (see Section 6).
+- **Hours:** open daily 8:00 AM – dusk. Our window is well within this.
+- **Parking:** small daily fee (~$1–3) on busy days; summer Sunday lots
+  fill early — arrive ahead of the start.
+- **Off-leash dog area (42 acres, east side):** avoid for both start and
+  beacon. Loose dogs and heavy traffic; dogs may disturb the
+  transmitter.
+- **Amplified-sound permit** covers PA systems / music — NOT our radios.
+  Low-power ARDF transmitters operate under our amateur license. All
+  operators must be licensed; coordinate the frequency in advance.
+- **No drones / RC aircraft** without a separate permit.
+- **General:** leash dogs outside the OLA, pack out all trash, no alcohol
+  without a permit, no signs nailed to trees, stay out of Clise Gardens.
