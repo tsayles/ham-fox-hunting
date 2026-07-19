@@ -225,9 +225,11 @@ moment.
 2. **Field Day demo (Jun 28–29):** host visitors or hide the fox
 3. **Hunts (Jul/Aug/Sep):** show up and hunt — all experience levels
    welcome; mentors will be present
-4. Join the fox hunt mailing list — ask Scott KC7SAG to set up
-   groups.io/g/mikeandkey-foxhunt, or sign up at the meeting
-5. Questions? Contact Tom KE4HET
+4. Hunts are open: no registration required
+5. Check in with net control at the hunt start, or when you begin
+   hunting
+6. RSVP to FoxHunting@mkarc.groups.io is requested, but not required
+7. Questions? Contact Tom KE4HET
 
 ---
 
@@ -542,4 +544,3 @@ At ~1.5 min/slide average over ~47 minutes:
 | §6 Get involved | D, F | 2 |
 | §7 Q&A / closing | A or F | 1 |
 | **Total** | | **~27** |
-
