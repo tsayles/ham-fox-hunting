@@ -15,8 +15,7 @@
 | Time             | 12:00 PM – 2:00 PM (2 hours)                |
 | Format           | Single fox (1-fox) practice                 |
 | Host club        | Mike & Key ARC — Fox Hunting Program        |
-| Park             | Flaming Geyser State Park, SE Flaming Geyser |
-|                  | Rd, Auburn, WA 98092 (near Black Diamond)   |
+| Park             | Flaming Geyser State Park, SE Flaming Geyser Rd, Auburn, WA 98092 (near Black Diamond) |
 
 ---
 

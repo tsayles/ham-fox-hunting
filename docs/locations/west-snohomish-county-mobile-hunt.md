@@ -15,9 +15,7 @@
 | Proposed time    | Afternoon finish (confirm vs. dusk ~7 PM)    |
 | Format           | Mobile hunt ending in a short on-foot leg    |
 | Host club        | Mike & Key ARC — Fox Hunting Program         |
-| Hunt area        | West Snohomish County: south of Marysville,  |
-|                  | west of SR-9, north of Snohomish/King        |
-|                  | county line, east of Puget Sound shoreline   |
+| Hunt area        | West Snohomish County: south of Marysville, west of SR-9, north of Snohomish/King county line, east of Puget Sound shoreline |
 | Finish location  | TBD within announced hunt area (undisclosed) |
 
 ---
@@ -153,4 +151,3 @@ issue [#4](https://github.com/tsayles/ham-fox-hunting/issues/4).
 
 - `docs/locations/flaming-geyser-state-park.md` — July practice hunt.
 - `docs/locations/marymoor-park.md` — August informal practice hunt.
-
