@@ -147,3 +147,13 @@ at the next hunt.*
   times, participant count, and finder order. This data is
   useful for planning future hunts and tracking program
   participation.
+
+---
+
+## Worked Example
+
+A fully filled-in script for the August 22, 2026 on-foot hunt at
+Marymoor Park is available at:
+[`docs/hunts/2026/2026-08-22-marymoor-park-hunt-script.md`][ex]
+
+[ex]: hunts/2026/2026-08-22-marymoor-park-hunt-script.md
