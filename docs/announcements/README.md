@@ -45,15 +45,7 @@ the event date changes.
 
 | File | Recommended Send Date | Purpose |
 |------|-----------------------|---------|
-| `2026/2026-07-05-season-kickoff.eml` | Sun Jul&nbsp;5, 2026 | Open the 2026 hunt season |
-
-### July Hunt — Flaming Geyser State Park (Sun Jul 19)
-
-| File | Recommended Send Date | Purpose |
-|------|-----------------------|---------|
-| `2026/2026-07-05-july-hunt-announcement.eml` | Sun Jul&nbsp;5, 2026 | Two-week announcement |
-| `2026/2026-07-12-july-hunt-reminder.eml` | Sun Jul&nbsp;12, 2026 | One-week reminder |
-| `2026/2026-07-18-july-hunt-day-before.eml` | Sat Jul&nbsp;18, 2026 | Day-before details |
+| `2026/2026-07-20-season-kickoff.eml` | Mon Jul&nbsp;20, 2026 | Announce the remaining 2026 hunt schedule |
 
 ### August Hunt — Marymoor Park, Redmond (Sat Aug 22)
 
@@ -95,10 +87,7 @@ seasons. Replace every `[BRACKETED PLACEHOLDER]` before sending.
   callsign.
 - For multi-fox hunts or format changes, update the hunt-type
   description and the "What to Bring" section accordingly.
-- The July hunt at Flaming Geyser State Park requires a
-  **Discover Pass** (or day-use fee) per vehicle.
 - The August hunt at Marymoor Park must wrap by **2:30 PM** —
   Marymoor Live concerts begin setup at 4 PM.
-- The September regional hunt requires a **5&nbsp;W+ fox**. Current
-  MicroFox units are sub-1&nbsp;W; the 10&nbsp;W Pi Zero beacon
-  must be ready before this event.
+- The September regional mobile hunt uses the defined west Snohomish
+  County hunt area; start/finish specifics are sent closer to hunt day.
