@@ -42,6 +42,12 @@ the event date changes.
 |------|-----------------------|---------|--------|
 | `2026/2026-07-20-foxhunt-list-announcement.eml` | Mon Jul&nbsp;20, 2026 | Invite M&K members to join FoxHunting@mkarc.groups.io | **✓ Sent Sun Jul 27, 2026** |
 
+### GitHub Repository Announcement
+
+| File | Recommended Send Date | Purpose | Status |
+|------|-----------------------|---------|--------|
+| `2026/2026-07-27-github-repo-announcement.eml` | N/A | Invite FoxHunt list to collaborate on GitHub | **✓ Sent Sun Jul 27, 2026** |
+
 ### Season Kickoff
 
 | File | Recommended Send Date | Purpose |

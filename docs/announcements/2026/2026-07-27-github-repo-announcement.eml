@@ -1,268 +1,522 @@
-From - Sun Jul 27 21:00:00 2026
-X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0;
- uuencode=0; attachmentreminder=0; deliveryformat=4
-X-Mozilla-Status: 0001
-X-Mozilla-Status2: 00000000
-To: FoxHunting@mkarc.groups.io
-Subject: [M&K Fox Hunt] Planning & Build Resources on GitHub
+Return-Path: <bounce+150990+1+6843006+15223931@groups.io>
+X-Original-To: TSayles@Soot-n-Smoke.com
+Delivered-To: x24948943@pdx1-sub0-mail-mx204.dreamhost.com
+Received: from postfix-inbound-2.inbound.mailchannels.net (inbound-egress-8.mailchannels.net [23.83.223.254])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by pdx1-sub0-mail-mx204.dreamhost.com (Postfix) with ESMTPS id 4h8MJG5DSsz65QW
+	for <TSayles@Soot-n-Smoke.com>; Mon, 27 Jul 2026 21:03:10 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; d=mailchannels.net; s=arc-2022; cv=none;
+	t=1785211390;
+	b=Cgb4PdQSd6iq86PUemuwvroSagcSqp9A+XgfRQ6T1/xyrt/vyR6h5HQsrcTlUIaY5ph24h
+	klN4olt3UlnzpNC/XVIdbqO00x7qhY9I/Raal2Nhh+LqNWlGmrThpY8U9qmO051q24lEpN
+	6REDLeWMmwnUpCNlsSjLQViejv76bDcZxXuFI8Bv+70fMcE+wctlDFcqNcX/10j8TQaFtV
+	XDE2YWJc2Ooilp4emnpKpw21yupWGX8UEPacDj7JZYgr9G4iGbtTEDQHXAVZ2L0TNjxXH9
+	McxWxs2BerFd6meXiLFkFCKVk6/G5pXlsIy/sA4YlVwtPuCnlBNvzhEFRcDQRA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1785211390;
+	h=from:from:sender:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:resent-from:list-id:list-help:
+	 list-unsubscribe:list-unsubscribe-post:list-subscribe:dkim-signature;
+	bh=Q9sFktFCIt1A9tVHvJqHDFnpVkZqbA4PjaT6P6xJRzs=;
+	b=FWoGEgdz/a/sMqdPgJTVdOS/iZ/oLV2HwNOhLNhkhiBXA0Ncbslt0WV83Wkp4nh4G7AlkY
+	ks7IV8Nb1JF++HuN8rMPlXKW610OtK8E4sPTde9KBaD3AIWFA8nNndeow2JOhgzLEnms/Y
+	PCJU1sMkZxK93BQe2t4iz2/co0hI+kuJLpVr+c3I+ZQYTbdqPQ9HuqUNInJ766bBuzFkWA
+	JDGmFNi9NcZD0tqTI2snPqZuC7EcIXJRd37wwHOZr/kgRSvTIWtNJCEJ2HO7zn9UX+7JE2
+	Q+5a1FvEyUnT304OdUbIYPEoTKgTg6vLbc3FZJFJwOhXsXuRFcxtuPXchpDSUA==
+ARC-Authentication-Results: i=1;
+	inbound-rspamd-65468947bc-jldgq;
+	none
+X-Message-ID: uOQyhaekZFG827NLp0DrYc10
+Received: from mail08.groups.io (mail08.groups.io [192.53.124.254])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256)
+	by 100.109.137.101 (trex/8.0.2);
+	Tue, 28 Jul 2026 04:03:10 +0000
+Authentication-Results: inbound.mailchannels.net;
+ spf=pass smtp.mailfrom=bounce+150990+1+6843006+15223931@groups.io;
+ dkim=pass header.d=groups.io;
+ dmarc=none;
+ arc=none
+Received-SPF: pass (dmarc-service-85879565dd-4sz8t: domain of groups.io
+ designates 192.53.124.254 as permitted sender) client-ip=192.53.124.254;
+ envelope-from=bounce+150990+1+6843006+15223931@groups.io;
+ helo=mail08.groups.io;
+DKIM-Signature: a=rsa-sha256; bh=Q9sFktFCIt1A9tVHvJqHDFnpVkZqbA4PjaT6P6xJRzs=;
+ c=relaxed/relaxed; d=groups.io;
+ h=From:Subject:Date:Message-ID:To:Cc:In-Reply-To:References:Reply-To:Sender:List-Id:List-Post:List-Subscribe:List-Unsubscribe:List-Help:MIME-Version:Content-Type:Content-Transfer-Encoding;
+ s=groups1; t=1785211390; v=1; x=1785470590;
+ b=SHF3UAaIncma1rB5BeFU6P4GzTwqgAS+WnFQA8Q/vjCQPAHtpNmCfdZ+QM6dXkg/4TbABdr0
+ Qg3GVW6/c44gb0L5MRI5wTfqVm2wPa2KpQ8upWp+QhwceMpF7eggAIBF4geWh72++2Ciq5uaB7S
+ /PrbwZHjukQGQbZjLT4lcQcGLHpib/GnqwQOAenArY801RGYIMVjeoqHiVUW2Wf7rQOiouyiFrX
+ p/hWjEN9aKe+Zlgs5dSQKaPMicgpLqfqTBQ1J4ET3p3zMl8rcdnzKfaTjmcHvMpuZPn2Ccl/7yL
+ CvMHH8wzTT+lLXJKGcc8bP0NHCUX5CZO4L7dH8RXjmfTw==
+X-Received: by 127.0.0.2 with SMTP id 5qbqYY6844341xhcHLMdQaWL; Mon, 27 Jul 2026 21:03:10 -0700
+X-Received: from dwarf.ash.relay.mailchannels.net (dwarf.ash.relay.mailchannels.net [23.83.222.53])
+ by mx.groups.io with SMTP id smtpd.msgproc02-g2.4510.1785211389281282780
+ for <FoxHunting@mkarc.groups.io>;
+ Mon, 27 Jul 2026 21:03:09 -0700
+X-Sender-Id: dreamhost|x-authsender|tsayles@soot-n-smoke.com
+X-Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 24FA07A06C4;
+	Tue, 28 Jul 2026 04:03:08 +0000 (UTC)
+X-Received: from pdx1-sub0-mail-a238.dreamhost.com (trex-blue-0.trex.outbound.svc.cluster.local [100.110.255.77])
+	(Authenticated sender: dreamhost)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 052457A2DED
+	for <FoxHunting@mkarc.groups.io>; Tue, 28 Jul 2026 04:03:08 +0000 (UTC)
+X-Sender-Id: dreamhost|x-authsender|tsayles@soot-n-smoke.com
+X-MC-Relay: Neutral
+X-MC-Copy: stored-urls
+X-MailChannels-SenderId: dreamhost|x-authsender|tsayles@soot-n-smoke.com
+X-MailChannels-Auth-Id: dreamhost
+X-Blushing-Bottle: 4f6a8b16584b8d5b_1785211388081_603586627
+X-MC-Loop-Signature: 1785211388081:3508537899
+X-MC-Ingress-Time: 1785211388081
+X-Received: from pdx1-sub0-mail-a238.dreamhost.com (pop.dreamhost.com
+ [64.90.62.162])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384)
+	by 100.110.255.77 (trex/8.0.2);
+	Tue, 28 Jul 2026 04:03:08 +0000
+X-Received: from [192.168.11.199] (c-73-225-90-17.hsd1.wa.comcast.net [73.225.90.17])
+	(using TLSv1.3 with cipher TLS_AES_128_GCM_SHA256 (128/128 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	(Authenticated sender: tsayles@soot-n-smoke.com)
+	by pdx1-sub0-mail-a238.dreamhost.com (Postfix) with ESMTPSA id 4h8MJC5xhrz105B
+	for <FoxHunting@mkarc.groups.io>; Mon, 27 Jul 2026 21:03:07 -0700 (PDT)
+Message-Id: <18C6584CF4A4E005.3010641@groups.io>
+Date: Mon, 27 Jul 2026 21:03:07 -0700
 MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Subject: [FoxHunting] [M&K Fox Hunt] Planning & Build Resources on GitHub
+To: FoxHunting@mkarc.groups.io
+From: "Tom Sayles, KE4HET" <TSayles@Soot-n-Smoke.com>
+Precedence: Bulk
+List-Subscribe: <mailto:FoxHunting+subscribe@mkarc.groups.io>
+List-Help: <mailto:FoxHunting+help@mkarc.groups.io>
+Sender: FoxHunting@mkarc.groups.io
+List-Id: <FoxHunting.mkarc.groups.io>
+Mailing-List: list FoxHunting@mkarc.groups.io; contact FoxHunting+owner@mkarc.groups.io
+Delivered-To: mailing list FoxHunting@mkarc.groups.io
+Resent-Date: Mon, 27 Jul 2026 21:03:09 -0700
+Resent-From: TSayles@Soot-n-Smoke.com
+Reply-To: FoxHunting@mkarc.groups.io
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Orig-Message-Id: <0061de07-bd47-43cf-9831-31e3afe763b9@soot-n-smoke.com>
+List-Unsubscribe: <https://mkarc.groups.io/g/FoxHunting/leave/15223931/6843006/1331175987/plugh>
+X-Gm-Message-State: lWKhRHhFISssfATHOoRJ6GF5x6843006AA=
+Content-Type: multipart/alternative;
+ boundary="------------9ar9S9XeyCpJnxsXaGzARfCp"
+Content-Language: en-US
+
+--------------9ar9S9XeyCpJnxsXaGzARfCp
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Mike & Key ARC =E2=80=94 Fox Hunt Program
+
+Open Planning & Build Resources
+
+Collaborate on GitHub =E2=80=94 All Welcome
+
+Hello fox hunters,
+
+Our fox hunt planning, event documentation, and equipment build=20
+resources are now available on GitHub for anyone to view and contribute to.
+
+
+      What's in the Repository?
+
+  * *Event planning documents* =E2=80=94 location scouting reports, hunt ar=
+ea
+    boundaries, park rules, and event logistics
+  * *Build instructions* =E2=80=94 step-by-step guides for tape-measure Yag=
+i
+    antennas, attenuators, and other fox hunting equipment
+  * *Email announcement templates* =E2=80=94 draft emails for upcoming even=
+ts
+    (like the ones sent to this list)
+  * *Presentation materials* =E2=80=94 club meeting presentations and speak=
+er notes
+  * *Post-hunt reports* =E2=80=94 results, photos, and lessons learned from=
+ past
+    events
+
+
+      How to Access
+
+Visit the GitHub Repository <https://github.com/tsayles/ham-fox-hunting>
+
+github.com/tsayles/ham-fox-hunting=20
+<https://github.com/tsayles/ham-fox-hunting>
+
+The repository is public =E2=80=94 no GitHub account required to browse. Al=
+l=20
+documentation is written in plain text Markdown, making it easy to read=20
+directly on GitHub or download for offline reference.
+
+
+      How to Contribute
+
+Have ideas for improving hunt locations? Better build instructions?=20
+Photos from a past hunt? Suggestions for new equipment? *We welcome=20
+contributions!*
+
+Here's how to participate:
+
+  * *Submit a Pull Request* =E2=80=94 if you're familiar with Git/GitHub, f=
+ork
+    the repo, make your changes, and submit a PR. We'll review and merge
+    useful contributions.
+  * *Open an Issue* =E2=80=94 report problems, suggest improvements, or ask
+    questions using GitHub Issues (no coding required).
+  * *Email suggestions* =E2=80=94 not comfortable with GitHub? Send ideas,
+    corrections, or files directly to TSayles@Soot-n-Smoke.com and I'll
+    incorporate them.
+
+
+      Why Open Source?
+
+Open documentation means:
+
+  * *Transparency* =E2=80=94 everyone can see hunt planning decisions and s=
+afety
+    considerations
+  * *Collaboration* =E2=80=94 leverage the collective knowledge of our comm=
+unity
+  * *Reusability* =E2=80=94 other clubs can adapt our materials for their o=
+wn
+    fox hunt programs
+  * *Version control* =E2=80=94 track changes over time and never lose
+    historical documentation
+  * *Permanence* =E2=80=94 the repository remains accessible even if indivi=
+dual
+    organizers change
+
+
+      Getting Started with GitHub
+
+New to GitHub? Here are some resources:
+
+  * GitHub's Getting Started Guide <https://docs.github.com/en/get-started>
+  * How to Submit a Pull Request <https://docs.github.com/en/pull-requests>
+  * Markdown Syntax Guide <https://www.markdownguide.org/basic-syntax/>
+
+Or reach out =E2=80=94 I'm happy to help anyone get started with contributi=
+ng,=20
+whether you're a Git expert or have never used version control before.
+
+
+      What's Next?
+
+As we prepare for the August and September hunts, all planning documents=20
+and event materials will be kept up-to-date in the repository. Watch the=20
+repo (click "Watch" on GitHub) to get notifications when new content is=20
+added.
+
+Questions about the repository or how to contribute? Contact *Tom=20
+Sayles, KE4HET* at TSayles@Soot-n-Smoke.com or reply to this message.
+
+73,
+Tom Sayles, KE4HET
+Fox Hunt Program Coordinator
+
+Mike & Key Amateur Radio Club =E2=80=94 Fox Hunt Program
+mikeandkey.org/foxhunt.php <https://mikeandkey.org/foxhunt.php> =C2=A0=E2=
+=80=A2=20
+GitHub Repository <https://github.com/tsayles/ham-fox-hunting>
+
+
+-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-
+Groups.io Links: You receive all messages sent to this group.
+View/Reply Online (#1): https://mkarc.groups.io/g/FoxHunting/message/1
+Mute This Topic: https://groups.io/mt/120479479/6843006
+Group Owner: FoxHunting+owner@mkarc.groups.io
+Unsubscribe: https://mkarc.groups.io/g/FoxHunting/leave/15223931/6843006/13=
+31175987/xyzzy [TSayles@Soot-n-Smoke.com]
+-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-=3D-
+
+
+
+--------------9ar9S9XeyCpJnxsXaGzARfCp
 Content-Type: text/html; charset=UTF-8
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: quoted-printable
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[M&amp;K Fox Hunt] GitHub Repository</title>
-</head>
-<body style="margin:0;padding:0;background-color:#f0f0f0;
+<html>
+  <head>
+
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+    <meta charset=3D"UTF-8">
+    <meta name=3D"viewport"
+      content=3D"width=3Ddevice-width, initial-scale=3D1.0">
+    <title>[M&amp;K Fox Hunt] GitHub Repository</title>
+  </head>
+  <body
+style=3D"margin:0;padding:0;background-color:#f0f0f0;
              font-family:Arial,Helvetica,sans-serif;">
-  <table width="100%" cellpadding="0" cellspacing="0" border="0"
-         style="background-color:#f0f0f0;">
-    <tr>
-      <td align="center" style="padding:20px 10px;">
-        <table cellpadding="0" cellspacing="0" border="0"
-               style="width:100%;max-width:600px;">
-
-          <!-- HEADER -->
-          <tr>
-            <td style="background-color:#1a3a5c;padding:24px 32px;
+    <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"
+      style=3D"background-color:#f0f0f0;">
+      <tbody>
+        <tr>
+          <td align=3D"center" style=3D"padding:20px 10px;">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"
+              style=3D"width:100%;max-width:600px;">
+              <!-- HEADER --> <tbody>
+                <tr>
+                  <td
+style=3D"background-color:#1a3a5c;padding:24px 32px;
                        border-radius:6px 6px 0 0;">
-              <p style="margin:0;color:#ffffff;font-size:22px;
-                        font-weight:bold;line-height:1.3;">
-                Mike &amp; Key ARC &mdash; Fox Hunt Program
-              </p>
-              <p style="margin:8px 0 0;color:#8ecae6;font-size:15px;">
-                Open Planning & Build Resources
-              </p>
-            </td>
-          </tr>
-
-          <!-- ANNOUNCEMENT BANNER -->
-          <tr>
-            <td style="background-color:#2e7d32;padding:14px 32px;">
-              <p style="margin:0;color:#ffffff;font-size:14px;
-                        line-height:1.8;font-weight:bold;">
-                Collaborate on GitHub &mdash; All Welcome
-              </p>
-            </td>
-          </tr>
-
-          <!-- BODY -->
-          <tr>
-            <td style="background-color:#ffffff;padding:28px 32px;
+                    <p
+style=3D"margin:0;color:#ffffff;font-size:22px;
+                        font-weight:bold;line-height:1.3;"> Mike &amp;
+                      Key ARC =E2=80=94 Fox Hunt Program </p>
+                    <p
+style=3D"margin:8px 0 0;color:#8ecae6;font-size:15px;"> Open Planning
+                      &amp; Build Resources </p>
+                  </td>
+                </tr>
+                <!-- ANNOUNCEMENT BANNER --> <tr>
+                  <td
+                    style=3D"background-color:#2e7d32;padding:14px 32px;">
+                    <p
+style=3D"margin:0;color:#ffffff;font-size:14px;
+                        line-height:1.8;font-weight:bold;"> Collaborate
+                      on GitHub =E2=80=94 All Welcome </p>
+                  </td>
+                </tr>
+                <!-- BODY --> <tr>
+                  <td
+style=3D"background-color:#ffffff;padding:28px 32px;
                        font-size:15px;line-height:1.7;color:#212121;">
-
-              <p>Hello fox hunters,</p>
-
-              <p>
-                Our fox hunt planning, event documentation, and equipment
-                build resources are now available on GitHub for anyone
-                to view and contribute to.
-              </p>
-
-              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
-                What's in the Repository?
-              </h3>
-
-              <ul style="margin:8px 0;padding-left:20px;">
-                <li style="margin-bottom:8px;">
-                  <strong>Event planning documents</strong> &mdash;
-                  location scouting reports, hunt area boundaries,
-                  park rules, and event logistics
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Build instructions</strong> &mdash;
-                  step-by-step guides for tape-measure Yagi antennas,
-                  attenuators, and other fox hunting equipment
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Email announcement templates</strong> &mdash;
-                  draft emails for upcoming events (like the ones
-                  sent to this list)
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Presentation materials</strong> &mdash;
-                  club meeting presentations and speaker notes
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Post-hunt reports</strong> &mdash;
-                  results, photos, and lessons learned from past events
-                </li>
-              </ul>
-
-              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
-                How to Access
-              </h3>
-
-              <p style="text-align:center;margin:20px 0;">
-                <a href="https://github.com/tsayles/ham-fox-hunting"
-                   style="display:inline-block;background-color:#1a3a5c;
+                    <p>Hello fox hunters,</p>
+                    <p> Our fox hunt planning, event documentation, and
+                      equipment build resources are now available on
+                      GitHub for anyone to view and contribute to. </p>
+                    <h3 style=3D"color:#1a3a5c;margin:24px 0 8px;"> What's
+                      in the Repository? </h3>
+                    <ul style=3D"margin:8px 0;padding-left:20px;">
+                      <li style=3D"margin-bottom:8px;"> <strong>Event
+                          planning documents</strong> =E2=80=94 location
+                        scouting reports, hunt area boundaries, park
+                        rules, and event logistics </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Build
+                          instructions</strong> =E2=80=94 step-by-step guid=
+es
+                        for tape-measure Yagi antennas, attenuators, and
+                        other fox hunting equipment </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Email
+                          announcement templates</strong> =E2=80=94 draft e=
+mails
+                        for upcoming events (like the ones sent to this
+                        list) </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Presentatio=
+n
+                          materials</strong> =E2=80=94 club meeting
+                        presentations and speaker notes </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Post-hunt
+                          reports</strong> =E2=80=94 results, photos, and
+                        lessons learned from past events </li>
+                    </ul>
+                    <h3 style=3D"color:#1a3a5c;margin:24px 0 8px;"> How to
+                      Access </h3>
+                    <p style=3D"text-align:center;margin:20px 0;"> <a
+href=3D"https://github.com/tsayles/ham-fox-hunting"
+style=3D"display:inline-block;background-color:#1a3a5c;
                           color:#ffffff;padding:12px 24px;
                           text-decoration:none;border-radius:4px;
-                          font-weight:bold;font-size:16px;">
-                  Visit the GitHub Repository
-                </a>
-              </p>
-
-              <p style="font-size:13px;color:#555555;text-align:center;">
-                <a href="https://github.com/tsayles/ham-fox-hunting"
-                   style="color:#1a3a5c;">
-                  github.com/tsayles/ham-fox-hunting
-                </a>
-              </p>
-
-              <p>
-                The repository is public &mdash; no GitHub account
-                required to browse. All documentation is written in
-                plain text Markdown, making it easy to read directly
-                on GitHub or download for offline reference.
-              </p>
-
-              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
-                How to Contribute
-              </h3>
-
-              <p>
-                Have ideas for improving hunt locations? Better build
-                instructions? Photos from a past hunt? Suggestions for
-                new equipment? <strong>We welcome contributions!</strong>
-              </p>
-
-              <p>
-                Here's how to participate:
-              </p>
-
-              <ul style="margin:8px 0;padding-left:20px;">
-                <li style="margin-bottom:8px;">
-                  <strong>Submit a Pull Request</strong> &mdash;
-                  if you're familiar with Git/GitHub, fork the repo,
-                  make your changes, and submit a PR. We'll review
-                  and merge useful contributions.
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Open an Issue</strong> &mdash;
-                  report problems, suggest improvements, or ask
-                  questions using GitHub Issues (no coding required).
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Email suggestions</strong> &mdash;
-                  not comfortable with GitHub? Send ideas, corrections,
-                  or files directly to
-                  <a href="mailto:TSayles@Soot-n-Smoke.com">TSayles@Soot-n-Smoke.com</a>
-                  and I'll incorporate them.
-                </li>
-              </ul>
-
-              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
-                Why Open Source?
-              </h3>
-
-              <p>
-                Open documentation means:
-              </p>
-
-              <ul style="margin:8px 0;padding-left:20px;">
-                <li style="margin-bottom:8px;">
-                  <strong>Transparency</strong> &mdash; everyone can
-                  see hunt planning decisions and safety considerations
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Collaboration</strong> &mdash; leverage the
-                  collective knowledge of our community
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Reusability</strong> &mdash; other clubs can
-                  adapt our materials for their own fox hunt programs
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Version control</strong> &mdash; track changes
-                  over time and never lose historical documentation
-                </li>
-                <li style="margin-bottom:8px;">
-                  <strong>Permanence</strong> &mdash; the repository
-                  remains accessible even if individual organizers change
-                </li>
-              </ul>
-
-              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
-                Getting Started with GitHub
-              </h3>
-
-              <p>
-                New to GitHub? Here are some resources:
-              </p>
-
-              <ul style="margin:8px 0;padding-left:20px;">
-                <li style="margin-bottom:8px;">
-                  GitHub's <a href="https://docs.github.com/en/get-started"
-                     style="color:#1a3a5c;">Getting Started Guide</a>
-                </li>
-                <li style="margin-bottom:8px;">
-                  <a href="https://docs.github.com/en/pull-requests"
-                     style="color:#1a3a5c;">How to Submit a Pull Request</a>
-                </li>
-                <li style="margin-bottom:8px;">
-                  <a href="https://www.markdownguide.org/basic-syntax/"
-                     style="color:#1a3a5c;">Markdown Syntax Guide</a>
-                </li>
-              </ul>
-
-              <p>
-                Or reach out &mdash; I'm happy to help anyone get started
-                with contributing, whether you're a Git expert or have
-                never used version control before.
-              </p>
-
-              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
-                What's Next?
-              </h3>
-
-              <p>
-                As we prepare for the August and September hunts, all
-                planning documents and event materials will be kept
-                up-to-date in the repository. Watch the repo (click
-                "Watch" on GitHub) to get notifications when new
-                content is added.
-              </p>
-
-              <p>
-                Questions about the repository or how to contribute?
-                Contact <strong>Tom Sayles, KE4HET</strong> at
-                <a href="mailto:TSayles@Soot-n-Smoke.com">TSayles@Soot-n-Smoke.com</a>
-                or reply to this message.
-              </p>
-
-              <p>73,<br>Tom Sayles, KE4HET<br>Fox Hunt Program Coordinator</p>
-
-            </td>
-          </tr>
-
-          <!-- FOOTER -->
-          <tr>
-            <td style="background-color:#1a3a5c;padding:16px 32px;
+                          font-weight:bold;font-size:16px;"> Visit the
+                        GitHub Repository </a> </p>
+                    <p
+style=3D"font-size:13px;color:#555555;text-align:center;"> <a
+href=3D"https://github.com/tsayles/ham-fox-hunting" style=3D"color:#1a3a5c;=
+">
+                        github.com/tsayles/ham-fox-hunting </a> </p>
+                    <p> The repository is public =E2=80=94 no GitHub accoun=
+t
+                      required to browse. All documentation is written
+                      in plain text Markdown, making it easy to read
+                      directly on GitHub or download for offline
+                      reference. </p>
+                    <h3 style=3D"color:#1a3a5c;margin:24px 0 8px;"> How to
+                      Contribute </h3>
+                    <p> Have ideas for improving hunt locations? Better
+                      build instructions? Photos from a past hunt?
+                      Suggestions for new equipment? <strong>We welcome
+                        contributions!</strong> </p>
+                    <p> Here's how to participate: </p>
+                    <ul style=3D"margin:8px 0;padding-left:20px;">
+                      <li style=3D"margin-bottom:8px;"> <strong>Submit a
+                          Pull Request</strong> =E2=80=94 if you're familia=
+r
+                        with Git/GitHub, fork the repo, make your
+                        changes, and submit a PR. We'll review and merge
+                        useful contributions. </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Open an
+                          Issue</strong> =E2=80=94 report problems, suggest
+                        improvements, or ask questions using GitHub
+                        Issues (no coding required). </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Email
+                          suggestions</strong> =E2=80=94 not comfortable wi=
+th
+                        GitHub? Send ideas, corrections, or files
+                        directly to <a
+                          href=3D"mailto:TSayles@Soot-n-Smoke.com"
+                          class=3D"moz-txt-link-freetext">TSayles@Soot-n-Sm=
+oke.com</a>
+                        and I'll incorporate them. </li>
+                    </ul>
+                    <h3 style=3D"color:#1a3a5c;margin:24px 0 8px;"> Why
+                      Open Source? </h3>
+                    <p> Open documentation means: </p>
+                    <ul style=3D"margin:8px 0;padding-left:20px;">
+                      <li style=3D"margin-bottom:8px;"> <strong>Transparenc=
+y</strong>
+                        =E2=80=94 everyone can see hunt planning decisions =
+and
+                        safety considerations </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Collaborati=
+on</strong>
+                        =E2=80=94 leverage the collective knowledge of our
+                        community </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Reusability=
+</strong>
+                        =E2=80=94 other clubs can adapt our materials for t=
+heir
+                        own fox hunt programs </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Version
+                          control</strong> =E2=80=94 track changes over tim=
+e and
+                        never lose historical documentation </li>
+                      <li style=3D"margin-bottom:8px;"> <strong>Permanence<=
+/strong>
+                        =E2=80=94 the repository remains accessible even if
+                        individual organizers change </li>
+                    </ul>
+                    <h3 style=3D"color:#1a3a5c;margin:24px 0 8px;">
+                      Getting Started with GitHub </h3>
+                    <p> New to GitHub? Here are some resources: </p>
+                    <ul style=3D"margin:8px 0;padding-left:20px;">
+                      <li style=3D"margin-bottom:8px;"> GitHub's <a
+                          href=3D"https://docs.github.com/en/get-started"
+                          style=3D"color:#1a3a5c;">Getting Started Guide</a=
+>
+                      </li>
+                      <li style=3D"margin-bottom:8px;"> <a
+href=3D"https://docs.github.com/en/pull-requests" style=3D"color:#1a3a5c;">=
+How
+                          to Submit a Pull Request</a> </li>
+                      <li style=3D"margin-bottom:8px;"> <a
+href=3D"https://www.markdownguide.org/basic-syntax/"
+                          style=3D"color:#1a3a5c;">Markdown Syntax Guide</a=
+>
+                      </li>
+                    </ul>
+                    <p> Or reach out =E2=80=94 I'm happy to help anyone get
+                      started with contributing, whether you're a Git
+                      expert or have never used version control before.
+                    </p>
+                    <h3 style=3D"color:#1a3a5c;margin:24px 0 8px;"> What's
+                      Next? </h3>
+                    <p> As we prepare for the August and September
+                      hunts, all planning documents and event materials
+                      will be kept up-to-date in the repository. Watch
+                      the repo (click "Watch" on GitHub) to get
+                      notifications when new content is added. </p>
+                    <p> Questions about the repository or how to
+                      contribute? Contact <strong>Tom Sayles, KE4HET</stron=
+g>
+                      at <a href=3D"mailto:TSayles@Soot-n-Smoke.com"
+                        class=3D"moz-txt-link-freetext">TSayles@Soot-n-Smok=
+e.com</a>
+                      or reply to this message. </p>
+                    <p>73,<br>
+                      Tom Sayles, KE4HET<br>
+                      Fox Hunt Program Coordinator</p>
+                  </td>
+                </tr>
+                <!-- FOOTER --> <tr>
+                  <td
+style=3D"background-color:#1a3a5c;padding:16px 32px;
                        border-radius:0 0 6px 6px;text-align:center;">
-              <p style="margin:0;color:#8ecae6;font-size:13px;
-                        line-height:1.7;">
-                Mike &amp; Key Amateur Radio Club &mdash; Fox Hunt
-                Program<br>
-                <a href="https://mikeandkey.org/foxhunt.php"
-                   style="color:#ffffff;">
-                  mikeandkey.org/foxhunt.php
-                </a>
-                &nbsp;&bull;&nbsp;
-                <a href="https://github.com/tsayles/ham-fox-hunting"
-                   style="color:#ffffff;">
-                  GitHub Repository
-                </a>
-              </p>
-            </td>
-          </tr>
-
-        </table>
-      </td>
-    </tr>
-  </table>
-</body>
+                    <p
+style=3D"margin:0;color:#8ecae6;font-size:13px;
+                        line-height:1.7;"> Mike &amp; Key Amateur Radio
+                      Club =E2=80=94 Fox Hunt Program<br>
+                      <a href=3D"https://mikeandkey.org/foxhunt.php"
+                        style=3D"color:#ffffff;">
+                        mikeandkey.org/foxhunt.php </a> =C2=A0=E2=80=A2=C2=
+=A0 <a
+href=3D"https://github.com/tsayles/ham-fox-hunting" style=3D"color:#ffffff;=
+">
+                        GitHub Repository </a> </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
+
+
+<div width=3D"1" style=3D"color:white;clear:both">_._,_._,_</div>
+
+<hr>
+
+
+Groups.io Links:<p>
+
+
+ =20
+    You receive all messages sent to this group.
+ =20
+ =20
+
+
+<p>
+<a target=3D"_blank" href=3D"https://mkarc.groups.io/g/FoxHunting/message/1=
+">View/Reply Online (#1)</a> |
+
+
+  <a target=3D"_blank" href=3D"mailto:FoxHunting@mkarc.groups.io?subject=3D=
+Re:%20%5BFoxHunting%5D%20%5BM%26K%20Fox%20Hunt%5D%20Planning%20%26%20Build%=
+20Resources%20on%20GitHub">Reply to Group</a>
+ =20
+    | <a target=3D"_blank" href=3D"mailto:TSayles@Soot-n-Smoke.com?subject=
+=3DPrivate:%20Re:%20%5BFoxHunting%5D%20%5BM%26K%20Fox%20Hunt%5D%20Planning%=
+20%26%20Build%20Resources%20on%20GitHub">Reply to Sender</a>
+ =20
+
+|
+
+  <a target=3D"_blank" href=3D"https://groups.io/mt/120479479/6843006">Mute=
+ This Topic</a>
+
+
+| <a href=3D"https://mkarc.groups.io/g/FoxHunting/post">New Topic</a>
+
+<br>
+
+
+
+
+<a href=3D"https://mkarc.groups.io/g/FoxHunting/editsub/6843006">Your Subsc=
+ription</a> |
+<a href=3D"mailto:FoxHunting+owner@mkarc.groups.io">Contact Group Owner</a>=
+ |
+
+<a href=3D"https://mkarc.groups.io/g/FoxHunting/leave/15223931/6843006/1331=
+175987/xyzzy">Unsubscribe</a>
+
+ [TSayles@Soot-n-Smoke.com]<br>
+<div width=3D"1" style=3D"color:white;clear:both">_._,_._,_</div>
+
+
+--------------9ar9S9XeyCpJnxsXaGzARfCp--
+
