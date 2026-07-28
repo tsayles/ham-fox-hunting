@@ -1,0 +1,268 @@
+From - Sun Jul 27 21:00:00 2026
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0;
+ uuencode=0; attachmentreminder=0; deliveryformat=4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+To: FoxHunting@mkarc.groups.io
+Subject: [M&K Fox Hunt] Planning & Build Resources on GitHub
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[M&amp;K Fox Hunt] GitHub Repository</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f0f0f0;
+             font-family:Arial,Helvetica,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0"
+         style="background-color:#f0f0f0;">
+    <tr>
+      <td align="center" style="padding:20px 10px;">
+        <table cellpadding="0" cellspacing="0" border="0"
+               style="width:100%;max-width:600px;">
+
+          <!-- HEADER -->
+          <tr>
+            <td style="background-color:#1a3a5c;padding:24px 32px;
+                       border-radius:6px 6px 0 0;">
+              <p style="margin:0;color:#ffffff;font-size:22px;
+                        font-weight:bold;line-height:1.3;">
+                Mike &amp; Key ARC &mdash; Fox Hunt Program
+              </p>
+              <p style="margin:8px 0 0;color:#8ecae6;font-size:15px;">
+                Open Planning & Build Resources
+              </p>
+            </td>
+          </tr>
+
+          <!-- ANNOUNCEMENT BANNER -->
+          <tr>
+            <td style="background-color:#2e7d32;padding:14px 32px;">
+              <p style="margin:0;color:#ffffff;font-size:14px;
+                        line-height:1.8;font-weight:bold;">
+                Collaborate on GitHub &mdash; All Welcome
+              </p>
+            </td>
+          </tr>
+
+          <!-- BODY -->
+          <tr>
+            <td style="background-color:#ffffff;padding:28px 32px;
+                       font-size:15px;line-height:1.7;color:#212121;">
+
+              <p>Hello fox hunters,</p>
+
+              <p>
+                Our fox hunt planning, event documentation, and equipment
+                build resources are now available on GitHub for anyone
+                to view and contribute to.
+              </p>
+
+              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
+                What's in the Repository?
+              </h3>
+
+              <ul style="margin:8px 0;padding-left:20px;">
+                <li style="margin-bottom:8px;">
+                  <strong>Event planning documents</strong> &mdash;
+                  location scouting reports, hunt area boundaries,
+                  park rules, and event logistics
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Build instructions</strong> &mdash;
+                  step-by-step guides for tape-measure Yagi antennas,
+                  attenuators, and other fox hunting equipment
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Email announcement templates</strong> &mdash;
+                  draft emails for upcoming events (like the ones
+                  sent to this list)
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Presentation materials</strong> &mdash;
+                  club meeting presentations and speaker notes
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Post-hunt reports</strong> &mdash;
+                  results, photos, and lessons learned from past events
+                </li>
+              </ul>
+
+              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
+                How to Access
+              </h3>
+
+              <p style="text-align:center;margin:20px 0;">
+                <a href="https://github.com/tsayles/ham-fox-hunting"
+                   style="display:inline-block;background-color:#1a3a5c;
+                          color:#ffffff;padding:12px 24px;
+                          text-decoration:none;border-radius:4px;
+                          font-weight:bold;font-size:16px;">
+                  Visit the GitHub Repository
+                </a>
+              </p>
+
+              <p style="font-size:13px;color:#555555;text-align:center;">
+                <a href="https://github.com/tsayles/ham-fox-hunting"
+                   style="color:#1a3a5c;">
+                  github.com/tsayles/ham-fox-hunting
+                </a>
+              </p>
+
+              <p>
+                The repository is public &mdash; no GitHub account
+                required to browse. All documentation is written in
+                plain text Markdown, making it easy to read directly
+                on GitHub or download for offline reference.
+              </p>
+
+              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
+                How to Contribute
+              </h3>
+
+              <p>
+                Have ideas for improving hunt locations? Better build
+                instructions? Photos from a past hunt? Suggestions for
+                new equipment? <strong>We welcome contributions!</strong>
+              </p>
+
+              <p>
+                Here's how to participate:
+              </p>
+
+              <ul style="margin:8px 0;padding-left:20px;">
+                <li style="margin-bottom:8px;">
+                  <strong>Submit a Pull Request</strong> &mdash;
+                  if you're familiar with Git/GitHub, fork the repo,
+                  make your changes, and submit a PR. We'll review
+                  and merge useful contributions.
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Open an Issue</strong> &mdash;
+                  report problems, suggest improvements, or ask
+                  questions using GitHub Issues (no coding required).
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Email suggestions</strong> &mdash;
+                  not comfortable with GitHub? Send ideas, corrections,
+                  or files directly to
+                  <a href="mailto:TSayles@Soot-n-Smoke.com">TSayles@Soot-n-Smoke.com</a>
+                  and I'll incorporate them.
+                </li>
+              </ul>
+
+              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
+                Why Open Source?
+              </h3>
+
+              <p>
+                Open documentation means:
+              </p>
+
+              <ul style="margin:8px 0;padding-left:20px;">
+                <li style="margin-bottom:8px;">
+                  <strong>Transparency</strong> &mdash; everyone can
+                  see hunt planning decisions and safety considerations
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Collaboration</strong> &mdash; leverage the
+                  collective knowledge of our community
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Reusability</strong> &mdash; other clubs can
+                  adapt our materials for their own fox hunt programs
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Version control</strong> &mdash; track changes
+                  over time and never lose historical documentation
+                </li>
+                <li style="margin-bottom:8px;">
+                  <strong>Permanence</strong> &mdash; the repository
+                  remains accessible even if individual organizers change
+                </li>
+              </ul>
+
+              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
+                Getting Started with GitHub
+              </h3>
+
+              <p>
+                New to GitHub? Here are some resources:
+              </p>
+
+              <ul style="margin:8px 0;padding-left:20px;">
+                <li style="margin-bottom:8px;">
+                  GitHub's <a href="https://docs.github.com/en/get-started"
+                     style="color:#1a3a5c;">Getting Started Guide</a>
+                </li>
+                <li style="margin-bottom:8px;">
+                  <a href="https://docs.github.com/en/pull-requests"
+                     style="color:#1a3a5c;">How to Submit a Pull Request</a>
+                </li>
+                <li style="margin-bottom:8px;">
+                  <a href="https://www.markdownguide.org/basic-syntax/"
+                     style="color:#1a3a5c;">Markdown Syntax Guide</a>
+                </li>
+              </ul>
+
+              <p>
+                Or reach out &mdash; I'm happy to help anyone get started
+                with contributing, whether you're a Git expert or have
+                never used version control before.
+              </p>
+
+              <h3 style="color:#1a3a5c;margin:24px 0 8px;">
+                What's Next?
+              </h3>
+
+              <p>
+                As we prepare for the August and September hunts, all
+                planning documents and event materials will be kept
+                up-to-date in the repository. Watch the repo (click
+                "Watch" on GitHub) to get notifications when new
+                content is added.
+              </p>
+
+              <p>
+                Questions about the repository or how to contribute?
+                Contact <strong>Tom Sayles, KE4HET</strong> at
+                <a href="mailto:TSayles@Soot-n-Smoke.com">TSayles@Soot-n-Smoke.com</a>
+                or reply to this message.
+              </p>
+
+              <p>73,<br>Tom Sayles, KE4HET<br>Fox Hunt Program Coordinator</p>
+
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td style="background-color:#1a3a5c;padding:16px 32px;
+                       border-radius:0 0 6px 6px;text-align:center;">
+              <p style="margin:0;color:#8ecae6;font-size:13px;
+                        line-height:1.7;">
+                Mike &amp; Key Amateur Radio Club &mdash; Fox Hunt
+                Program<br>
+                <a href="https://mikeandkey.org/foxhunt.php"
+                   style="color:#ffffff;">
+                  mikeandkey.org/foxhunt.php
+                </a>
+                &nbsp;&bull;&nbsp;
+                <a href="https://github.com/tsayles/ham-fox-hunting"
+                   style="color:#ffffff;">
+                  GitHub Repository
+                </a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
