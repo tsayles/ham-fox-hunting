@@ -19,19 +19,14 @@ All emails go to both lists:
 Each `.eml` file is formatted as a Thunderbird draft message. To use:
 
 1. Open **Thunderbird**.
-2. Go to **File > Open Saved Message** and select the `.eml` file.
-3. In the message view, choose **Edit > Edit as New Message**
-   (or press **Ctrl+E** / **Cmd+Shift+E** on macOS) to open a
-   compose window with the email ready to send.
+2. Drag the `.eml` file from File Explorer (Windows) or Finder (macOS)
+   directly into your **Drafts** folder in Thunderbird.
+3. Double-click the message in your Drafts folder to open it in
+   compose mode, ready to send.
 4. Review all content, fill in or remove any remaining
    `[bracketed placeholders]`, and verify dates before sending.
-5. Add yourself to the `From:` field if Thunderbird does not
-   auto-populate it from your account.
-
-Alternatively, copy an `.eml` file into your Thunderbird **Drafts**
-mail folder. Files that include the `X-Mozilla-Draft-Info` header
-will then open directly in compose mode when double-clicked inside
-Thunderbird.
+5. The `From:` field will auto-populate from your selected Thunderbird
+   account.
 
 ---
 
