@@ -36,11 +36,17 @@ All 2026 event dates are **tentative**. Confirm each date at least
 one week before the scheduled send, and update the email body if
 the event date changes.
 
+### FoxHunt List Announcement
+
+| File | Recommended Send Date | Purpose | Status |
+|------|-----------------------|---------|--------|
+| `2026/2026-07-20-foxhunt-list-announcement.eml` | Mon Jul&nbsp;20, 2026 | Invite M&K members to join FoxHunting@mkarc.groups.io | **✓ Sent Sun Jul 27, 2026** |
+
 ### Season Kickoff
 
 | File | Recommended Send Date | Purpose |
 |------|-----------------------|---------|
-| `2026/2026-07-20-season-kickoff.eml` | Mon Jul&nbsp;20, 2026 | Announce the remaining 2026 hunt schedule |
+| `2026/2026-07-27-season-kickoff.eml` | Mon Jul&nbsp;20, 2026 | Announce the remaining 2026 hunt schedule |
 
 ### August Hunt — Marymoor Park, Redmond (Sat Aug 22)
 
