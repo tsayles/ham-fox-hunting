@@ -32,7 +32,7 @@ Notable moments
 Several teams encountered multipath reflections near small rock features and other terrain; those who verified bearings from multiple positions and used signal-strength checks were able to resolve confusing readings. The camouflaged traffic-cone fox made for a satisfying visual payoff when the first finder reported in. KK7VNR (David Keogh) combined steady bearing work and methodical terrain clearing to record the first find at about fifty minutes, and his prompt call to control allowed a tidy wrap-up and retrieval of the transmitter.
 
 Control, safety, and communications
-KE4HET manned the hunt control station and served as the net control operator, managing check-in and timing professionally on the K7LED repeater for voice coordination. No incidents or safety concerns were reported. The clear handoff from finder to control and volunteers sped transmitter retrieval and ensured the event concluded promptly.
+KE4HET manned the hunt control station and served as the net control operator, managing check-in and timing professionally on the K7LED repeater for voice coordination. No incidents or safety concerns were reported.
 
 Lessons learned and recommendations
 - Multipath awareness: Occasional misleading bearings were observed. A short reminder in the pre-hunt briefing encouraging hunters to take bearings from two or more distinct locations can reduce confusion.
