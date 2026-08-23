@@ -6,10 +6,11 @@ Yesterday's monthly fox hunt, held on 22 August 2026, delivered a well-run event
 Summary
 Seven hunters checked in at hunt control, which was located just south of the velodrome and west of the climbing pinnacle/wall. There was plenty of parking for participants and spectators. Hunt control operated on the club's K7LED 2m repeater for voice coordination. The fox transmitter was camouflaged inside a traffic cone to keep the final moments fun and visible for retrieval. The fox was a Byonics MicroFox 15 (MF-15) using the stock whip antenna and remained deployed for the full planned duration (Noon to 2:30).
 
-![Fox beacons](docs/presentations/images/Mike_and_Key_Fox_Beacons.jpg)
+![Beacons](docs/presentations/images/Mike_and_Key_Fox_Beacons.jpg)
 
-*Figure: Robert KM7GWB found the fox.*
+![Finder (Robert KM7GWB)](docs/presentations/images/Mike_and_Key_Fox_Beacons-KM7GWB.jpg)
 
+*Figure: Byonics MicroFox 15 (MF-15) and MicroFox PicCon (MF-PC) beacons (left); Robert KM7GWB (right) — Robert found the fox.*
 
 The first person to find and report the fox to control was KK7VNR (David Keogh), whose timely report came at roughly the 50-minute mark. A number of hunters used tape-measure yagis; the fastest competitors used attenuators up to about 60 dB as they closed on the transmitter.
 
