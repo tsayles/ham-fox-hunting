@@ -8,7 +8,7 @@ Seven hunters checked in at hunt control, which was located just south of the ve
 
 ![Beacons](docs/presentations/images/Mike_and_Key_Fox_Beacons.jpg)
 
-![Finder (Robert KM7GWB)](docs/presentations/images/Mike_and_Key_Fox_Beacons-KM7GWB.jpg)
+![Finder (Robert KM7GWB)](docs/presentations/images/KM7GWB-with-fox.jpg)
 
 *Figure: Byonics MicroFox 15 (MF-15) and MicroFox PicCon (MF-PC) beacons (left); Robert KM7GWB (right) — Robert found the fox.*
 
