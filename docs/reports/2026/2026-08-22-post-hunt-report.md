@@ -1,35 +1,34 @@
-# Post-hunt report — 2026-08-22
+Post-hunt report — 22 August 2026
+By Ham Fox Hunting Club
 
-Yesterday's fox hunt (2026-08-22) brought a crisp morning, eager hounds, and a smooth event that will be featured in the M&K Relay. The hunt started on time, ran cleanly, and produced good sport and solid participation. This report highlights the turnout, the course, notable performances, lessons learned, and a short plan for improvements going into the rest of the season.
+Yesterday's monthly fox hunt, held on 22 August 2026, delivered a well-run event with good participation and spirited direction-finding. The hunt started on time, ran smoothly, and produced several teachable moments for both newcomers and seasoned hounds. This submission is prepared for the M&K Relay editor; a short/plain-text version can be provided on request.
 
-Turnout and check-in
-Seven hunters checked in at hunt control for the event. Hunt control was located just south of the velodrome and west of the climbing pinnacle/wall. There was plenty of parking. The turnout included a mix of experienced hounds and a couple of newcomers, which created an engaging pace on-course. A modest but enthusiastic field of seven allowed the control team to manage the event without congestion at the hides and gave each participant a satisfying amount of on-air time and navigation challenge.
+Summary
+Seven hunters checked in at hunt control, which was located just south of the velodrome and west of the climbing pinnacle/wall. There was plenty of parking for participants and spectators. Hunt control operated on the club's K7LED 2m repeater for voice coordination. The fox transmitter was camouflaged inside a traffic cone to keep the final moments fun and visible for retrieval. The first person to find and report the fox to control was KK7VNR (David Keogh), whose timely report came at roughly the 50-minute mark. A number of hunters used tape-measure yagis; the fastest competitors used attenuators up to about 60 dB as they closed on the transmitter.
+
+Turnout and atmosphere
+A modest but enthusiastic field of seven provided excellent pace and camaraderie. The mix of experienced hounds and a few newcomers created a friendly learning environment: experienced hunters were able to push a tactical pace without overcrowding the hides, while new participants enjoyed hands-on practice in a managed setting. Starting on time helped keep the schedule tight and respected volunteers' availability, and having ample parking near hunt control made logistics straightforward for everyone.
 
 Course and conditions
-The course was set in a mixed park-and-woodland area with moderate terrain — enough variety to reward careful direction-finding without creating unsafe or overly strenuous conditions. The fox's transmit schedule and the choice of hiding sector produced a hunt that required both bearing work and patience to interpret signals from the surrounding trees and terrain. Weather was cool and dry, which made for comfortable chasing and good radio propagation for the short three-element transmitter we used.
+The course used a mixed park-and-woodland terrain with gentle elevation changes. The hide sector was selected to present a balance between accessible bearings and classic multipath challenges created by tree lines and small structures. Weather was cool and dry, which improved comfort for hunters and provided stable short-range propagation for the three-element fox transmitter.
 
-Key successes
-- Start on time: The hunt began promptly at the scheduled time, which demonstrates good event discipline by both organizers and participants. Timely starts matter: they keep the schedule for control, volunteers, and those relying on post-hunt plans such as the M&K Relay deadlines.
-- Solid check-in: Seven hunters completed the check-in process at hunt control. That number is a healthy local turnout and allowed for a well-paced hunt where everyone could get adequate airtime and course exposure.
-- First-to-find: The first person to locate the fox and report to hunt control was KK7VNR, David Keogh, who found the transmitter in roughly 50 minutes. David's approach combined careful bearing-taking with methodical terrain clearing; his report to control was prompt and helped the team close the hunt cleanly.
+Equipment and technique
+Most hunters used yagis — predominantly tape-measure yagis — which proved effective for bearing work in the mix of open and wooded areas. A few competitors carried external attenuators and applied up to about 60 dB of attenuation as they neared the fox; this technique helped avoid receiver overload and allowed for crisper nulls and direction detail on final approach. However, several hunters without attenuators still located the transmitter through careful bearing-taking and signal-strength cross-checking, demonstrating that sound technique remains the most important factor.
 
 Notable moments
-Most participants used yagis — the majority using tape-measure yagis — which performed well across the mixed terrain. Several teams reported interesting signal reflections near the thicker tree stands; those reflections rewarded hunters who took the time to verify bearings from multiple positions. The fastest hunters also used attenuators (up to about 60 dB) as they closed on the fox; several hunters without attenuators nevertheless located the transmitter through careful technique. One new hound managed the course cleanly despite limited experience, showing that the course design struck a reasonable balance between accessibility and challenge.
+Several teams encountered multipath reflections near denser tree stands and small rock features; those who verified bearings from multiple positions and used signal-strength checks were able to resolve confusing readings. The camouflaged traffic-cone fox made for a satisfying visual payoff when the first finder reported in. KK7VNR (David Keogh) combined steady bearing work and methodical terrain clearing to record the first find at about fifty minutes, and his prompt call to control allowed a tidy wrap-up and retrieval of the transmitter.
 
-Volunteer and control performance
-Hunt control executed the check-in and timing procedures smoothly and operated on the club's K7LED 2m repeater for voice coordination. Volunteers positioned at critical waypoints communicated effectively, and the safety checks were completed without incident. The quick reporting of the fox by David made it easy to retrieve the transmitter — which had been camouflaged in a traffic cone — and ensure the hunt concluded crisply.
+Control, safety, and communications
+Hunt control managed check-in and timing professionally, operating on the K7LED repeater for voice coordination. Volunteers at critical waypoints provided helpful updates and assisted with safety monitoring. No incidents or safety concerns were reported. The clear handoff from finder to control and volunteers sped transmitter retrieval and ensured the event concluded promptly.
 
-Lessons learned
-- Bearings in wooded areas: A few hunters reported confusing multipath on initial bearings. Encourage hunters to take bearings from two or more locations when trees are dense, and to cross-check signal strength as they approach.
-- Signage and approach paths: A small number of participants took longer than expected to reach the general hide area due to unclear approach trails. Adding a discrete waypoint or two to the pre-hunt map could reduce that friction while preserving the challenge of the final approach.
-
-Recommendations
-- Pre-hunt pointer for newer hounds: A short pre-hunt briefing with a quick reminder about multipath and verifying bearings would help newcomers and improve overall efficiency.
-- Course notes for marshaling: Add one extra control waypoint in the public directions (non-spoiler) to reduce approach confusion without revealing the hide.
+Lessons learned and recommendations
+- Multipath awareness: Dense tree stands produced occasional misleading bearings. A short reminder in the pre-hunt briefing encouraging hunters to take bearings from two or more distinct locations can reduce confusion.
+- Attenuation guidance: Attenuators are useful for final approaches on strong signals; consider adding a brief note in the pre-hunt safety and technique briefing about when and how to use attenuation safely.
+- Approach waypoints: A couple of participants took extra time finding approach trails to the hide area. Consider adding a discrete non-spoiler waypoint on the public directions to reduce approach-time friction while preserving the hunt challenge.
 
 Acknowledgements
-Thanks to the volunteers who staffed control and marshals, to the hounds who turned out, and to KK7VNR (David Keogh) for a quick and well-executed find. The hunt team also thanks the land steward for permitting access and for the clear signage.
+Many thanks to the volunteers who staffed hunt control and marshalling positions, to the land steward for permitting access, and to everyone who participated. Special thanks to KK7VNR (David Keogh) for a clean and timely find. If the Relay editor would like a 200–300 word version for a single-column newsletter slot, a condensed edit can be provided.
 
-Conclusion
-The 2026-08-22 hunt met its goals: it started on time, had a solid turnout of seven hunters, and delivered a fair and satisfying challenge. David Keogh's timely first find (about 50 minutes) capped a smoothly-executed event. With a few small refinements to pre-hunt briefing and approach guidance, future hunts should maintain or improve participant experience. Please consider this write-up for inclusion in the next M&K Relay; a slightly edited version can be provided if the Relay requires a shorter or differently formatted submission.
+Contact
+Ham Fox Hunting Club — contact@hamfox.example (replace with club email)
 
