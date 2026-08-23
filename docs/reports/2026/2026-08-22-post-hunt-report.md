@@ -14,10 +14,10 @@ Key successes
 - First-to-find: The first person to locate the fox and report to hunt control was KK7VNR, David Keogh, who found the transmitter in roughly 50 minutes. David's approach combined careful bearing-taking with methodical terrain clearing; his report to control was prompt and helped the team close the hunt cleanly.
 
 Notable moments
-Several teams reported interesting signal reflections near the thicker tree stands; those reflections rewarded hunters who took the time to verify bearings from multiple positions. One new hound managed the course cleanly despite limited experience, showing that the course design struck a reasonable balance between accessibility and challenge.
+Most participants used yagis — the majority using tape-measure yagis — which performed well across the mixed terrain. Several teams reported interesting signal reflections near the thicker tree stands; those reflections rewarded hunters who took the time to verify bearings from multiple positions. The fastest hunters also used attenuators (up to about 60 dB) as they closed on the fox; several hunters without attenuators nevertheless located the transmitter through careful technique. One new hound managed the course cleanly despite limited experience, showing that the course design struck a reasonable balance between accessibility and challenge.
 
 Volunteer and control performance
-Hunt control executed the check-in and timing procedures smoothly. Volunteers positioned at critical waypoints communicated effectively, and the safety checks were completed without incident. The quick reporting of the fox by David made it easy to retrieve the transmitter and ensure the hunt concluded crisply.
+Hunt control executed the check-in and timing procedures smoothly and operated on the club's K7LED 2m repeater for voice coordination. Volunteers positioned at critical waypoints communicated effectively, and the safety checks were completed without incident. The quick reporting of the fox by David made it easy to retrieve the transmitter — which had been camouflaged in a traffic cone — and ensure the hunt concluded crisply.
 
 Lessons learned
 - Bearings in wooded areas: A few hunters reported confusing multipath on initial bearings. Encourage hunters to take bearings from two or more locations when trees are dense, and to cross-check signal strength as they approach.
