@@ -4,7 +4,13 @@ By Mike & Key ARC
 Yesterday's monthly fox hunt, held on 22 August 2026, delivered a well-run event with good participation and spirited direction-finding. The hunt started on time, ran smoothly, and produced several teachable moments for both newcomers and seasoned hounds. This submission is prepared for the M&K Relay editor; a short/plain-text version can be provided on request.
 
 Summary
-Seven hunters checked in at hunt control, which was located just south of the velodrome and west of the climbing pinnacle/wall. There was plenty of parking for participants and spectators. Hunt control operated on the club's K7LED 2m repeater for voice coordination. The fox transmitter was camouflaged inside a traffic cone to keep the final moments fun and visible for retrieval. The fox was a Byonics MicroFox 15 (MF-15) using the stock whip antenna and remained deployed for the full planned duration (Noon to 2:30). ![Fox beacons](docs/presentations/images/Mike_and_Key_Fox_Beacons.jpg) The first person to find and report the fox to control was KK7VNR (David Keogh), whose timely report came at roughly the 50-minute mark. A number of hunters used tape-measure yagis; the fastest competitors used attenuators up to about 60 dB as they closed on the transmitter.
+Seven hunters checked in at hunt control, which was located just south of the velodrome and west of the climbing pinnacle/wall. There was plenty of parking for participants and spectators. Hunt control operated on the club's K7LED 2m repeater for voice coordination. The fox transmitter was camouflaged inside a traffic cone to keep the final moments fun and visible for retrieval. The fox was a Byonics MicroFox 15 (MF-15) using the stock whip antenna and remained deployed for the full planned duration (Noon to 2:30).
+
+![Fox beacons](docs/presentations/images/Mike_and_Key_Fox_Beacons.jpg)
+
+*Figure: Byonics MicroFox 15 (MF-15) used for the hunt (left); Byonics MicroFox PicCon (MF-PC) (right).* 
+
+The first person to find and report the fox to control was KK7VNR (David Keogh), whose timely report came at roughly the 50-minute mark. A number of hunters used tape-measure yagis; the fastest competitors used attenuators up to about 60 dB as they closed on the transmitter.
 
 Turnout and atmosphere
 A modest but enthusiastic field of seven provided excellent pace and camaraderie. The mix of experienced hounds and a few newcomers created a friendly learning environment: experienced hunters were able to push a tactical pace without overcrowding the hides, while new participants enjoyed hands-on practice in a managed setting. Starting on time helped keep the schedule tight and respected volunteers' availability, and having ample parking near hunt control made logistics straightforward for everyone.
