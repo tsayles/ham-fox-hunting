@@ -8,7 +8,8 @@ Seven hunters checked in at hunt control, which was located just south of the ve
 
 ![Fox beacons](docs/presentations/images/Mike_and_Key_Fox_Beacons.jpg)
 
-*Figure: Byonics MicroFox 15 (MF-15) used for the hunt (left); Byonics MicroFox PicCon (MF-PC) (right).* 
+*Figure: Robert KM7GWB found the fox.*
+
 
 The first person to find and report the fox to control was KK7VNR (David Keogh), whose timely report came at roughly the 50-minute mark. A number of hunters used tape-measure yagis; the fastest competitors used attenuators up to about 60 dB as they closed on the transmitter.
 
@@ -36,5 +37,5 @@ Acknowledgements
 Many thanks to the volunteers who staffed hunt control and marshalling positions, to the land steward for permitting access, and to everyone who participated. Special thanks to KK7VNR (David Keogh) for a clean and timely find. If the Relay editor would like a 200–300 word version for a single-column newsletter slot, a condensed edit can be provided.
 
 Contact
-Mike & Key ARC — contact@mikekey.example (replace with club email)
+Questions and info on upcoming events: FoxHunting@mkarc.groups.io
 
