@@ -4,31 +4,59 @@
 *By Mike & Key ARC*
 
 The August fox hunt came off without a hitch on Saturday, 22 August,
-drawing seven hounds to a well-chosen hide in the park near the
-velodrome and climbing pinnacle. Hunt control, operated by KE4HET on
-the K7LED 2m repeater, opened on time and kept the net tight
-throughout a two-and-a-half-hour run.
+drawing seven hounds to a well-chosen hide near the velodrome and
+climbing pinnacle. Hunt control, staffed by KE4HET, operated on the
+K7LED 2m repeater and opened on time. Parking was plentiful right
+next to control, which made for smooth logistics from the moment
+hunters arrived.
 
-The fox was a Byonics MicroFox 15 transmitting on 147.420 MHz, tucked
-inside a traffic cone for a bit of extra camouflage — and a satisfying
-reveal for the first finder. That honor went to KK7VNR (David Keogh),
-who combined solid bearing work and methodical terrain clearing to call
-in his find at the fifty-minute mark.
+The fox was the club's Byonics MicroFox 15 (MF-15) transmitting on
+147.420 MHz with a stock whip antenna, tucked inside a traffic cone
+for a bit of friendly camouflage — and a satisfying visual payoff for
+the first finder. The transmitter ran continuously from noon to
+2:30 pm without a hiccup.
 
-Most hunters carried tape-measure yagis, and those with external
-attenuators — some running up to 60 dB — had a real advantage on
-final approach, getting crisper nulls as they closed on the signal.
-A few multipath reflections off rocky features kept everyone honest:
-the hunters who took bearings from two or more positions worked
-through the confusion quickest. Weather was ideal — overcast skies and
-about 70°F — and the parking near control made the logistics easy for
-everyone.
+<img src="../../presentations/images/Mike_and_Key_Fox_Beacons.jpg"
+     alt="Fox beacons" width="300">
 
-Takeaways for next time: a short pre-hunt reminder about verifying
-bearings from multiple spots goes a long way, and a brief word on
-when to reach for the attenuator would help newer hunters.
+*The club's fox transmitters: Byonics MicroFox 15 (MF-15, left) and
+Byonics MicroFox PicCon (MF-PC, right).*
 
-Thanks to all the volunteers, the land steward, and especially to
-David KK7VNR for a clean, timely find. The next hunt is planned for
-September — keep an eye on FoxHunting@mkarc.groups.io for details.
-73!
+The hunt got off to a lively start as participants compared gear at
+the line. Several hunters had built tape-measure yagis the night
+before — impressive dedication — but a few discovered at launch that
+their antenna's directionality wasn't quite right. The culprit in
+each case was boom-segment assembly order: the elements were spaced
+incorrectly because the boom sections were reversed. Some antennas
+were reworked on the spot; others had to soldier on as-is. Lesson
+learned: double- and triple-check element spacing before you leave
+the garage, and a small tool kit at hunt control (soldering iron
+included) would be worth having for exactly this kind of field fix.
+
+Once the hunt was under way, most competitors found their yagis
+effective in the park-and-woodland mix. Those carrying external
+attenuators — some running up to 60 dB — had a real edge on final
+approach, avoiding receiver overload and getting crisper nulls as
+they closed on the signal. Hunters without attenuators still made
+finds by combining careful bearing-taking with signal-strength
+cross-checks, which underscores that solid technique matters more
+than any single piece of gear.
+
+A few teams hit confusing multipath reflections; those who verified
+readings from two or more distinct positions worked through them
+fastest. Weather cooperated beautifully: overcast skies and about
+70°F kept hunters comfortable and propagation stable throughout.
+
+First to call in a find was KK7VNR (David Keogh) at the fifty-minute
+mark — a clean run combining steady bearing work and methodical
+terrain clearing.
+
+<img src="../../presentations/images/KM7GWB-with-fox.jpg"
+     alt="Robert KM7GWB with the fox" width="300">
+
+*Robert KM7GWB with the fox after retrieval.*
+
+No incidents or safety concerns were reported. Thanks to KE4HET for
+running a tight net, to all the volunteers, to the land steward, and
+especially to David KK7VNR for the first find. The September hunt is
+coming up — watch FoxHunting@mkarc.groups.io for details. 73!
