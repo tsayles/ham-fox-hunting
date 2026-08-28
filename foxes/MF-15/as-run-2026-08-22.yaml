@@ -1,0 +1,42 @@
+# MicroFox 15 — As-Run Configuration
+# Settings read directly from the device on 2026-08-22 hunt day.
+# This is a point-in-time snapshot; do not edit.
+#
+# Device:   Byonics MicroFox 15 (MF-15)
+# Firmware: MicroFox v1.64
+# Read:     2026-08-23 by KE4HET
+
+device:
+  model: MF-15
+  firmware: "MicroFox v1.64"
+
+radio:
+  tx_frequency_mhz: 147.420
+  calibration_pct: 0.0000
+
+morse:
+  text: "K7LED"
+  speed_wpm: 20
+  tone: 26
+
+timing:
+  pre_tones_delay_sec: 0
+  tones_duration_sec: 15
+  loop_time_sec: 30
+  initial_delay_min: 0
+  total_runtime_min: 0   # 0 = run indefinitely
+
+tones:
+  speed_ms: 50
+  sequence: "1,20,1,20,1,11,11,11,1,20,1,20,1,11,11,11,\
+1,23,1,23,1,16,16,16,1,23,1,23,1,16,16,16,\
+1,26,1,26,1,20,20,20,1,26,1,26,1,20,20,20,\
+1,28,1,28,1,23,23,23,1,28,1,28,1,23,23,23"
+
+flags:
+  enable_led: true
+  random_tones: false
+  random_speed: false
+  random_morse: false
+  auto_start: false
+  disable_rx: false
