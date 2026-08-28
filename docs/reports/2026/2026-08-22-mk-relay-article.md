@@ -4,7 +4,7 @@
 *By GitHub Copilot, Tom Sayles (KE4HET)*
 
 The August fox hunt came off without a hitch on Saturday, 22 August,
-drawing seven hounds to Merymore Park. Hunt control, located near the 
+drawing seven hounds to Marymoor Park. Hunt control, located near the 
 velodrome and climbing pinnacle, staffed by KE4HET, operated on the
 K7LED 2m repeater and opened on time. Parking was plentiful right
 next to control, which made for smooth logistics from the moment
