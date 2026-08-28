@@ -56,7 +56,7 @@ terrain clearing.
 <img src="../../presentations/images/KM7GWB-with-fox.jpg"
      alt="Robert KM7GWB with the fox" width="300">
 
-*Robert KM7GWB with the fox after retrieval.*
+*Robert KM7GWB with the found fox.*
 
 No incidents or safety concerns were reported. Thanks to all who came 
 out for the hunt, and especially to David KK7VNR for the first find. 
