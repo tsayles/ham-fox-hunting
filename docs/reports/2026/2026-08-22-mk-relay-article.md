@@ -34,7 +34,7 @@ the garage, and a small tool kit at hunt control (soldering iron
 included) would be worth having for exactly this kind of field fix.
 
 Once the hunt was under way, most competitors found their yagis
-effective in the park-and-woodland mix. Those carrying external
+effective in the varied terrain. Those carrying external
 attenuators — some running up to 60 dB — had a real edge on final
 approach, avoiding receiver overload and getting crisper nulls as
 they closed on the signal. Hunters without attenuators still made
