@@ -1,7 +1,7 @@
 # M&K Relay — Fox Hunt Column, August 2026
 
 **Fox Hunt Report — 22 August 2026**
-*By Mike & Key ARC*
+*By GitHub Copilot, Tom Sayles (KE4HET)*
 
 The August fox hunt came off without a hitch on Saturday, 22 August,
 drawing seven hounds to a well-chosen hide near the velodrome and
